@@ -1,0 +1,39 @@
+---
+title: "Week 10: Social Networks"
+format: 
+    html: default
+    pdf: default
+---
+
+## Due This Week: [Problem Set 8](../problemsets/ps8.qmd)
+
+## Lecture: Social Network Visualization
+
+## Readings & Reference Material
+
+- Core Reading
+    - Ognyanova, ["Static and dynamic network visualization with R"](https://kateto.net/network-visualization)
+    - **DMSS**, ch 13
+- Reference Materials
+    - Newman, [Networks](https://doi.org/10.1093/oso/9780198805090.001.0001).  
+        - A technical and highly interdisciplinary look at networks, spanning physical networks, biological networks, social networks, and more.  Comprehensive, lots of network theory.
+    - Menczer, Fortuanto, and Davis, [A First Course in Network Science](https://doi.org/10.1017/9781108653947).  
+        - A short introduction focused on networks in a broad sense, with a focus on computation for network analysis in Python.
+    - Jackson, [Social and Economic Network Analysis](https://press.princeton.edu/books/paperback/9780691148205/social-and-economic-networks).  
+        - As befits the name, a focus on economic and social networks.
+    - Scott, [Social Network Analysis](https://doi.org/10.4135/9781529716597).  
+        - An introduction for beginners, with a focus on substance over computation.
+
+
+## Network Visualization Examples
+
+Social Networks has inspired a lot of creativity when it comes to think about things in relational contexts.  A few examples are below to spark your interest and imagination ahead of your problem set this week.
+
+- [Hamilton (Musical)](https://medium.com/data-science-at-microsoft/network-graphs-analysis-part-2-of-2-visualizing-the-characters-of-hamilton-as-a-social-network-ed61699df319)
+- [Game of Thrones (TV Show and Books)](https://networkofthrones.com) *see also news coverage* [here](https://qz.com/650796/mathematicians-mapped-out-every-game-of-thrones-relationship-to-find-the-main-character)
+- [Myst (Computer Game)](https://github.com/glthr/DeMystify)
+- [Biblical Gospels (Religion)](https://www.martingrandjean.ch/data-visualization-network-gospels/)
+- [Star Wars (Movies)](http://evelinag.com/blog/2015/12-15-star-wars-social-network/index.html#.VnAhsTZZG6A)
+- [Marvel (Movies/Comics)](https://syntagmatic.github.io/marvel/?utm_source=chatgpt.com)
+
+## Due Next Week: [Problem Set 9](../problemsets/ps9.qmd)

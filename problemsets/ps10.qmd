@@ -1,0 +1,78 @@
+---
+title: "Problem Set 10"
+subtitle: "Maps Maps Maps"
+format: 
+    html: default
+    pdf: default
+---
+
+*Updated November 13*
+
+## Introduction
+
+For this assignment, you will draw your a series of maps using R.  You'll need to get your data from three different places:
+
+- Shape files and 2016 data can be found in the [socviz](https://kjhealy.github.io/socviz/index.html) package from Kieran Healy. Consult R scripts from our class lab to see how to start using the data from Healy's package.
+- 2020 data can be found in two places:
+    - `election2020.csv` - 2020 Election Results (by state)
+    - `2020results_county.csv` - 2020 Election Results (by county)
+- 2000-2024 election data can be found in the [MIT Election Data + Science Lab Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ). You can use this data for 2024 alone or for 2016, 2020, and 2024.
+
+## Assignment
+
+1. Create a map of 2020 election results by state. (You can show state winner or state lean.) Project this map in three different ways: 
+    - Mercator Projection
+    - Albers Projection
+    - Using  "State Bins"
+
+2. Next, create a map that shows *swing* from 2016 to 2020, by state, with:
+    - Albers Projection
+    - Statebin
+
+3. Create the following county level maps for 2016:
+    - Population Density by County (America's ["urChoropleth"](https://kieranhealy.org/blog/archives/2015/06/12/americas-ur-choropleths/) #1)
+    - Percent Black population by County (America's ["urChoropleth"](https://kieranhealy.org/blog/archives/2015/06/12/americas-ur-choropleths/) #2)
+    - Winner of 2016 Presidential Election
+    - County Lean in the 2016 Presidential Election
+
+4. Create the following county level maps for 2020:
+    - Winner of 2020 Presidential Election
+    - County "Lean" in the 2020 Presidential Election
+    - County Shift, 2016-2020
+
+5. 2024 United States Election Results (by county) may be found [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ).  Filter, manage, and use this data to plot:
+    - County "Lean" in 2024
+    - County Shift, 2020-2024
+    - County Shift, 2016-2024
+
+6. Plot the (rough) location of Syracuse University on a national state map in a big blue star.
+
+7. Identify a phenomenon of interest across the United States (it can be points, areas, or otherwise) and plot it. Use good cartography principles in the design of your map.
+
+::: {.callout-tip}
+### Tips
+- Some of the data you need is found in Healy's package; some of the data is found in the course drive, and some you need to provide yourself.  In particular:
+    - 2016 data is provided by Healy's R library.
+    - 2020 data is in our course drive, filtered and managed **for** you.
+    - 2024 data is external, and must be managed **by** you.
+    - You must also provide your own data for Syracuse University's location, along with whatever data of your own interest you wish to map, for questions 6-7.
+- The Healy reading, along with our course workshop, covers a substantial portion of the basics of this assignment - make sure to use them as references.    
+- You'll be doing a decent amount of merging in this assignment.  For reference, we covered `join` commands back in our week on [data manipulation](../assignments/assign6.qmd).  The key is to always make sure you know what your unique merge identifier is.
+:::
+
+## Submission
+
+Turn in 4 things:
+
+1. Your R script(s).
+2. A quarto file that addresses or answers the steps above and includes your graphics.  Your quarto file can include your R code or your R code can remain separate in your R scripts, with the quarto file reading in figures from project directory.
+3. A compiled quarto file, as a PDF, that includes your maps.
+4. Your original data, if necessary, in a format readable by R.  (If you read data directly from a web source in your script, you can skip this step.)
+
+Make sure that your quarto writeup includes a clear definition of your map for question 7, as well as a summary description of what is particularly noteworthy about the features of your map. It should also document the source of the data, and note steps done to manage the data (if any) before your R script(s) took over.
+
+::: {.callout-note}
+### Important
+
+To submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard.  Alternately, you may store everything in a GitHub repo and submit a link to your repository to Blackboard.
+:::

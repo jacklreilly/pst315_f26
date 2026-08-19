@@ -1,0 +1,16 @@
+---
+title: "Week 5: Data Manipulation"
+subtitle: "Assignment: The General Social Survey (Due Week 6)"
+---
+
+## Due This Week: [Problem Set 5](../problemsets/ps5.qmd)
+
+## Lecture: Structural Data Manipulation
+
+## Readings & Reference Material
+
+- **DMSS**, ch 5, 6, & 7
+- **RDS**, chs 3-6
+- **FCSP**, ch 5.4-5.6
+
+## Due Next Week: [Problem Set 6](../problemsets/ps6.qmd)

@@ -1,0 +1,10 @@
+---
+title: "📚 Content"
+sidebar: assign
+format: html
+format-links: false
+---
+
+Hello and welcome to the content page for our course. Readings, guides, and assignments are posted here by week.
+
+Note that, while you can find assignments here, submission of assignments themselves goes through GitHub or the [course blackboard](https://blackboard.syr.edu), depending on the assignment.

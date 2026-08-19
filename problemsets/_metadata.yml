@@ -1,0 +1,10 @@
+subtitle: "Data Wrangling and Visualization"
+author: "Prof. Jack Reilly"
+date: "2025-09-01"
+date-format: "F2025"
+format: 
+  html: default
+  pdf: default
+  docx: default
+  rtf: default
+sidebar: ps

@@ -1,0 +1,39 @@
+---
+title: "Problem Set 9"
+subtitle: "Social Networks"
+
+---
+
+## Introduction
+
+For this assignment, you will draw your own social network using R and iGraph.  (It is OK if it is relatively simple!)  
+
+## Assignment
+
+Please follow these steps:
+
+1. Identify your chosen network.  This can be any network you can think of - from politics, economics, public adminstration, social life, pop culture, literature, science, etc.  It just has to be clear on two things:
+    - What are the nodes of the network?
+    - What constitutes a tie (edge) between nodes of the network?
+3. Encode your network into a form readable by R and iGraph.  Likely, this will be an adjacency matrix, but could also be an edge list, an adjacency list/node list, or an affiliation matrix.
+4. Read your network into R and into the iGraph package.
+5. Plot the network graph.
+6. Use visualization features to make your network graph visually compelling.  Highlight the features of the network you most want to highlight.
+6. Write a short summary (a few sentences is fine) of what you notice about your network.
+
+## Submission
+
+Turn in 4 things:
+
+1. Your R script(s).
+2. A quarto file that addresses or answers the steps above and includes your graphics.  Your quarto file can include your R code or your R code can remain separate in your R scripts, with the quarto file reading in figures from project directory.
+3. A compiled quarto file, as a PDF, that includes your network graphs.
+4. Your data (adjacency matrix or edgelist, nodelist) in a format readable by R.  (If you read data directly from a web source in your script, you can skip this step.)
+
+Make sure that your quarto writeup includes a clear definition of your network (nodes and edges) as well as a summary description of what is particularly noteworthy about the features of your network. It should also document the source of the data, and note steps done to manage the data (if any) before your R script(s) took over.
+
+::: {.callout-note}
+### Important
+
+To submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard.  Alternately, you may store everything in a GitHub repo and submit a link to your repository to Blackboard.
+:::

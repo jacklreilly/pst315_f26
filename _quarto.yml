@@ -1,0 +1,103 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "**Data Wrangling and Visualization**"
+  site-url: https://jacklreilly.github.io/dwv_f25/
+  repo-url: https://github.com/jacklreilly/dwv_f25
+  navbar:
+    left:
+      - href: overview.qmd
+        text: 🏠 Overview
+      - href: schedule.qmd
+        text: 📅 Schedule
+      - href: assignments/index.qmd
+        text: 📚 Content
+      - href: problemsets/index.qmd
+        text: 📝 Assignments 
+      - href: policies.qmd
+        text: 🏫 Policies
+      - href: ai.qmd
+        text: 🤖 AI & LLMs
+  page-footer:
+    left: |
+      © 2025 Jack Reilly<br>
+      [Contact](mailto:jlreilly@syr.edu)
+      
+    center: |
+      
+      
+    right: |
+      Built with [Quarto](https://quarto.org)<br>
+      [About](/about.qmd)
+
+  sidebar:
+    - id: assign
+      style: docked
+      title: "Content"
+      #logo: images/pai600_dwv_logo2.svg
+      contents:
+        - section: "Weekly Content"
+          href: assignments/index.qmd
+          contents:
+          - assignments/assign1.qmd
+          - assignments/assign2.qmd
+          - assignments/assign3.qmd
+          - assignments/assign4.qmd
+          - assignments/assign5.qmd
+          - assignments/assign6.qmd
+          - assignments/assign7.qmd
+          - assignments/assign8.qmd
+          - assignments/assign9.qmd
+          - assignments/assign10.qmd
+          - assignments/assign11.qmd
+          - assignments/assign12.qmd
+          - assignments/assign13.qmd
+          - assignments/assign14.qmd
+          - assignments/assign15.qmd
+          - assignments/assign16.qmd
+
+    - id: ps
+      style: docked
+      title: "Assignments"
+      #logo: images/pai600_dwv_logo2.svg
+      contents:
+        - section: "Problem Sets"
+          href: problemsets/index.qmd
+          contents:
+          - problemsets/ps1.qmd
+          - problemsets/ps2.qmd
+          - problemsets/ps3.qmd
+          - problemsets/ps4.qmd
+          - problemsets/ps5.qmd
+          - problemsets/ps6.qmd
+          - problemsets/ps7.qmd
+          - problemsets/ps8.qmd
+          - problemsets/ps9.qmd
+          - problemsets/ps10.qmd
+          - problemsets/ps11.qmd
+
+        - section: "Practica"
+          href: problemsets/index.qmd
+          contents:
+          - problemsets/prac1.qmd
+          - problemsets/prac2.qmd
+
+        - section: "Final Project"
+          href: problemsets/final.qmd
+          contents:
+          - problemsets/final.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+execute:
+  freeze: auto
+
+
+

@@ -1,0 +1,10 @@
+---
+title: "Week 15: Projects"
+format: 
+    html: default
+    pdf: default
+---
+
+## Due This Week:  [Final Projects](../problemsets/final.qmd)
+
+## Class Session: Student Project Presentations

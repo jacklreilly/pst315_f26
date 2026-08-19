@@ -1,0 +1,8 @@
+---
+title: "Practicum 1"
+format: 
+    html: default
+    pdf: default
+---
+
+Nothing to see here (yet)

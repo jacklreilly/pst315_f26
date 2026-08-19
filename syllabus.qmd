@@ -1,0 +1,14 @@
+{{< include overview.qmd >}}
+{{< include schedule.qmd >}}
+{{< include policies.qmd >}}
+
+---
+title: "PAI 400/600: Data Wrangling and Visualization"
+author: "Prof. Jack Reilly"
+date: F2025
+subtitle: "Course Syllabus"
+format: 
+    html: default
+    pdf: default
+    docx: default
+---

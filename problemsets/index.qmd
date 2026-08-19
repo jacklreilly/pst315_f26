@@ -1,0 +1,10 @@
+---
+title: "📝 Assignments"
+sidebar: ps
+format: html
+format-links: false
+---
+
+Hello and welcome to the assignments page for our course. All weekly assignments will be posted here.
+
+Note that, while you can find assignments here, submission of assignments itself goes to in the [course blackboard](https://blackboard.syr.edu).

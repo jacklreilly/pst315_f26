@@ -1,0 +1,28 @@
+---
+title: "About"
+---
+
+## About Me 
+
+::: {style="text-align:left;"}
+![](images/jlr_headshot_syr.jpg){width=100px}
+:::
+
+Hello and welcome to the course website for PAI 400/600, "Data Wrangling and Visualization." I am your instructor, [Professor Jack Reilly](https://www.maxwell.syr.edu/directory/jack-reilly).  You can find more about me on my [website](https://jacklreilly.github.io), but in short: 
+
+- Data analysis and statistics is honestly one of my favorite things to teach. I've been teaching them for over 15 years now, at [multiple](https://www.ucdavis.edu) [different](https://www.ncf.edu) [institutions](https://www.syracuse.edu/), and I'm very much looking forward to doing so again this semester with you all.  
+
+- I also research and write papers on [American politics and quantitative methods](https://jacklreilly.github.io/research) and was born and raised right here in beautiful [Upstate New York](https://discoverupstateny.com).
+
+Please take a minute to browse this website, where you'll find the course [overview](overview.qmd), topic [schedule](schedule.qmd), course [content](assignments/index.qmd), class and university academic [policies](policies.qmd), and [more](ai.qmd).
+
+Finally, if you'd like this website and syllabus in an alternate format, please note you can download .pdfs or .docxs of any page on the site simply by clicking the link on the page.  You can also download a full copy of the main syllabus [here](syllabus.qmd).
+
+
+## Technical Details
+
+The site was built in [Quarto](https://quarto.org) in [Postitron](https://positron.posit.co), and hosted on [GitHub Pages](https://docs.github.com/en/pages). Course content (obviously) makes heavy use of [R](https://www.r-project.org) and [RStudio](https://posit.co/download/rstudio-desktop/). Slides are built with Apple Keynote and exported to PDFs.
+
+## Credits and Acknowledgements
+
+This course page was inspired, in spirit if not in all technical details, by related courses from [Andrew Heiss](https://datavizf25.classes.andrewheiss.com) and [Kieran Healy](https://mptc.io). Other acknowledgements for particular content can be found in content pages and course slides.

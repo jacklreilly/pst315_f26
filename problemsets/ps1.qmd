@@ -1,0 +1,39 @@
+---
+title: "Problem Set 1"
+subtitle: "Hello & Welcome to R"
+sidebar:
+  title: "PS 1: Welcome to R"
+---
+
+*Before attempting this assignment, be sure to follow the insturctiosn noted in the [Preliminaries](../assignments/assign1.qmd) page under "Course Content".*
+
+## Submit: .R File  (Optional)
+
+In an .R file, write code to answer the following questions. Make sure your file is appropriately titled and headered.
+
+*Note: You can submit this R file in Week 2, if you prefer.*
+
+1. Create an object named `aardvark` that stores a 3 as a single number
+2. Create a second object named `boomba` that stores a 6 as a single number
+3. Create a third object named `centauri` that is the addition of `aardvark` and `boomba`
+4. Create a fourth object named `diabolical` that is the multiplication `aardvark` and `boomba`
+5. Create an object named `ebullient` that stores three numbers as a vector: 4,5,and 6
+6. Create an object named `fastidious` that stores three numbers as a vector: 8,9, and 11
+7. Add `ebullient` and `fastidious` together, and store it in an object named `george`
+8. Find the mean (average) of `fastidious`, and store it in an object named `zoinks`
+
+## Submit: PDF file (Due Week 1)
+
+Answer the following questions and upload as a PDF to Blackboard.
+
+1. What is your name and program of study at Syracuse?  
+   *(Optional: provide your pronouns, if you wish.)*
+
+2. What is your prior experience with statistics, data analysis, R, and computer programming generally?  
+
+3. What are you hoping to get out of this class?  
+
+4. Please include a picture of yourself!  
+   - It can be anything – just make sure that you are the only person in the picture so I can clearly identify you.  
+
+5. What is the mean of the `fastidious` object from your .R assignment above?

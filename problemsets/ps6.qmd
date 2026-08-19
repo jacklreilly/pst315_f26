@@ -1,0 +1,23 @@
+---
+title: "Problem Set 6"
+subtitle: "The General Social Survey"
+---
+
+## Data Work
+1. Browse [Mondak and Sanders (2003) - “Tolerance and Intolerance, 1976-1998”](https://www.jstor.org/stable/3186111).  Using the Cumulative General Social Survey (GSS) file, replicate Figures 1, 2, and 5. (Don’t worry about getting the particular value arrows in your graph.) 
+
+2. Extend the analysis to include more recent years as well. 
+
+2. Original Work: explore the codebook for the GSS.  Find two interesting variables and create compelling univariate graphs to illustrate their central tendency, distribution, and spread.
+
+## Submission (Due Week 6)
+
+Your completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.
+
+In your writeup, address the following questions:
+
+1. Where did you encounter problems with this replication?  Was there anything that was particular tricky?
+
+2. How would you *interpret* (in other words, explain to a general audience) what Mondak and Saunders found in figures 1, 2, and 5?  
+
+3. Has anything changed since 1998 that would alter the substantive takeaway points in their findings?

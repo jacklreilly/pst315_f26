@@ -1,0 +1,30 @@
+---
+title: "Week 3: File Management"
+subtitle: "Assignment: Version Tracking in GitHub (Due Week 4)"
+---
+## Due This Week: [Problem Set 3](../problemsets/ps3.qmd)
+
+
+
+## Lecture: File Management and Version Control
+
+## Readings & Reference Material
+- "Happy Git with R" <https://happygitwithr.com/>
+- **The Plain Person's Guide to Plain Text Social Science**, ch 2 (<https://plain-text.co/index.html>)
+- Bryan, Jennifer.  ["Excuse me, do you have a moment to talk about version control?"](https://peerj.com/preprints/3159v2/)
+- Wickham, Hadley. ["Tidy Data"](https://vita.had.co.nz/papers/tidy-data.pdf).
+- Kuriwaki, Shuri. ["Git for Students in the Social Sciences: A Pitch](https://www.shirokuriwaki.com/programming/kuriwaki_github_handout.pdf)
+
+## Computer Work
+
+If you do not have one already, create a GitHub account and obtain a GitHub Personal Access Token. 
+
+1. Register a [GitHub Account](https://happygitwithr.com/github-acct.html).
+2. (Optional) Install [Git](https://happygitwithr.com/install-git).  *Note: this step is only optional if you use the GitHub Desktop Client; if you use any other client, you must install Git at the command line.*
+3. Install a [Git Client](https://happygitwithr.com/git-client.html).  I strongly recommend you use the [GitHub Desktop Client](https://github.com/apps/desktop), which comes with git built-in, so that you do not have to install git separately (and can thus skip step 2).
+4. Get a [Personal Access Token](https://happygitwithr.com/https-pat) and connect your GitHub Desktop Client to GitHub.
+5. **(Optional)**  Start an [initial repo](https://happygitwithr.com/push-pull-github.html).[^repo]  We will do this together in workshop this week, as well, but you can get a head start if you like.
+
+[^repo]: Jargon alert: repo is short for "repository".
+
+## Due Next Week: [Problem Set 4](../problemsets/ps4.qmd)

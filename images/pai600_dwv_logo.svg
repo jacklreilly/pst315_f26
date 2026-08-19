@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="100" viewBox="0 0 240 100">
+  <rect width="240" height="100" fill="#f8f9fa" rx="12" ry="12"/>
+  <text x="20" y="45" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#2c3e50">
+    PAI - 600
+  </text>
+  <text x="20" y="80" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="#0056b3" letter-spacing="2">
+    DWV
+  </text>
+</svg>

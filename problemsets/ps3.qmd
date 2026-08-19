@@ -1,0 +1,19 @@
+---
+title: "Problem Set 3"
+subtitle: "Data Notebooks in Quarto"
+---
+
+*Before attempting this assignment, be sure to follow the instructions noted in [Week 2](../assignments/assign3.qmd) page under "Course Content".*
+
+## Submit: .qmd file; HTML file; docx file  (Due Week 3)
+
+1. Create an Quarto file (`File>>New File>>Quarto Document`). Title it "Week 3 Homework.qmd",[^name] select "HTML" output, and **uncheck** "use visual markdown editor".  (You can always switch later.)
+2. Use the 2005 British Election study file (`bes2005subset.csv`) to create a jittered scatterplot of Feelings toward Blair and Feelings on Social Spending.
+3. In a brief text segment, interpret what the figure shows you.
+4. Load the 2000 National Election study file (`nes2000subset.csv`).
+5. Find the correlation between income and partisanship, and draw a jittered scatter plot of partisanship (Y axis) and income (X-axis)
+6. In a brief text segment, interpret what the correlation and figure tells you.
+7. Render the document to HTML and docx and zip all three (.qmd, .html, and .docx files) together. Upload the .zip to Blackboard.[^bb]
+
+[^name]: Make sure to not put a special character in the title (like #) - Quarto doesn't like those and sometimes won't render your file properly.
+[^bb]: Blackboard doesn't like .html files, so you won't be able to upload unless you .zip it.

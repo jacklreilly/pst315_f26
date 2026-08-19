@@ -1,0 +1,29 @@
+---
+title: "Week 9: Data Retrieval"
+format: 
+    html: default
+    pdf: default
+---
+
+## Due This Week: [Practicum 1](../problemsets/prac1.qmd)
+
+## Lecture: Advanced Workflow and Data Retrieval
+
+## Readings & Reference Material
+
+- Databases
+    - **DMSS**, ch 8
+    - **RDS**, ch 21
+
+- Data Sources
+    - [The GSSR package](https://kjhealy.github.io/gssr/)
+    - [The tidycensus package](https://walker-data.com/tidycensus/)
+
+- Advanced Programming
+    - **FCSP**, ch 4
+    - **RDS**, ch 12-19.  *Much contained here is already duplicative of material we have previosuly covered (see: joins, missing values, etc), but much is new.  As usual, use it as a reference*
+
+## Computational Work
+- Sign up for a [US Census API Key](https://api.census.gov/data/key_signup.html)
+
+## Due Next Week: [Problem Set 8](../problemsets/ps8.qmd)

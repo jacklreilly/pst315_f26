@@ -1,0 +1,25 @@
+---
+title: "Week 4: Data, A Field Guide"
+subtitle: "Assignment: Data in the Tidyverse (Covered Week 5; Optional)"
+---
+
+## Due This Week: [Problem Set 4](../problemsets/ps4.qmd)
+
+## Lecture: A Field Guide to Data
+
+## Readings & Reference Material
+
+- **DMSS**, ch 3 & 4
+- **RDS**, chs 7 & 8
+- **FCSP**, ch 5.4-5.6
+- Tidyverse cheatsheets: <https://rstudio.github.io/cheatsheets/>, especially:
+    - data tidying with tidyr: [html](https://rstudio.github.io/cheatsheets/html/tidyr.html) and [pdf](https://rstudio.github.io/cheatsheets/tidyr.pdf)
+    - data transformation with dplyr: [html](https://rstudio.github.io/cheatsheets/html/data-transformation.html) and [pdf](https://rstudio.github.io/cheatsheets/data-transformation.pdf)
+    - data import with readr: [html](https://rstudio.github.io/cheatsheets/html/data-import.html) and [pdf](https://rstudio.github.io/cheatsheets/data-import.pdf)
+    - data visualization with ggplot2: [html](https://rstudio.github.io/cheatsheets/html/data-visualization.html) and [pdf](https://rstudio.github.io/cheatsheets/data-visualization.pdf)
+
+## Computer Work
+
+In case you have not yet done so, install the `tidyverse` series of packages in your local R installation.
+
+## Due Next Week: [Problem Set 5](../problemsets/ps5.qmd)

@@ -1,0 +1,43 @@
+---
+title: "Schedule"
+format: 
+    html: default
+    pdf: default
+    docx: default
+    rtf: default
+---
+
+## Course Schedule
+
+| Week | **Topic**                          | **Tools**                        |  |
+|------|------------------------------------|----------------------------------|---------|
+|      | [Preliminaries](assignments/assign1.qmd)
+| 1    | [Course Introduction](assignments/assign2.qmd)                | Scripts; R and RStudio  |         |
+| 2    | [Reproducible Data Analyses](assignments/assign3.qmd)         | Markup Languages; Quarto     |         |
+| 3    | [File Management & Version Control](assignments/assign4.qmd)  | Filesystems; git; GitHub                    |         |
+| 4    | [A Field Guide to Data](assignments/assign5.qmd)              | Data Formats; surveys, readr; tidyr                       |         |
+| 5    | [Structural Data Manipulation](assignments/assign6.qmd)       | dplyr; srvyr                           |         |
+| 6    | [Data Visualization I](assignments/assign7.qmd)               | Grammar of Graphics; ggplot2     |         |
+| 7    | [Data Visualization II](assignments/assign8.qmd)              | ggplot2                          |         |
+| 8    | **Core Exam (Thursday, October 16)** |                                  |         |
+| 9    | [Workflow & Data Retrieval](assignments/assign10.qmd)     | tidycensus; APIs; database/SQL overview                     |         |
+| 10   | [Social Networks & Network Data](assignments/assign11.qmd)     | iGraph; statnet                       |         |
+| 11   | [Cartography](assignments/assign12.qmd)                       | tidyverse mapping; color scales; projection                       |         |
+| 12   | [Geographic Data](assignments/assign13.qmd)                      | sf; tigris; mapgl; mapbox; osm               |         |
+| 13   | [GIS Day, Catch Up, and Project Work](assignments/assign14.qmd)        |                               |         |
+| 14   | [Statistics & Flow Control](assignments/assign15.qmd)            | Loops, ttest(), lm(), glm()                   |         |
+| 15   | [Project Presentations](assignments/assign16.qmd)              |                                  |         |
+| F    | **Finals Week (Project Due)**      |                                  |         |
+
+---
+
+### Advanced Topics *(if we have time)*
+
+| Week | **Topic**                      | **Tools** |  |
+|------|--------------------------------|-----------|---------|
+|    | Text Data & Data Scraping      |           |         |
+|    | Statistical Models
+|    | Missing Data
+|    | Web Apps & Visualization       |  quarto, shiny         |         |
+|    | AI Pair Programming & “Vibe Coding” |  github copilot     |         |
+|    | Local LLMs                     |           |         |

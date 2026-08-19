@@ -1,0 +1,135 @@
+---
+title: "Artificial Intelligence & LLMs"
+subtitle: "A Opinionated Discussion and Digression about Education and Technology"
+format: 
+    html: default
+    pdf: default
+    docx: default
+---
+
+*You can find the formal AI policy for this course in the "Policies" section of the syllabus/website. Because of the fundamental challenges AI poses for how we all think about education, however, a deeper discussion of AI is warranted.*
+
+## AI and Learning
+
+I have a lot of thoughts about this.[^1]
+
+[^1]: So many thoughts, in fact, that I teach a whole class on AI Policy! Come take it with me in the spring if you're interested.
+
+Artificial intelligence -- in particular, large language models (LLMs) like ChatGPT -- are incredibly useful tools. To get the mundane observation out of the way: they are very likely to radically change the way we all work over the next several years, just like a variety of other technologies before them (see: the internet, the personal computer, electricity, the steam engine, the printing press, the wheel, control fire, etc.) AI already has a ton of valuable use cases, including in education, data analysis, and research, and the possibilites are only growing.[^2]
+
+[^2]: I for instance, used AI tools to help me build this website, and I would guess that I was able to do it at least twice as quickly as I would have been able to without AI.
+
+However, to make most effective use of AI, it's also important to understand exactly what AI is. Current AI models are what is known as Large Langauge Models, or LLMs. An LLM, at its core, is a probabilistic model whose primary function is to produce the next token – usually a word – that is most likely to make sense, based upon some prompt. It **does not care if this token represents truth, reality, or a functional line of code** – it only cares if the next token *seems* to make sense. Frequently, what it produces will incidentally be true, functional code, or an accurate representation of the world. That is what makes it useful! Frequently, it will also produce nonsense (or what we formally know as a "hallucination"). LLMs have advised people to eat rocks, hold cheese on pizza with glue, failed to perform simple arithmetic with decimals, and made up wholly invented bibliographic references, statistical libraries, and analysis results.
+
+Furthermore, this incidental relationship to the real world is *by design* -- it is inherent to the way LLMs work. They don't verify what they say with base reality, they just spit out what sounds good to probabilistic algorithms.[^3]
+
+[^3]: Generally speaking, at least. If you're paying attention to some of the details with AI, you know about something called an LRM - or Large *Reasoning* Model. To a first approximation, they try to introduce better and more complex reasoning into the base prediction process, sometimes going so far to do things like generate python code to do math analysis. These "reasoning" models, however, still often fall short on relatively simple reasoning tasks (see [*The Illusion of Thinking* (2025)](https://machinelearning.apple.com/research/illusion-of-thinking), published by researchers at Apple).
+
+::: callout-tip
+### A Very Academic Note
+
+LLMs are, in a formal sense, **bullshit** of the first order. And yes: "**bullshit**" here is a technical academic term, meaning "language produced without regard for truth."[^4]
+
+*"The problem here isn’t that large language models hallucinate, lie, or misrepresent the world in some way. It’s that they are not designed to represent the world at all; instead, they are designed to convey convincing lines of text."* ([Hicks, Humphries, and Slater, 2024](https://doi.org/10.1007/s10676-024-09775-5))
+
+And yes, for those interested, the fact that this is from an academic research paper is what makes your normally proper and profanity-averse professor feel somewhat gleefully authorized to use the term "bullshit" in a syllabus.[^5] There is a more diplomatic and professional seeming word that some use for the profusion of misguided output of AI: **slop**, which most use to mean the profusion and explosion of low-quality AI material. In short, they mean a profusion of what Frankfurt so artfully frames as bullshit. But with such a pithy and expressive alternative available to us in the English language, why rely on "slop"?
+:::
+
+[^4]: Frankfurt, (2005) [*On Bullshit*](https://press.princeton.edu/books/hardcover/9780691276786/); Hicks, Humphries, and Slater, (2024) [*ChatGPT is Bullshit*](https://doi.org/10.1007/s10676-024-09775-5). For those interested in a full taxonomy, Frankfurt helpfully helps us distinguish between bullshit and any number of additional different not-quite-truthisms, including *humbug*, *hot air*, *bluff*, *bravado*, and *lying*.
+
+[^5]: For another excellent example of profanity being elegantly used to make clear points in academic settings, see [Healy, 2107. "Fuck Nuance"](https://doi.org/10.1177/0735275117709046), which genuinely contains very good advice on writing. (Although to be fair, you can also get most of the point of that article just from the title . . . which is also the point.)
+
+This *incidental* relationship LLMs have with truth is also what makes relying on an LLM dangerous. You can’t reliably evaluate LLM outputs until you already know enough about a subject to judge good use of language from bad use of language. However, in the very beginning phases of learning how to write code, conduct data analysis, and discuss it, the problem is that you don't yet know enough about the subject to reliably evaluate the quality of AI outputs.
+
+Furthermore, and even more problematically, using them early can hamper your ability to understand the fundamental conceptual elements of programming and statistics, concepts which, when will understood, will eventually *enable* your most effecive use of this new class of tools. Accordingly, I **strongly encourage you to avoid using generative-AI** tools in this course, except if (and where) encouraged by me. Even if it gives you an immediate shortcut, it is likely put you at a long-term disadvantage, *even using AI*, when compared to students that learned the old school way.[^6]
+
+[^6]: Insert proper "value of doing the tough work" metaphor here: eating your vegetables, walking uphill both ways to school in a snowstorm, learning to program in assembly before C, etc.
+
+## Using AI Responsibly
+
+So why am I waxing rhapsodic about the dangers of AI use? Is this simply a case of [old man yells at cloud](https://memepediadankmemes.fandom.com/wiki/Old_Man_Yells_at_Cloud)? Well, possibly.[^7] But not really. As we move forward with social life where everyone's work is in collaboration with, or enhanced by, the use of varying kinds of technology and AI, one of the most critical elements for us to work on is not just how to use AI, but how to use AI **responsibly**, in a way that furthers our goals as policy analysts, academics, administrators, and communicators.
+
+[^7]: You never really know what you're over the hill, but you feel it coming sooner every day.
+
+Now, this is not a class on how to use AI, nor on the ethical and responsible use of AI. (It's a class on statistics.) But that doesn't mean ethical and responsible use of AI is not important. There is little in ethics that is purely black and white, but that doesn't mean that there aren't some very clear guidelines one should use.
+
+::: callout-important 
+### Responsible AI
+Whenever you use AI tools for a project you attach your name to, you are still taking implicit responsiblity for that project, product, or document. This means that it is incumbent upon you to to the followup work necessary to **validate, verify, and confirm that the language and work** produced by the machine that works without regard for truth **is accurate and functional**.  AI is not a coauthor,[^coauthor] and I promise you that OpenAI, Google, Anthropic, Mistral, etc won't take responsibility for whatever you produce with their tools - that's on you.[^tools]
+
+[^coauthor]: Many publications, for instance, have explict and clear instructions that prevent you from cheekily listing ChatGPT or Claude as a coauthor, in fact - even if they allow for the use of ChatGPT in the production of the manuscript.  See, for instance, this [discussion](https://www.nature.com/articles/d41586-023-00191-1) in regards to journals published by Springer-Nature.
+
+Just like any other tool or source you use, all use of AI, in anything you turn in for this class, should be documented and identified in your work. If you used AI to help you write code, note you used AI to help you write code. If you use it to help you write analysis, not how you used it to help you write analysis.
+:::
+
+::: callout-caution
+### Effective AI use in Learning
+
+Any use of AI in learning environments should *enhance*, not take the place of, learning fundamental core concepts. Your goal in the class is to learn things important for your future career or for your general edification as a human and scholar; my goal is to do my level best to help you - not a machine - learn these things.
+
+In other, more pithy words: don't *outsource* the important process of your own learning critical thinking to the philosophical bullshit machine.[^8]
+:::
+
+[^8]: Again, an [academic reference!](https://doi.org/10.1007/s10676-024-09775-5)
+
+Philosophical musings, however, can be difficult to wrap around practical usage. So, in case it is helpful, and in the interest of full disclosure, here are some of the ways that I use AI in my own work, along with some notes about the pitfalls and things I am careful about:
+
+-   I look up function calls or code syntax *in programming languages I already understand well*, and sometimes ask LLMs to write small code snippets for me.  This is one of my more common use cases for AI professionally, and one that noticeably speeds things up for me - I can typically at a glance tell if some code I'm given is wonky, and can always validate and verify that the output of the code is what I expect. Note that I **do not ask LLMs to write large chunk of code or whole programs** for me, which would be more difficult for me to verify in a way that would leave me comfortable taking responsibility for the code.
+-   I regularly use AI to help me translate between different formats, programming languages, or coding schemes. Much of this syllabus, for instance, was first written in [LaTex](https://www.latex-project.org), and later translated, with the help of ChatGPT, to [quarto](https://quarto.org).
+-   I occasionally use agentic LLMs to try to find new literature on a topic. This is a fraught process, as LLMs will frequently make citations up, but it is still sometimes useful. The fact that I have to verify every citation makes this not terribly useful, though.
+-   I typically use AI in ways that induces extra friction between the AI generating process and my own work, which forces me to review it before inserting it into my document or code.  Typically, this means I ask ChatGPT or Claude for things directly in the chatbot interface, and don't go much into using tools that interface directly with my documetns or scripts (like Microsoft/Github Copilot).
+
+Now, this isn't to say that my way is the only ethical way to use AI.  I think many people use Github Copilot in responsible ways, for instance. But it is the way that *I* have found it most useful to use ChatGPT 
+
+Note a common feature here: LLMs are things I use as tools to *enhance* my own productivity, not as *minds to replace my own*.[^replace]  Despite the hype and publicity of certain AI companies and their founders, there are a number of good reasons to doubt that LLMs are anywhere near human level intelligence (or [AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence), as many like to refer to it). There are even lots of good reasons to believe the entire concept of "reaching human intelligence" (again, AGI), is fundamentally flawed - beliefs held by a number of cognitive scientists, psychologists, computer scientists, and philosophers with far more expertise in minds, brains, logic, and programming than you or me.
+
+[^replace]: Another way to think about it: ChatGPT never writes a paragraph for me, but it does occasionally help me find the right word I'm looking for (like a dictionary) or identify the right way to use particular commands in code.
+
+Another way to think of it: Steve Jobs, founder of Apple, had a favorite metahpor he liked to use when selling the virtues of computers: a computer, he claimed, [is a bicycle for the mind](https://www.youtube.com/watch?v=ob_GX50Za6c). The advent of technical progress means that your ChatGPT-equipped Apple laptop may be more like an automobile for your mind, rather than a bicycle, but the parallel is still apt: neither the bicyle nor the automobile replaces your own mind; it merely augments it.
+
+## Bringing it Back Around: AI in Class
+
+I am neither an AI skeptic nor an AI propagandizer. AI, I think -- and LLMs in particular, as the current dominant instantiation of AI -- is just the next technological jump forward.  Whether it turns into a giant leap or a fumbling stumble, I think, is yet to be seen.[^leap]
+
+That said, I also believe that, even in courses that are not directly about AI, one of my jobs as an educator is to help all of my students learn how to use AI effectively.  I don't ban the use of AI in my class -- except in ways that violate common decency, the law, or other educational or professional obligations -- and even tacitly encourage in some circumstances. 
+
+I would also strongly encourage you to be skeptical about overusing AI as you learn. I would also encourage you to not make the mistake of confusing *assessement* with *learning*.[^assess] Assessment is an obligation of your professor to measure out how well you know class material, but assessment is not the end goal of education any more than taking your blood pressure is the end goal of going to a physician's office. The goal of education is learning. Don't mistake the means for the end: I don't care about assessing what ChatGPT "thinks" about something any more than your physician cares about what ChatGPT's blood pressure is.
+
+[^leap]: For the record, my money would be somewhere much more than "fumbling stumble" but not quite "giant leap" - perhaps "large but uncertain step"?  Either way, however, I don't think much is gained from *preventing* students from using AI.  It's just the next tool in the chain, and it's not like you see people walking around all day using a slide rule or abacus.  Technology marches on in fits and starts regardless.
+
+[^assess]: An all too common mistake made today by students, educators, and administrators alike, for the record.
+
+::: callout
+### Poor Uses of AI
+
+As an aside, poor uses of AI are often easily detectable to the eye of your professor. Good, and effective, AI usage often has the property of being largely undetectable, even to a trained eye -- that's what makes it effective use of the tool, actually!  But bad usage is often so obvious as to be painful.  Some examples:
+
+- Students who turn in papers and problem sets that reference methodological tools or techniques way beyond the understanding of the material they show in person or in in-class tests and assignments.  (I've seen many students propose using methods that would only come to them in their third or fourth semester of statistics in an introductory research methods class, for instance.)
+- Students who authoritatively reference scholars who don't exist, or authoritatively reference scholars that exist but articles or books that those scholars never wrote.
+- Students who turn in assignments that match the style of documents that are well represented in the training set of an LLM (like a five paragraph essay, for instance) but do so for an assignment where the directions were clearly for something else (like, say, a Socratic dialogue.)
+
+If you do such things in your work, you will find me take points off *not* necessarily because you used AI - which is typically allowed - but because you've made a *poor use* of AI, and the work doesn't meet the standards of the class.
+:::
+
+Finally, my job, goal, and interest in this class is to help **you, my human student, learn how to valuable things** like write code; wrangle and visualize data; critically interpret information; and learn how to be a more effective citizen and human engaging in data analysis, management, and policy study. My interest is not in correcting AI slop,[^9] nor does my interest lie in trying to figure out if you are attempting to pass AI slop[^bsagain] off as your own work. Accordingly, I will generally just not spend time trying to guess if your assignments are AI generated, nor will I typically engage with technology that purports to do this for me.[^10]
+
+[^bsagain]: AI slop: also known as, well, [you know](https://www.scientificamerican.com/article/chatgpt-isnt-hallucinating-its-bullshitting/).
+
+[^9]: An arduous, unending, and unenviable task, like Sisyphus with his rock.
+
+[^10]: The technical tools that try to detect LLM writing are imperfect, anyways, resulting in a lot of uncertainty and false positives. Furthermore, experience has taught me that typically, poor used and generated LLM content will often earn poor marks, regardless, and have some pretty clear "tells". This means I don't have to care too much if you produce bad work with AI or bad work without AI: it's just bad work.  And your learning, in the final anlaysis, really is up to you. If you want to cut corners and use AI irresponsibly, there's nothing I can do to stop you. (It's really just future you that you're hurting, anyways.) If you want to use LLMs responsibly successfully, well: great!  That's probably the way of the future, anyways, and I hope that this document, along with other elements of my and others classes, help you learn how to do so successfully.
+
+[^tools]: A good parallel here is Microsoft Office: if you write some nonsensible hot garbage in Word, Microsoft is never going to take responsiblity for any of that business.  They'll (correctly) note that it was just some dumb human that wrote it using their tool.
+
+## Further Resources and References
+
+If you've read this far, first: well done! I both appreciate and applaud your interest.  Second, you might be interested in some further readings and resources on AI, its use, its societal implications, and how we might think about public and private policy surrounding AI.  The first place I might point you to is to courses available to you at Maxwell and Syracuse, more broadly: [I teach a course in AI Policy](https://jacklreilly.github.io/syllabi/aip2025.pdf), Professor Himmelreich teaches a class on [Data Ethics](https://johanneshimmelreich.net/#teaching), and Professor Zhang teaches a class on [AI Governance and Politics](https://baobaofzhang.github.io/teaching.html). There are also a broader set of other AI-related things happening at Syracuse, including events through the [Autonomous Systems Policy Institute (ASPI)](https://www.maxwell.syr.edu/research/autonomous-systems-policy-institute), resources organized by [ITS](https://its.syr.edu/artificialintelligence), and many more.
+
+A few other things I'd recommend:
+
+- Melanie Mitchell, professor at the Santa Fe Institute and one of the most nuanced thinkers about AI I know, has a [series of articles](https://melaniemitchell.me) that are well worth reading as well as an excellent [podcast she hosted on AI](https://www.santafe.edu/culture/podcasts).  She also was interviewed in one of my favorite blog post titles ever, ["How Your Cheese-Powered Baby Trounces AI"](https://jessicanordell.substack.com/cp/166912581).
+- Andrew Heiss, a professor in public management and policy at Georgia State's Andrew Young School, has [a similar digression on AI and education that's worth looking through ](https://www.andrewheiss.com/ai/), including the sources and footnotes.  (You'll note some resemblance between his and my takes.) 
+- Gary Marcus' [substack](https://garymarcus.substack.com) is generally very AI-critical, but a good place to keep up on current AI trends and hype.  Luiza Jarovsky's [substack](https://www.luizasnewsletter.com/p/ai-governance-on-the-rise) is a good place to read about AI governance.
+- If you're more interested in the business and tech industry sides of AI, [Benjamin Evans](https://www.ben-evans.com) and [Ben Thompson](https://stratechery.com) are worth adding to your bookmarks-slash-RSS reader-slash-email inbox-slash-future mechanism for keeping track of internet news that hasn't yet been invented.
+
+Finally, as I'm always eager to know how far students actually read syllabi: if you at this point, and still reading about AI and my thoughts on it, send me an [email](jlreilly@syr.edu) with a recommendation for your favorite artificial intelligence related novel, movie, or TV-show.  I'll give you a bonus point on your next test for your perserverance and diligence.

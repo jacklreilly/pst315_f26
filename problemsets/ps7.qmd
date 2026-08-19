@@ -1,0 +1,33 @@
+---
+title: "Problem Set 7"
+subtitle: "The American National Election Studies"
+---
+
+## Data Work
+1. Browse [Bartels (2000) - “Partisanship and Voting Behavior, 1952-1996”](https://www.jstor.org/stable/2669291). Using the Cumulative American National Eleciton Studies (ANES) file, replicate both parts of Figure 1.  
+
+    - *Note: you can get very close on the top half of figure 1.  The bottom half, however, will look a little different in the early years due to Bartels having access to a different version of the ANES than is currently publicly available.*
+
+2. Extend the analysis to include recent years as well.
+
+3. Extend the analysis to 2024, using the 2024 ANES file.  (This will require using the 2024 file in conjuction with the cumulative file.)
+
+3. Create figures that include midterm election years as well.
+
+2. Original Work: explore the codebook for the ANES.  Find two interesting variables and create compelling univariate graphs to illustrate their central tendency, distribution, and spread.
+
+6. Bonus: Replicate Figure 2 from Bartels as well; add in recent years and 2024.
+
+## Submission
+
+Your completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.
+
+In your writeup, address the following questions:
+
+1. Where did you encounter problems with this replication?  Was there anything that was particular tricky?
+
+2. How would you *interpret* (explain) what Bartels found in figures 1 & 2?  
+
+3. Has anything changed since 1998 that would alter the substantive takeaway points in their findings?
+
+4. Does anything change about the analysis in a substantive way when you include midterm election years?

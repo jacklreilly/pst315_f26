@@ -1,0 +1,24 @@
+---
+title: "Week 14: Statistics"
+format: 
+    html: default
+    pdf: default
+---
+
+## Due This Week: [Practicum 2](../problemsets/prac2.qmd)
+
+## Lecture: Statistics & Flow Control
+
+## Readings & Reference Material
+
+- Core Reading
+    - **DV**, ch 6
+    - **FCSP**, ch 4    
+- Reference Materials
+    - There are a lot of R companion books that focus on statistics.  A few I like:
+        - Verzani, *Using R for Introductory Statisics*.  A basic statistics with R text.
+        - Gelman, Hill, and Vehari, *Regression and Other Stories*.  An excellent introduction to regression generally, with applications in R.
+        - Imai, *Quantitative Social Science*.  A textbook for a course that is a blend of statistics and R wrangling.
+
+
+## Due Next Week:  [Final Projects](../problemsets/final.qmd)
