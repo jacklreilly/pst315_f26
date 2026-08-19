@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Artificial Intelligence &amp; LLMs – Data Wrangling and Visualization</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-960cc9eac5395d1658253b679c30d018.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title"><strong>Data Wrangling and Visualization</strong></span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./overview.html"> 
+<span class="menu-text">🏠 Overview</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./schedule.html"> 
+<span class="menu-text">📅 Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./assignments/index.html"> 
+<span class="menu-text">📚 Content</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./problemsets/index.html"> 
+<span class="menu-text">📝 Assignments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./policies.html"> 
+<span class="menu-text">🏫 Policies</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./ai.html" aria-current="page"> 
+<span class="menu-text">🤖 AI &amp; LLMs</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#ai-and-learning" id="toc-ai-and-learning" class="nav-link active" data-scroll-target="#ai-and-learning">AI and Learning</a></li>
+  <li><a href="#suggestions-and-guidelines-ai-usage-in-our-course" id="toc-suggestions-and-guidelines-ai-usage-in-our-course" class="nav-link" data-scroll-target="#suggestions-and-guidelines-ai-usage-in-our-course">Suggestions and Guidelines: AI usage in our course</a></li>
+  <li><a href="#further-resources-and-references" id="toc-further-resources-and-references" class="nav-link" data-scroll-target="#further-resources-and-references">Further Resources and References</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ai.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="ai.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="ai.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Artificial Intelligence &amp; LLMs</h1>
+<p class="subtitle lead">A Slightly Opinionated Discussion about Education and Technology</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>You can find the formal AI policy for this course in the “Policies” section of the syllabus/website. This discussion is focused on helping you understand and use AI most productively on your work in this course, not on the formal policy.</em></p>
+<section id="ai-and-learning" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-learning">AI and Learning</h2>
+<p>Artificial intelligence – in particular, large language models (LLMs) like ChatGPT – are incredibly useful tools. To get the mundane observation out of the way: they are likely to radically change the way we all work over the next several years, just like a variety of other technologies before them (see: the internet, the smartphone, the personal computer, electricity, the steam engine, the printing press, etc.) AI already has a ton of valuable use cases, including in education, data analysis, and research, and the possibilites are only growing.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> There are also lots of concerns about AI’s destructive potential, especially for higher education.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>I do not think AI is the end of higher eduation. However, I do think that, for you as a student to make most effective use of AI, it’s also important to understand exactly what AI is and how to use it in a way that is both (1) effective and (2) does not hamstring your learning. Current AI models are what is known as Large Language Models, or LLMs. An LLM, at its core, is a probabilistic model whose primary function is to produce the next token – which you can think of as a word – that is most likely to make sense in a sentence or phrase, based upon the input prompt and some surrounding context. It is not an “intelligence” like a human is, and it <strong>does not care if this token represents truth, reality, or a functional line of code</strong> – it only cares if the next token <em>seems</em> to make sense. Frequently, what it produces will be incidentally true and/or functional. That is what makes it useful! Occasionally, it will also produce nonsense (or what we know as a “hallucination”). LLMs have advised people to eat rocks, hold cheese on pizza with glue, failed to perform simple arithmetic with decimals, and made up wholly invented bibliographic references, statistical libraries, and analysis results.</p>
+<p>Furthermore, this incidental relationship to the real world is <em>by design</em> – it is inherent to the way LLMs work. They don’t verify what they say with base reality, they just spit out what sounds good to probabilistic algorithms.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+A Humorous Academic Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>LLMs are, in a philosophical sense, <strong>bullshit</strong> of the first order. And yes: “<strong>bullshit</strong>” here is a technical academic term, meaning “language produced without regard for truth.”<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<p><em>“The problem here isn’t that large language models hallucinate, lie, or misrepresent the world in some way. It’s that they are not designed to represent the world at all; instead, they are designed to convey convincing lines of text.”</em> (<a href="https://doi.org/10.1007/s10676-024-09775-5">Hicks, Humphries, and Slater, 2024</a>)</p>
+<p>And yes, for those interested, the fact that this is from an academic research paper is what makes your normally proper and somewhat profanity-averse professor feel gleefully authorized to use the term “bullshit” in a course syllabus.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> There is a more diplomatic and professional seeming word that some use for the profusion of misguided output of AI: <strong>slop</strong>, which most use to mean the profusion and explosion of low-quality AI material. In short, they mean a profusion of what philosophy so artfully frames as bullshit. But with such a pithy and expressive alternative available to us in the English language, why limit ourselves to using the banal sounding “slop”?</p>
+</div>
+</div>
+<p>This <em>incidental</em> relationship LLMs have with truth is also what makes relying on an LLM dangerous. You can’t reliably evaluate LLM outputs until you already know enough about a subject to judge good use of language from bad use of language. However, in the very beginning phases of learning how to write code, conduct data analysis, and interpret it, the problem is often that you <em>don’t</em> yet know enough about the subject to reliably evaluate the quality of AI outputs.</p>
+<p>Furthermore, using LLMs early on in your learning can hamper your ability to understand the fundamental conceptual elements of programming and statistics.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> Many of your assignments for this class, for instance, are intentionally created to give you practice on beginning concepts - concepts that ChatGPT can answer in a trivially easy fashion. Practice is what gives you familiarity and comfort and working knowledge, but practice doesn’t happen if you just copy language or code that an AI gives you.</p>
+<p>Even more problematically, it is these beginning concepts which, when will understood, will eventually <em>enable</em> your most effecive use of this new class of tools for statistical and data work! Accordingly, <em>if</em> you elect to use generative AI to help you with assignments, I <em>strongly</em> encourage you to <strong>use them intelligently</strong>, rather than <strong>carelessly</strong>. Use them to <em>help</em> you learn, not to <em>replace</em> your learning; think of them like an interlocuter or teaching assistant, not like an answer bot. Even if plugging an assignment prompt directly into ChatGPT gives you an immediate shortcut, it is likely put you at a long-term disadvantage, <em>even when using AI</em>, when compared to students that learned the old school way.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Responsible AI
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Remember: whenever you use AI tools for a project you attach your name to, you are still taking implicit responsiblity for that project, product, or document. This means that it is incumbent upon you to do the followup work necessary to <strong>validate, verify, and confirm that the language and work</strong> produced by the machine that works without regard for truth actually <strong>is accurate and functional</strong>. AI is not a coauthor,<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> and I promise you that OpenAI, Google, Anthropic, Mistral, etc won’t take responsibility for whatever you produce with their tools - that’s on you.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p>
+<p>Just like any other tool or source you use, all use of AI, in anything you turn in for this class, should be documented and identified in your work. If you used AI to help you write code, note you used AI to help you write code. If you use it to help you write analysis, note how you used it to help you write analysis.</p>
+</div>
+</div>
+</section>
+<section id="suggestions-and-guidelines-ai-usage-in-our-course" class="level2">
+<h2 class="anchored" data-anchor-id="suggestions-and-guidelines-ai-usage-in-our-course">Suggestions and Guidelines: AI usage in our course</h2>
+<p>For the reasons above, I would strongly encourage you to be <strong>skeptical</strong> and not overuse AI as you learn. My job, goal, and interest in this class is to help <strong>you, my human student, learn how to do valuable things</strong> like write code; wrangle and visualize data; critically interpret information; and learn how to be a more effective citizen and human engaging in the study of data analysis, management, and policy. My interest is not in correcting AI slop,<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> nor does my interest lie in trying to figure out if you are attempting to pass unadulterated AI slop<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> off as your own work.<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> After all, you are allowed to use AI on assignments, if you wish, and I encourage you to do so in productive and valuable ways to enhance your learning, rather than as a way to cheat. Your education, as always, is only as valuable as what you put into it.</p>
+<p>With all of that said, poor uses of AI are often easily detectable to the eye of me, your professor, and get bad grades regardless.<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a> Some examples:</p>
+<ul>
+<li>Students who turn in papers and problem sets that reference methodological tools or techniques way beyond the understanding of the material they show in person or on in-class tests and assignments. (I’ve seen many students propose using methods that would only come to them in their third or fourth semester of statistics in an introductory research methods class, for instance.)</li>
+<li>Students who successfully complete coding assignments, but do so in ways that are overly verbose and complicated relative to simpler and more straightforward methods and techniques covered in class.</li>
+<li>Students who authoritatively reference scholars who don’t exist, or authoritatively reference scholars that exist but articles or books that those scholars never wrote.</li>
+<li>Students who turn in assignments that match the style of documents that are well represented in the training set of an LLM (like a five paragraph essay, for instance) but do so for an assignment where the directions were clearly for something else (like, say, a Socratic dialogue.)</li>
+</ul>
+<p>If you do such things in your work, you will find that I take points off <em>not</em> necessarily because you used AI, but because you’ve made a <em>poor use</em> of AI, and the work doesn’t meet the standards of the class.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I would also encourage you to not make the mistake of confusing <em>assessement</em> with <em>learning</em>.<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> Assessment is an obligation of your professor to measure how well you know class material, but assessment is not the end goal of education any more than taking your blood pressure is the end goal of going to a physician’s office. The goal of an education is for you to learn and enhance your critical thinking in ways that will enrich your personal and professional lives. Don’t mistake the means for the end: I don’t care about assessing what ChatGPT “thinks” about something any more than your physician cares about measuring what ChatGPT’s blood pressure is, and I would suggest that you probably don’t care much about that, either.</p>
+<p>Use AI like a tool, keep your thinking your own, and remember: your education is about your own enrichment, not about passing some tests and assignments.</p>
+</div>
+</div>
+</section>
+<section id="further-resources-and-references" class="level2">
+<h2 class="anchored" data-anchor-id="further-resources-and-references">Further Resources and References</h2>
+<p>If you’ve read this far: first, well done! I both appreciate and applaud your interest. Second, you seem like the sort of person that might be interested in some further recommondations, readings, and resources on AI use and policy. The first place I would point you is to courses available to you at Maxwell and Syracuse. <a href="https://jacklreilly.github.io/syllabi/aip2025.pdf">I teach a course in AI Policy</a>, Professor Himmelreich teaches a class on <a href="https://johanneshimmelreich.net/#teaching">Data Ethics</a>, and Professor Zhang teaches a class on <a href="https://baobaofzhang.github.io/teaching.html">AI Governance and Politics</a>. There are also a broader set of other AI-related things happening at Syracuse, including events through the <a href="https://www.maxwell.syr.edu/research/autonomous-systems-policy-institute">Autonomous Systems Policy Institute (ASPI)</a>, resources organized by <a href="https://its.syr.edu/artificialintelligence">ITS</a>, and many more.</p>
+<p>A few other things I’d recommend:</p>
+<ul>
+<li>Melanie Mitchell, professor at the Santa Fe Institute and one of the most nuanced thinkers about AI I know, has a <a href="https://melaniemitchell.me">series of articles</a> that are well worth reading as well as an excellent <a href="https://www.santafe.edu/culture/podcasts">podcast she hosted on AI</a>. She was also interviewed for the excellently titled <a href="https://jessicanordell.substack.com/cp/166912581">“How Your Cheese-Powered Baby Trounces AI”</a>.</li>
+<li>Andrew Heiss, a professor in public management and policy at Georgia State’s Andrew Young School, has <a href="https://www.andrewheiss.com/ai/">a digression on AI and education that’s worth looking through</a>, including the sources and footnotes.</li>
+<li>Gary Marcus’ <a href="https://garymarcus.substack.com">substack</a> is generally critical of current AI technology, but a good place to keep up on current AI trends and hype. Luiza Jarovsky’s <a href="https://www.luizasnewsletter.com/p/ai-governance-on-the-rise">substack</a> is a good place to read about AI governance.</li>
+<li>If you’re more interested in the business and tech industry sides of AI, <a href="https://www.ben-evans.com">Benjamin Evans</a> and <a href="https://stratechery.com">Ben Thompson</a> are worth adding to your bookmarks/RSS reader/email inbox/future mechanism for keeping track of internet news that hasn’t yet been invented.</li>
+</ul>
+<p>Finally, as I’m always eager to know how far students actually read syllabi: if you have reached this point, and are still reading about AI and my thoughts on it, send me an <a href="jlreilly@syr.edu">email</a> with a recommendation for your favorite artificial intelligence related novel, movie, or TV-show. I’ll give you a bonus point on your next test.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>I for instance, used AI tools to help me build this course website, and I would guess that I was able to do it about twice as quickly as I would have been able to without AI.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>For just a small sampling, see <a href="https://nymag.com/intelligencer/article/openai-chatgpt-ai-cheating-education-college-students-school.html">here</a>, <a href="https://www.theatlantic.com/technology/archive/2024/08/another-year-ai-college-cheating/679502/">here</a>, <a href="https://www.newyorker.com/magazine/2025/07/07/the-end-of-the-english-paper">here</a>, and <a href="https://www.nytimes.com/2025/05/14/opinion/trump-ai-elementary.html">here</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Generally speaking, at least. If you’re paying attention to some of the details with AI, you know about something called an LRM - or Large <em>Reasoning</em> Model. To a first approximation, they try to introduce better and more complex reasoning into the base prediction process, sometimes going so far to do things like generate python code to do math analysis. These “reasoning” models, however, still often fall short on relatively simple reasoning tasks (see Apple, 2025, <a href="https://machinelearning.apple.com/research/illusion-of-thinking"><em>The Illusion of Thinking</em></a>).<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Frankfurt, 2005, <a href="https://press.princeton.edu/books/hardcover/9780691276786/"><em>On Bullshit</em></a>; Hicks, Humphries, and Slater, 2024, <a href="https://doi.org/10.1007/s10676-024-09775-5"><em>ChatGPT is Bullshit</em></a>. For those interested in a full taxonomy, Frankfurt helpfully helps us distinguish between bullshit and any number of additional different not-quite-truthisms, including <em>humbug</em>, <em>hot air</em>, <em>bluff</em>, <em>bravado</em>, and <em>lying</em>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>For another excellent example of profanity being used to elegantly make forceful points in academic settings, see <a href="https://doi.org/10.1177/0735275117709046">Healy, 2017, “Fuck Nuance”</a>, which genuinely contains very good advice on writing. (Although to be fair, you can also get most of the point of that article just from the title . . . which is also the point.)<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>See, for instance, <a href="https://arxiv.org/pdf/2409.09047">Lehmann, Cornelius, and Sting, 2024</a><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><a href="https://getyarn.io/yarn-clip/a1baba2b-53b9-4991-ac32-d9e6231501db">There’s no school like the old school.</a> Insert proper “value of doing the tough work” metaphor here: eating your vegetables, walking uphill both ways to school in a snowstorm, learning to program in assembly before C, etc.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Many publications, for instance, have explict and clear instructions that prevent you from cheekily listing ChatGPT or Claude as a coauthor, in fact - even if they allow for the use of ChatGPT in the production of the manuscript. See, for instance, this <a href="https://www.nature.com/articles/d41586-023-00191-1">discussion</a> in regards to journals published by Springer-Nature.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>A good parallel here is Microsoft Office: if you write some nonsensible hot garbage in Word, Microsoft is never going to take responsiblity for any of that business. They’ll (correctly) note that it was just some dumb human that wrote it using their tool.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>An arduous, unending, and unenviable task, like Sisyphus with his rock.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>AI slop: also known as, well, <a href="https://www.scientificamerican.com/article/chatgpt-isnt-hallucinating-its-bullshitting/">you know</a>.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>Accordingly, I will generally not spend time trying to guess if your assignments are improperly AI generated, nor will I typically engage with technology that purports to do this for me. The technical tools that try to detect LLM writing are imperfect, anyways, resulting in a lot of uncertainty and false positives.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>Good, and effective, AI usage often has the property of being largely undetectable, even to a trained eye – that’s often part of what makes it effective use of the tool, actually!<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>An all too common mistake made today by many people, for the record. Much of the pearl-clutching around AI in education is really focused on how we can know know or detect whether or not students are “cheating” on test and assignments, and less about how we can actually integrate AI meaningfully into the learning process.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jacklreilly\.github\.io\/dwv_f25\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2025 Jack Reilly<br> <a href="mailto:jlreilly@syr.edu">Contact</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a><br> <a href="./about.html">About</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

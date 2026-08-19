@@ -1,0 +1,75 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \qc \f0 \sa180 \li0 \fi0 \b \fs36 Practicum 2\par}
+{\pard \qc \f0 \sa180 \li0 \fi0  Prof.\u160 ?Jack Reilly\par}
+{\pard \qc \f0 \sa180 \li0 \fi0  F2025\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Overview\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 You are to a series of maps of the State of New York, highlighting particular identified features of the state. You have the following data made available to you:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\f1 cb_2024_us_county_500k.shp} - A shape file that includes shapes for all counties in the United States. Variables include:\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab STATEFP - State portion of FIPS code\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab COUNTYFP - County portion of FIPS code\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab GEOID and GEOIDFQ - County identifier (coimbined FIPS code)\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab NAME and NAMELSAD - Name of county\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab STUSPS and STATE_NAME - State name and abbreviation\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab ALAND - Land area of county (sq meters)\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab AWATER - Water area of county (sq meters)\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab geometry - County shape (multipolygon)\sa180\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\f1 nyshighpoints.csv} - a data file containing information about county high points in New York State. Varaibles include:\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab County - name of county\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab High_Point_Name - name of high point\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Elevation_Feet and Elevation_Meters - elevation in feet and meters\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Latitude and Longitude - latitude and longitude\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Data_Quality - whether the latitude and longitude are exact or estimated{\super\chftn}{\*\footnote\chftn\~\plain\pard {\pard \ql \f0 \sa180 \li0 \fi0 Data in this file is estimated by Claude, and is thus for class purposes only. Verify before using elsewhere.\par}
+}\sa180\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 In addition, you will have data to use from online sources, including the US Census and the Harvard Dataverse Replication Archive.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 R Work\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 1.\tx360\tab The file {\f1 cb_2024_us_county_500k.shp} is a shape file that includes shapes for all counties in the United States. Use it to draw a map of the counties of New York State (and only New York State - do not include counties from neighboring states).\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 2.\tx360\tab Using the same file, which is the largest county, by area, in New York? Which is the smallest?\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 3.\tx360\tab Use {\f1 nyshighpoints.csv} to plot the location of high points of every county in the state of New York over the base county map.\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 4.\tx360\tab There is a somewhat common scale that cartographers use to indicate elevation, where low lying areas are green, middle height areas are yellow to brown, and high areas are white and sometimes red. (See, for instance, the National Geographic map highlighted {\field{\*\fldinst{HYPERLINK "https://education.nationalgeographic.org/resource/mapmaker-elevation/"}}{\fldrslt{\ul
+here
+}}}
+.) Use a color scale to mark the high points according to their height. Make sure to have at least four different colors included in your scale.\sa180\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 {\b Tip}\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 Note that I am {\b not} asking you to color in elevation for the entire state - I\u8217'm just asking you to color the points that indicate the high points of the county.\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 5.\tx360\tab What are the highest and lowest high points in the state?\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 6.\tx360\tab Label the highest high point on a map.\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 7.\tx360\tab Use the {\f1 tidycensus} package to load county population in New York. Shade in each county according to its population. Use a light yellow to dark orange scale.\sa180\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 {\b Tip}\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 Remember that you can load data from {\f1 tidycensus} with or without geography.\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 8.\tx360\tab Calculate population density for each county using population and land area. Shade in each county according to its population. Use a light lavender to dark purple scale.\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 9.\tx360\tab What is the largest county, by population, in New York? What is the smallest? What is the most dense county in New York? What is the least dense?\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 10.\tx360\tab Use the {\field{\*\fldinst{HYPERLINK "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DGUMFI"}}{\fldrslt{\ul
+Algara and Amlani\u8217's county level data
+}}}
+ to create maps of two-party vote for each county in New York in the 2000, 2004, 2008, 2012, 2016, and 2020 elections. Show vote by partisan lean, where more Democratic voting counties are bluer, more Republican voting counties are redder, and evenly split counties are white. You may discount any third party votes.\sa180\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 {\b Tip}\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 Remember there are multiple ways to plot polygon-based political and social maps, in both base R and the tidyverse. To first approximation, there is the {\i pre-}{\f1 sf} data management style, where each vertex in the map would be a row/observation of your data, and there is the newer {\f1 sf} style of mapping, where each polygon is a single row in your data with a multipolygon column/variable containing geographic information.\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 If you do not have an {\f1 sf} object, you need to use fundamental mapping aesthetics (like {\f1 mapping()} in {\f1 ggplot}) to draw your map. If you already have an {\f1 sf} (simple features) R object, however, you can use the simpler {\f1 geom_sf} in ggplot to begin drawing your map (or use appropriate {\f1 plot()} commands in base R).\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Writeup Work (Quarto)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Answer the following questions in your Quarto write-up.\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 1.\tx360\tab Include the map of New York counties and color-coded high points, with the highest point labeled. Which are the highest and lowest high points, and what are their elevations?\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 2.\tx360\tab Include the map of county population by county. What are the most and least populous counties, by name?\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 3.\tx360\tab Include the map of county population density. What are the most and least densely populated counties, by name?\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 4.\tx360\tab Include county maps of presidential elections in New York, by county. (I recommend doing this in a grid on a single page.) What do you notice about vote trends in New York over that time? What change and continuity has there been in partisan voting trends?\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Other Details\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab This Practicum is due {\b Thursday, December 4, at 2 PM}. {\i As usual, we will cover the practicum in that class, so late work is not accepted.}\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab The practicum {\b IS} open-book, open-note, and open-internet, but it {\b IS NOT} open-human. In short: you can use any resource you want, so long as that resource does not involve asking another human a question. {\i (The only exception is that you can ask the professor clarification questions.)}\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab If you use AI, you must also turn in a record of your prompts as a plain-text {\f1 .txt} file.{\super\chftn}{\*\footnote\chftn\~\plain\pard {\pard \ql \f0 \sa180 \li0 \fi0 This record does not have to be word for word, but it should encapsulate what you did. For instance, just saying \u8220"I used Claude on this practicum\u8221" isn\u8217't ok; you should tell me what code snippets you used Claude to help you with.\par}
+} You {\b MAY} use AI, but {\i only} to ask questions as you design your own work. You {\b MAY NOT} feed the entire practicum itself into a chatbot or other AI tool.\sa180\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab Make sure your write-up document and code script files are {\b cleanly formatted}. You will be evaluated both for the accuracy of your output and the clarity of your code.\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab Follow all the data and style guidelines we have discussed in class. Your {\f1 .R} files \u8212- once I change the working directory, if necessary \u8212- should properly execute all commands needed to reproduce the results of your practicum, and should do so without any errors. If your {\f1 .R} file does not do this, the relevant answers will be considered wrong. You may also use a {\f1 .Rproj} file to obviate the need for a set working directories.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Submission\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Turn in 4 things:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab Your R script(s).\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab A quarto file that addresses or answers the steps above and includes your graphics. Your quarto file can include your R code or your R code can remain separate in your R scripts, with the quarto file reading in figures from project directory.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab A compiled quarto file, as a PDF, that includes your maps and answers to relevant questions above.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 4.\tx360\tab Your plain text .txt file, identifying if and how you used AI, and which AI you used. If you did not use AI, you still must turn this file in; all you need do is write in it, \u8220"I made no use of AI for this assignment.\u8221"\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Make sure that your quarto writeup follows the order of the writeup file specified above and clearly indicates what map is what.\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 {\b Important}\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 To submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\b Good luck!}\par}
+}
