@@ -1,0 +1,236 @@
+---
+title: "Logistics"
+format: 
+    html: default
+    pdf: default
+    docx: default
+    rtf: default
+---
+
+# Course Schedule
+
+Class meets Tuesdays. **Assignments and responsibilities are due Friday** of
+the week listed, with one exception: the
+[Final Presentation](assignments/15-final-presentation.qmd) is submitted by
+**Monday night** of Week 14 and presented in class the next day.
+
+| Week | Main Topic                  | Due |
+|------|-----------------------------|------------|
+| 1    | Course Intro                | [Project Application](assignments/01-project-application.qmd) |
+| 2    | Working With Clients        | [Client Email](assignments/02-client-email.qmd) |
+| 3    | Client Meeting (No Class)   | [First Client Meeting](assignments/03-first-client-meeting.qmd) |
+| 4    | Individual Meetings         | [Finalized Contract/Timeline](assignments/04-contract-timeline.qmd), [Second Client Meeting](assignments/05-second-client-meeting.qmd) |
+| 5    | Data & Surveys              | [Organizational Assessment](assignments/06-organizational-assessment.qmd), [Weekly Task Plan](assignments/07-weekly-task-plan.qmd) |
+| 6    | Excel & Coding              | [Draft Executive Summary](assignments/08-draft-executive-summary.qmd), [Excel Coding Workshop](assignments/09-excel-coding-workshop.qmd) |
+| 7    | Graphing & Methods          | [Excel Graphing Workshop](assignments/10-excel-graphing-workshop.qmd) |
+| 8    | Fall Break                  | [Practice Report](assignments/11-practice-report.qmd) |
+| 9    | Individual Meetings         | [Formatted Report Shell](assignments/12-formatted-report-shell.qmd)[^shell] |
+| 10   | Work Time                   | |
+| 11   | Professional Materials      | [Rough Draft](assignments/13-rough-draft.qmd) |
+| 12   | Individual Meetings         | |
+| 13   | Presenting Your Work        | [Final Report](assignments/14-final-report.qmd) |
+| 14   | Student Presentations       | [Final Presentation](assignments/15-final-presentation.qmd) |
+| 15   | Wrap-Up                     | [Professional Materials](assignments/16-professional-materials.qmd), [Final Reflection](assignments/17-final-reflection.qmd) |
+
+[^shell]: The Formatted Report Shell includes a revised Executive Summary, your spreadsheet, and your codebook.
+
+::: {.callout-note}
+### Subscribe to the Class Calendar
+
+You can subscribe to the class schedule in your calendar software of your choice:
+
+[📡 Subscribe](webcal://jacklreilly.github.io/pst315_f26/pst315_schedule.ics){.btn .btn-outline-primary}
+[💾 Download .ics](pst315_schedule.ics){.btn .btn-outline-primary}
+
+Class sessions appear on Tuesdays during class time; assignment deadlines appear
+as all-day events on the day they are due.
+:::
+
+# Assignments
+
+Instructions for each individual assignment are posted on the
+[assignments page](assignments/index.qmd).
+
+## Major Assignment Overview
+
+**Organizational Assessment**: An assignment to help each student learn about
+their agency and project.
+
+**Practice Report**: This assignment gives students the opportunity to practice
+and receive performance feedback on the skills necessary for the final Client
+Report, including calculations, scaling numbers, qualitative coding, making
+graphs, and more.
+
+**Final Report and Presentation**: A report created for each student's client
+that has a breakdown of the data collected (through a survey or data files) by
+the student or organization. The report includes an introduction, methods
+section, findings, and appendices; the presentation is a distilled slide deck
+and presentation from the report itself.
+
+**Professional Materials**: A Cover Letter, Resume, LinkedIn Profile, and draft
+Reference Letter, intended to prepare students to apply for jobs. Students are
+required to meet with an A&S advisor for review of professional materials.
+
+**Final Reflection**: A reflection that ties together the various components of
+the course and experiential learning experience. You will take findings from
+your Final Report and consider how they could potentially inform policy-making
+and organizational change for your client.
+
+## Group Projects
+
+The substantial majority of projects in PST 315 are individual projects.
+However, occasionally a client may request a group project that two or more
+students will complete together.[^group]
+
+[^group]: A "group project" in this context is a project with a single deliverable authored by multiple students. A group project does *not* include a client who offers several related projects that have separate deliverables.
+
+Group projects have a single deliverable and final project, but group projects
+are broader, deeper, and more complex, requiring more hours than an individual
+project. Those hours get spread across numerous individuals, who must coordinate
+to shape the final deliverable together.
+
+Individuals in a group must complete their own individual work for the course
+(workshops and individual assignments), while groups are collectively
+responsible for production of the final project and deliverable. The table
+below describes this on a per-assignment basis.
+
+::: {.callout-important}
+All students in a group must submit all assignments to Blackboard, **even when
+those assignments are identical**.
+:::
+
+| Assignment                  | Submission      |
+|-----------------------------|-----------------|
+| Project Application         | By Individual |
+| Finalized Contract/Timeline | By Project[^roles] |
+| Organizational Assessment   | By Project |
+| Weekly Task Plan            | By Project[^tasks] |
+| Draft Executive Summary     | By Project |
+| Excel Coding Workshop       | By Individual |
+| Excel Graphing Workshop     | By Individual |
+| Practice Report             | By Individual |
+| Formatted Report Shell      | By Project |
+| Rough Draft                 | By Project |
+| Final Report                | By Project |
+| Final Presentation          | By Project |
+| Professional Materials      | By Individual |
+| Final Reflection            | By Individual[^reflect] |
+| Professionalism             | By Project and/or By Individual |
+
+[^roles]: Groups must use this opportunity to clearly delineate roles and responsibilities for the project. Unless otherwise requested by the client, one individual should have primary responsibility for contacting the client after the first meeting. Your UCA and/or Professor will assist you in structuring your group roles.
+
+[^tasks]: Groups must create task timelines for each individual in the group.
+
+[^reflect]: Individuals in groups must indicate what elements of the final deliverable were completed by each group member.
+
+# Evaluation
+
+| Points | Evaluation                  | Submit to |
+|--------|-----------------------------|-----------|
+| 2      | Project Application         | Qualtrics link |
+| 3      | Finalized Contract/Timeline | Blackboard and Client |
+| 10     | Organizational Assessment   | Blackboard |
+| 2      | Weekly Task Plan            | Blackboard |
+| 3      | Draft Executive Summary     | Blackboard |
+| 2      | Excel Coding Workshop       | Blackboard |
+| 2      | Excel Graphing Workshop     | Blackboard |
+| 10     | Practice Report             | Blackboard |
+| 3      | Formatted Report Shell      | Blackboard |
+| 3      | Rough Draft                 | Blackboard |
+| 45     | Final Report                | Blackboard and Client |
+| 5      | Final Presentation          | Blackboard and UCA |
+| 5      | Professional Materials      | Blackboard |
+| 5      | Final Reflection            | Blackboard |
+| +/- 0  | Professionalism             | Ongoing |
+
+## Professionalism
+
+Professionalism points can be earned throughout the semester for demonstrating
+exceptional professionalism to your client, UCA, or Professor Reilly. Taking
+initiative to go above and beyond basic course requirements is strongly
+encouraged and will be rewarded. Professionalism points may also be subtracted
+for actions that are unprofessional (failure to send client emails on time,
+absence from class, etc.).
+
+::: {.callout-important}
+### Caps
+There is a cap of **+5 points** and **-10 points** toward your final grade.
+:::
+
+### How to Gain and Lose Professionalism Points
+
+**Attendance**
+:   To be considered excused, you must email your UCA *before* class. Upon
+    approval, your absence may be excused. Students may have one unexcused
+    absence without penalty. Additional unexcused absences will result in the
+    loss of a professionalism point per absence. Repeated lateness will incur
+    point loss.
+
+**Class Work Time**
+:   Class is primarily a period for work time on your projects. You may not
+    leave class early unless you have completed work on all assignments for the
+    week *and* there is no more work you could feasibly do on your project. If
+    you have done so, you may ask your UCA for an early exit.
+
+**Emails to Client**
+:   CC your UCA on **all** emails with your client, or you will lose one
+    professionalism point per email. Only CC Professor Reilly if your UCA has
+    instructed you to do so. UCAs reserve the right to deduct points for
+    slapdash language or intent in emails to clients.
+
+**Emails to UCAs and Professor**
+:   Exercise professionalism when emailing UCAs and Professor Reilly. UCAs
+    reserve the right to deduct points for slapdash language or intent in
+    emails to Professor Reilly and/or UCAs.
+
+**Deadlines and Meetings**
+:   Failure to attend any scheduled meeting — including meetings with your
+    client, your UCA, Professor Reilly, or an A&S advisor — will result in a
+    loss of 3 points per meeting.
+
+**Client Presentation**
+:   Some clients ask for a presentation of their own. Students who give a
+    presentation to their client earn an extra professionalism point. See the
+    [Final Presentation](assignments/15-final-presentation.qmd) assignment.
+
+**Client Evaluation**
+:   If a client reaches out with a valid and reasonable complaint about your
+    performance or professionalism, this will result in a loss of up to 10
+    points, at the discretion of your UCA and Professor Reilly.
+
+**Other**
+:   Other exceptional or unprofessional conduct not listed here can result in a
+    gain or loss of professionalism points accordingly, at Professor Reilly's
+    and the UCAs' discretion.
+
+## Late Assignment Policy
+
+All assignments must be turned in on time unless otherwise noted or approved.
+Each day late will be subject to a per-day penalty unless a prior arrangement
+for an extension is given. Assignments more than 7 days late will not be
+accepted unless an exception is granted by the Professor.
+
+Blackboard's assignment portal indicates whether an assignment is late; UCAs
+will notify you of points lost when an assignment is submitted late. Late
+penalties only accrue on business days (Monday through Friday). The late
+penalty for all assignments is **one point per late day**, with a maximum of
+half of the assignment's points off.
+
+::: {.callout-note}
+Extensions may only be granted by Professor Reilly.
+:::
+
+## Grading Scale
+
+| Grade | Grade Point/Credit | Class Points |
+|-------|--------------------|--------------|
+| A     | 4.000              | 94 – 100     |
+| A-    | 3.667              | 90 – 93.99   |
+| B+    | 3.333              | 87 – 89.99   |
+| B     | 3.000              | 83 – 86.99   |
+| B-    | 2.667              | 80 – 82.99   |
+| C+    | 2.333              | 77 – 79.99   |
+| C     | 2.000              | 73 – 76.99   |
+| C-    | 1.667              | 70 – 72.99   |
+| D     | 1.000              | 60 – 69.99   |
+| F     | 0                  | 59.99 or less   |

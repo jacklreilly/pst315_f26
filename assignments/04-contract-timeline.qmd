@@ -1,0 +1,32 @@
+---
+title: "Finalized Contract & Timeline"
+subtitle: "Due Week 4 (Friday, September 18)"
+---
+
+- **Due**: Week 4 (Friday, September 18)
+- **Points**: 3
+- **Submit to**: Blackboard and Client
+- **Submission**: By Project
+
+## Instructions
+
+Download and fill out the Blank Contract and Timeline with your client during
+your first meeting.
+
+Be sure your client has ample time to sign the contract! Refer to the
+[Contract and Timeline Guide](../guidelines/contract-and-timeline.qmd), or reach
+out to your UCA if you have any questions.
+
+## Files
+
+- [Blank Contract and Timeline](files/blank-contract-and-timeline.docx) (Word)
+- [Sample Contract and Timeline](files/sample-contract-and-timeline.docx) (Word)
+
+## Guidelines
+
+The following guideline applies to this assignment:
+
+- [Contract and Timeline Guide](../guidelines/contract-and-timeline.qmd) -- How to fill out the contract and timeline with your client.
+
+You can find all of the course guidelines on the
+[Guidelines](../guidelines/index.qmd) page.

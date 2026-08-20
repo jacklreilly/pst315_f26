@@ -1,0 +1,24 @@
+---
+title: "Client Email"
+subtitle: "Due Week 2 (Friday, September 4)"
+---
+
+- **Due**: Week 2 (Friday, September 4)
+- **Points**: Counts toward professionalism
+- **Submit to**: Your client, CC your UCA
+- **Submission**: By Individual
+
+## Instructions
+
+Send an introductory email to your client requesting your first meeting. CC
+your UCA on this email and on every email you send your client for the rest of
+the semester.
+
+## Guidelines
+
+The following guideline applies to this assignment:
+
+- [Client Email Guide](../guidelines/client-email.qmd) -- How to write your first email to your client.
+
+You can find all of the course guidelines on the
+[Guidelines](../guidelines/index.qmd) page.

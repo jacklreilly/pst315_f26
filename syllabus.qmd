@@ -1,11 +1,11 @@
 {{< include overview.qmd >}}
-{{< include schedule.qmd >}}
+{{< include logistics.qmd >}}
 {{< include policies.qmd >}}
 
 ---
-title: "PAI 400/600: Data Wrangling and Visualization"
+title: "PST 315: Methods of Policy Analysis and Presentation"
 author: "Prof. Jack Reilly"
-date: F2025
+date: F2026
 subtitle: "Course Syllabus"
 format: 
     html: default

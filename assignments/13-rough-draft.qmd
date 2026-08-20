@@ -1,0 +1,97 @@
+---
+title: "Rough Draft"
+subtitle: "Due Week 11 (Friday, November 6)"
+---
+
+- **Due**: Week 11 (Friday, November 6)
+- **Points**: 3
+- **Submit to**: Blackboard
+- **Submission**: By Project
+
+## Instructions
+
+This page outlines the **minimum requirements** for the rough draft of your final
+report. These are only the minimum requirements, and you should aim to have your
+rough draft as complete as possible. Your UCA will provide you with comprehensive
+feedback on your rough draft, so the more you include, the more mistakes will be
+caught before your final draft.
+
+As always, if you are concerned about being able to complete the rough draft
+requirements on time, please speak to your UCA.
+
+Rough drafts are graded on a three-point scale. Rough drafts that are submitted
+on time and meet **all** of the requirements listed here will receive all three
+points.
+
+*Hint: look at the UCA example reports on Blackboard for additional guidance.*
+
+## Minimum requirements
+
+### Formatting
+
+- Cover page
+- Headings in correct places
+- Footers and page numbers
+- The following sections: Executive Summary, Introduction, Methods, Findings,
+  and Appendices (Appendix I, Appendix II, Appendix III, and as needed Appendix
+  IV and V)
+
+*Hint: see the [Formatted Report Shell](12-formatted-report-shell.qmd) and the
+[Footers and Section Breaks Guide](../guidelines/footers-and-section-breaks.qmd).*
+
+### Executive summary
+
+- Completed executive summary
+- Four finding statements should be complete; the rest may use X as a placeholder
+
+*Hint: see the [Executive Summary Guide](../guidelines/executive-summary.qmd).*
+
+### Introduction
+
+- Completed introduction
+
+*Hint: see the [Introduction and Methods Guide](../guidelines/introduction-and-methods.qmd).*
+
+### Methods
+
+- Completed methods page
+- If your methods section requires the use of graphs, you must include these
+
+*Hint: see the [Introduction and Methods Guide](../guidelines/introduction-and-methods.qmd).*
+
+### Findings
+
+- Four findings and accompanying graphs, sources, and comments
+- Formatted according to the
+  [PST 315 Graphing Guidelines](../guidelines/graphing.qmd)
+- As a reminder, your final report requires **seven** findings
+
+*Hint: see the [Findings Guide](../guidelines/findings.qmd).*
+
+### Appendices
+
+- Appendices page includes a table of contents
+- **Appendix I -- Research Questions:** must be completed
+- **Appendix II -- Data Frequencies:** data frequencies from at least four
+  findings
+- **Appendix III -- Codebook and Spreadsheet:** must be completed
+- **Appendix IV -- Open-Ended Responses:** if your report requires Appendix IV,
+  you should have this section about 25% completed
+- **Appendix V -- Disaggregated Graphs:** if your report requires Appendix V, you
+  should have this section about 25% completed
+
+*Hint: see the [Appendices Guide](../guidelines/appendices.qmd).*
+
+## Guidelines
+
+The following guidelines apply to this assignment:
+
+- [Executive Summary Guide](../guidelines/executive-summary.qmd) -- How to write and format your executive summary.
+- [Introduction and Methods Guide](../guidelines/introduction-and-methods.qmd) -- How to write the introduction and methods sections of your report.
+- [Findings Guide](../guidelines/findings.qmd) -- How to lay out a findings page: statement, graph, source, comment.
+- [PST 315 Graphing Guidelines](../guidelines/graphing.qmd) -- The formatting rules every graph in your report must follow.
+- [Appendices Guide](../guidelines/appendices.qmd) -- What belongs in each of the five appendices.
+- [Footers and Section Breaks Guide](../guidelines/footers-and-section-breaks.qmd) -- How to edit footers, align page numbers, and delete section breaks.
+
+You can find all of the course guidelines on the
+[Guidelines](../guidelines/index.qmd) page.

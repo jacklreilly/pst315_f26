@@ -1,10 +1,80 @@
 ---
-title: "📚 Content"
+title: "📝 Assignments"
 sidebar: assign
 format: html
 format-links: false
 ---
 
-Hello and welcome to the content page for our course. Readings, guides, and assignments are posted here by week.
+Hello and welcome to the assignments page for our course. All assignments are
+posted here, and each one is due **Friday** of the week listed.
 
-Note that, while you can find assignments here, submission of assignments themselves goes through GitHub or the [course blackboard](https://blackboard.syr.edu), depending on the assignment.
+Note that, while you can find assignments here, submission itself goes through
+the [course Blackboard](https://blackboard.syr.edu) — with one exception, the
+Project Application, which is submitted through a Qualtrics link.
+
+For how assignments are weighted, how group projects are handled, and the late
+policy, see [Logistics](../logistics.qmd).
+
+Each assignment page carries its instructions, any templates you need to
+download, and the **Guidelines** that apply to it. Guidelines appear under the
+assignment where they are first needed; later assignments link back to them.
+
+::: {.callout-note title="Still to come"}
+The Project Application and the two Excel workshops will be posted closer to
+their due dates.
+:::
+
+## Getting Started
+
+| Assignment | Due | Points |
+|------------|-----|--------|
+| [Project Application](01-project-application.qmd)         | Week 1 (Aug 28) | 2 |
+| [Client Email](02-client-email.qmd)                       | Week 2 (Sep 4) | * |
+| [First Client Meeting](03-first-client-meeting.qmd)       | Week 3 (Sep 11) | * |
+| [Finalized Contract & Timeline](04-contract-timeline.qmd) | Week 4 (Sep 18) | 3 |
+| [Second Client Meeting](05-second-client-meeting.qmd)     | Week 4 (Sep 18) | * |
+
+: {tbl-colwidths="[62,19,19]"}
+
+## Project Development & Organization
+
+| Assignment | Due | Points |
+|------------|-----|--------|
+| [Organizational Assessment](06-organizational-assessment.qmd) | Week 5 (Sep 25) | 10 |
+| [Weekly Task Plan](07-weekly-task-plan.qmd)                   | Week 5 (Sep 25) | 2 |
+| [Draft Executive Summary](08-draft-executive-summary.qmd)     | Week 6 (Oct 2) | 3 |
+| [Excel Coding Workshop](09-excel-coding-workshop.qmd)         | Week 6 (Oct 2) | 2 |
+| [Excel Graphing Workshop](10-excel-graphing-workshop.qmd)     | Week 7 (Oct 9) | 2 |
+
+: {tbl-colwidths="[62,19,19]"}
+
+## Practice Report
+
+| Assignment | Due | Points |
+|------------|-----|--------|
+| [Practice Report](11-practice-report.qmd)               | Week 8 (Oct 16)  | 10 |
+
+: {tbl-colwidths="[62,19,19]"}
+
+## Report & Presentation
+
+| Assignment | Due | Points |
+|------------|-----|--------|
+| [Formatted Report Shell](12-formatted-report-shell.qmd) | Week 9 (Oct 23)  | 3 |
+| [Rough Draft](13-rough-draft.qmd)                       | Week 11 (Nov 6) | 3 |
+| [Final Report](14-final-report.qmd)                     | Week 13 (Nov 20) | 45 |
+| [Final Presentation](15-final-presentation.qmd)         | Week 14 (Nov 30) | 5 |
+
+: {tbl-colwidths="[62,19,19]"}
+
+## Wrap-Up
+
+| Assignment | Due | Points |
+|------------|-----|--------|
+| [Professional Materials](16-professional-materials.qmd) | Week 15 (Dec 11) | 5 |
+| [Final Reflection](17-final-reflection.qmd)             | Week 15 (Dec 11) | 5 |
+
+: {tbl-colwidths="[62,19,19]"}
+
+*Items marked "—" are not separately graded; they count toward your
+professionalism points.

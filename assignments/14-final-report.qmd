@@ -1,0 +1,41 @@
+---
+title: "Final Report"
+subtitle: "Due Week 13 (Friday, November 20)"
+---
+
+- **Due**: Week 13 (Friday, November 20)
+- **Points**: 45
+- **Submit to**: Blackboard and Client
+- **Submission**: By Project
+
+## Instructions
+
+Upload your **final report, spreadsheet, and codebook** to Blackboard -- three
+documents total.
+
+**Additionally**, email your client (with your UCA CC'd) the following materials:
+
+- Final report as a PDF
+- Final report as a Word document
+- Spreadsheet
+- Codebook
+
+::: {.callout-important}
+This is a hard deadline. Your final report requires **seven** findings.
+:::
+
+## Guidelines
+
+The final report pulls together everything from earlier in the semester:
+
+- [Executive Summary Guide](../guidelines/executive-summary.qmd)
+- [Introduction and Methods Guide](../guidelines/introduction-and-methods.qmd)
+- [Findings Guide](../guidelines/findings.qmd)
+- [PST 315 Graphing Guidelines](../guidelines/graphing.qmd)
+- [Qualitative Coding Guide](../guidelines/qualitative-coding.qmd)
+- [Codebook and Spreadsheet Guide](../guidelines/codebook-and-spreadsheet.qmd)
+- [Appendices Guide](../guidelines/appendices.qmd)
+- [Footers and Section Breaks Guide](../guidelines/footers-and-section-breaks.qmd)
+
+You can find all of the course guidelines on the
+[Guidelines](../guidelines/index.qmd) page.

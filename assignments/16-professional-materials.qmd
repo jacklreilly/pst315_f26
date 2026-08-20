@@ -1,0 +1,84 @@
+---
+title: "Professional Materials"
+subtitle: "Due Week 15 (Friday, December 11)"
+---
+
+- **Due**: Week 15 (Friday, December 11)
+- **Points**: 5
+- **Submit to**: Blackboard
+- **Submission**: By Individual
+
+## Instructions
+
+There are two parts to this assignment: a **resume and cover letter review
+meeting**, and the **professional materials** themselves.
+
+## A resume and cover letter review meeting
+
+Meet with Shannon from the Resume lecture slides. You may schedule your meeting
+via Orange SUccess, or you may use the email on the slides to make an
+appointment (<srvanbev@syr.edu>).
+
+::: {.callout-important}
+You must meet with Shannon or your advisor.
+
+- If you meet with **Shannon**, there is no need to submit any proof of meeting,
+  as she will inform us which students met with her at the end of the year.
+- If you meet with a **different advisor**, have them email Prof. Reilly.
+- If you have already met with another advisor for resume and cover letter review
+  this semester, you may email your UCA with proof.
+- If you have already met with Shannon this semester for resume and cover letter
+  review, please email her to remind her.
+:::
+
+## Professional materials
+
+Your professional materials must include the following five items.
+
+### 1. A one-page professional resume
+
+### 2. A one-page cover letter
+
+Tailored to the job or internship of your choice.
+
+### 3. A LinkedIn profile
+
+Your profile must include at least the following:
+
+- A work-appropriate headshot for the profile
+- A completed "About" section
+- Completed educational information
+- At least one professional experience. We strongly encourage using this course
+  as a professional experience -- the position name is "Research Consultant," and
+  the location is your client agency.
+- A connection request sent to all UCAs and Professor Reilly
+
+### 4. A one-page draft reference letter
+
+Written about yourself from a professor's perspective (Coplin, Professor Reilly,
+or someone else).
+
+- Include information a professor would reasonably know about you that describes
+  your professional experiences and strengths.
+- This is meant to help a professor write you a recommendation, so save this for
+  future use. Should you ever request a recommendation from Coplin or Professor
+  Reilly, they will ask for this letter.
+
+### 5. A draft Instagram post
+
+Written as a summary of your project for the Policy Studies Instagram.
+
+- Choose a photo for the post -- either your client organization's logo, your
+  photo from the [Organizational Assessment](06-organizational-assessment.qmd),
+  or something similar.
+- Draft a caption. Include a short summary of your project and the most
+  interesting finding, 1-2 sentences in length.
+- Tag yourself and your client.
+- When you submit this, please indicate whether you consent to have your project
+  featured on the Policy Studies Instagram page.
+
+## Files
+
+- [Instagram Post Template](files/instagram-post-template.docx) (Word)
+
+As always, your UCAs are available by email to answer any questions.

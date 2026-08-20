@@ -1,0 +1,90 @@
+---
+title: "Qualitative (Open-Ended) Coding Guide"
+---
+
+::: {.callout-note title="About these examples"}
+The examples below use **sample data**. Skills Win Coaching Organization is a real
+Syracuse University program, but the responses and numbers shown here are invented
+for teaching purposes and are not actual SWCO results.
+:::
+
+*Note: There are three types of open-ended survey responses: categorical (single
+category), attitudinal (single category), and check-all-that-apply (multiple
+categories).*
+
+**Step 1:** List open-ended actual responses.
+
+Copy the responses out of your spreadsheet exactly as they were written -- do not
+fix spelling or grammar.
+
+> *What could be improved at your site sessions?*
+
+| Respondent ID | Response |
+|---------------|----------|
+| 1 | More hands on activities would be good. |
+| 2 | add more group activities |
+| 3 | More activities like the resume one. |
+| 4 | i liked the practice interviews, do more of those |
+| 5 | More team exercises. |
+| 6 | more activities |
+| 7 | Do more of the role playing exercises. |
+| 8 | More things to actually practice. |
+| 9 | The sessions felt rushed at the end. |
+| 10 | more time for each activity |
+| 11 | Longer sessions. |
+| 12 | We needed more time to finish. |
+
+**Step 2:** Aggregate responses into categories. The number of categories will
+depend on the variety of responses you have received, but aim to create the
+fewest number of categories possible while ensuring every response fits into one.
+
+**Step 3:** Take the number of responses for each category and then divide each
+raw number by the total number of responses (times 100) to get a percentage.
+
+| Category | Responses | Percentage |
+|----------|-----------|------------|
+| More activities | 8 | 35% |
+| More time | 6 | 26% |
+| Smaller groups | 4 | 17% |
+| Better materials | 3 | 13% |
+| Nothing | 2 | 9% |
+
+**Step 4:** Graph the percentage data according to the
+[PST 315 graphing guidelines](graphing.qmd).
+
+![](images/ex-finding3-improvements.png){fig-alt="Vertical bar graph titled What Respondents Felt Could Be Improved, n equals 196, with solid black bars and percentage labels above each bar."}
+
+**Step 5:** Include the category name with actual responses listed below in the
+appendix. See the [Appendices Guide](appendices.qmd).
+
+**More activities (n=8)**
+
+1. More hands on activities would be good.
+2. add more group activities
+3. More activities like the resume one.
+4. i liked the practice interviews, do more of those
+
+**More time (n=6)**
+
+1. The sessions felt rushed at the end.
+2. more time for each activity
+3. Longer sessions.
+4. We needed more time to finish.
+
+**Smaller groups (n=4)**
+
+1. The groups were too big.
+2. smaller groups so everyone can talk
+3. Too many people at my table.
+4. Smaller groups would help.
+
+**Better materials (n=3)**
+
+1. The handouts were hard to read.
+2. better worksheets
+3. The packet had typos in it.
+
+**Nothing (n=2)**
+
+1. Nothing, it was great.
+2. nothing

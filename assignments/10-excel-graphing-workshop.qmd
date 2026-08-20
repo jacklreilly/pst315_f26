@@ -1,0 +1,28 @@
+---
+title: "Excel Graphing Workshop"
+subtitle: "Due Week 7 (Friday, October 9)"
+---
+
+- **Due**: Week 7 (Friday, October 9)
+- **Points**: 2
+- **Submit to**: Blackboard
+- **Submission**: By Individual
+
+::: {.callout-note title="Coming later"}
+The workshop assignment itself will be posted here closer to Week 7. The
+[PST 315 Graphing Guidelines](../guidelines/graphing.qmd) are the reference
+material for the workshop.
+:::
+
+## Instructions
+
+*Coming later.*
+
+## Guidelines
+
+The following guideline applies to this assignment:
+
+- [PST 315 Graphing Guidelines](../guidelines/graphing.qmd) -- The formatting rules every graph in your report must follow.
+
+You can find all of the course guidelines on the
+[Guidelines](../guidelines/index.qmd) page.

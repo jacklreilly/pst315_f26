@@ -1,0 +1,24 @@
+---
+title: "Second Client Meeting"
+subtitle: "Due Week 4 (Friday, September 18)"
+---
+
+- **Due**: Week 4 (Friday, September 18)
+- **Points**: Counts toward professionalism
+- **Submit to**: Meeting with your client
+- **Submission**: By Individual
+
+## Instructions
+
+Hold a second meeting with your client to develop your research questions and
+to gather the information you need for the
+[Organizational Assessment](06-organizational-assessment.qmd).
+
+## Guidelines
+
+The following guideline applies to this assignment:
+
+- [Second Client Meeting Guide](../guidelines/second-client-meeting.qmd) -- How to run your second meeting and set your research questions.
+
+You can find all of the course guidelines on the
+[Guidelines](../guidelines/index.qmd) page.

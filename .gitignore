@@ -21,3 +21,13 @@ Gemfile.lock
 .DS_Store
 
 /.quarto/
+
+**/*.quarto_ipynb
+
+# Source archive: original Word/PowerPoint assignments and guides.
+# Kept locally for reference, never committed - the repo is public and these
+# files contain real client, student and respondent data.
+Prior Assignments/
+
+# Python bytecode from the tools/ generator scripts
+__pycache__/

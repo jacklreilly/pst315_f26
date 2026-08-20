@@ -1,0 +1,48 @@
+---
+title: "📗 Guidelines"
+sidebar: guides
+format: html
+format-links: false
+---
+
+The guidelines are the course's how-to references. Each one covers a single
+piece of the work -- writing a client email, coding open-ended responses,
+formatting a graph -- and each is linked from the
+[assignment](../assignments/index.qmd) where you first need it.
+
+Unlike assignments, guidelines are not due on any date. Come back to them
+whenever you need them; several apply to more than one assignment, and most
+apply again to the [Final Report](../assignments/14-final-report.qmd).
+
+## Working with your client
+
+| Guideline | What it covers |
+|-----------|----------------|
+| [Client Email](client-email.qmd)                       | Writing your first email to your client |
+| [Initial Client Meeting](initial-client-meeting.qmd)   | Preparing for and running your first meeting |
+| [Contract and Timeline](contract-and-timeline.qmd)     | Filling out the contract and timeline together |
+| [Second Client Meeting](second-client-meeting.qmd)     | Setting your research questions |
+
+: {tbl-colwidths="[40,60]"}
+
+## Working with your data
+
+| Guideline | What it covers |
+|-----------|----------------|
+| [Codebook and Spreadsheet](codebook-and-spreadsheet.qmd) | Building a codebook and coding your data in Excel |
+| [Qualitative Coding](qualitative-coding.qmd)             | Categorizing open-ended survey responses |
+| [Graphing Guidelines](graphing.qmd)                      | The formatting rules every graph must follow |
+
+: {tbl-colwidths="[40,60]"}
+
+## Writing the report
+
+| Guideline | What it covers |
+|-----------|----------------|
+| [Executive Summary](executive-summary.qmd)                     | Writing and formatting the executive summary |
+| [Introduction and Methods](introduction-and-methods.qmd)       | Writing the introduction and methods sections |
+| [Findings](findings.qmd)                                       | Laying out a findings page |
+| [Appendices](appendices.qmd)                                   | What belongs in each of the five appendices |
+| [Footers and Section Breaks](footers-and-section-breaks.qmd)   | Editing footers and fixing section breaks in Word |
+
+: {tbl-colwidths="[40,60]"}

@@ -1,0 +1,411 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Jack Reilly//PST 315 Course Schedule//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PST 315
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:PST 315 Methods of Policy Analysis and Presentation - class s
+ essions and assignment deadlines
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pst315-class-20260825@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;TZID=America/New_York:20260825T153000
+DTEND;TZID=America/New_York:20260825T181500
+TRANSP:OPAQUE
+SUMMARY:PST 315: Course Intro
+DESCRIPTION:Week 1. Course schedule: https://jacklreilly.github.io/pst315_
+ f26/logistics.html#course-schedule
+LOCATION:HB Crouse Hall\, Kittredge Auditorium
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20260901@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;TZID=America/New_York:20260901T153000
+DTEND;TZID=America/New_York:20260901T181500
+TRANSP:OPAQUE
+SUMMARY:PST 315: Working With Clients
+DESCRIPTION:Week 2. Course schedule: https://jacklreilly.github.io/pst315_
+ f26/logistics.html#course-schedule
+LOCATION:HB Crouse Hall\, Kittredge Auditorium
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20260908@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315: No Class (Client Meeting Week)
+DESCRIPTION:Week 3. Course schedule: https://jacklreilly.github.io/pst315_
+ f26/logistics.html#course-schedule
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20260915@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;TZID=America/New_York:20260915T153000
+DTEND;TZID=America/New_York:20260915T181500
+TRANSP:OPAQUE
+SUMMARY:PST 315: Individual Meetings
+DESCRIPTION:Week 4. Course schedule: https://jacklreilly.github.io/pst315_
+ f26/logistics.html#course-schedule
+LOCATION:HB Crouse Hall\, Kittredge Auditorium
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20260922@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;TZID=America/New_York:20260922T153000
+DTEND;TZID=America/New_York:20260922T181500
+TRANSP:OPAQUE
+SUMMARY:PST 315: Data & Surveys
+DESCRIPTION:Week 5. Course schedule: https://jacklreilly.github.io/pst315_
+ f26/logistics.html#course-schedule
+LOCATION:HB Crouse Hall\, Kittredge Auditorium
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20260929@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;TZID=America/New_York:20260929T153000
+DTEND;TZID=America/New_York:20260929T181500
+TRANSP:OPAQUE
+SUMMARY:PST 315: Excel & Coding
+DESCRIPTION:Week 6. Course schedule: https://jacklreilly.github.io/pst315_
+ f26/logistics.html#course-schedule
+LOCATION:HB Crouse Hall\, Kittredge Auditorium
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20261006@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;TZID=America/New_York:20261006T153000
+DTEND;TZID=America/New_York:20261006T181500
+TRANSP:OPAQUE
+SUMMARY:PST 315: Graphing & Methods
+DESCRIPTION:Week 7. Course schedule: https://jacklreilly.github.io/pst315_
+ f26/logistics.html#course-schedule
+LOCATION:HB Crouse Hall\, Kittredge Auditorium
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20261013@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315: No Class (Fall Break)
+DESCRIPTION:Week 8. Course schedule: https://jacklreilly.github.io/pst315_
+ f26/logistics.html#course-schedule
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20261020@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;TZID=America/New_York:20261020T153000
+DTEND;TZID=America/New_York:20261020T181500
+TRANSP:OPAQUE
+SUMMARY:PST 315: Individual Meetings
+DESCRIPTION:Week 9. Course schedule: https://jacklreilly.github.io/pst315_
+ f26/logistics.html#course-schedule
+LOCATION:HB Crouse Hall\, Kittredge Auditorium
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20261027@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;TZID=America/New_York:20261027T153000
+DTEND;TZID=America/New_York:20261027T181500
+TRANSP:OPAQUE
+SUMMARY:PST 315: Work Time
+DESCRIPTION:Week 10. Course schedule: https://jacklreilly.github.io/pst315
+ _f26/logistics.html#course-schedule
+LOCATION:HB Crouse Hall\, Kittredge Auditorium
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20261103@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;TZID=America/New_York:20261103T153000
+DTEND;TZID=America/New_York:20261103T181500
+TRANSP:OPAQUE
+SUMMARY:PST 315: Professional Materials
+DESCRIPTION:Week 11. Course schedule: https://jacklreilly.github.io/pst315
+ _f26/logistics.html#course-schedule
+LOCATION:HB Crouse Hall\, Kittredge Auditorium
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20261110@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;TZID=America/New_York:20261110T153000
+DTEND;TZID=America/New_York:20261110T181500
+TRANSP:OPAQUE
+SUMMARY:PST 315: Individual Meetings
+DESCRIPTION:Week 12. Course schedule: https://jacklreilly.github.io/pst315
+ _f26/logistics.html#course-schedule
+LOCATION:HB Crouse Hall\, Kittredge Auditorium
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20261117@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;TZID=America/New_York:20261117T153000
+DTEND;TZID=America/New_York:20261117T181500
+TRANSP:OPAQUE
+SUMMARY:PST 315: Presenting Your Work
+DESCRIPTION:Week 13. Course schedule: https://jacklreilly.github.io/pst315
+ _f26/logistics.html#course-schedule
+LOCATION:HB Crouse Hall\, Kittredge Auditorium
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20261201@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;TZID=America/New_York:20261201T153000
+DTEND;TZID=America/New_York:20261201T181500
+TRANSP:OPAQUE
+SUMMARY:PST 315: Student Presentations
+DESCRIPTION:Week 14. Course schedule: https://jacklreilly.github.io/pst315
+ _f26/logistics.html#course-schedule
+LOCATION:HB Crouse Hall\, Kittredge Auditorium
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-class-20261208@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;TZID=America/New_York:20261208T153000
+DTEND;TZID=America/New_York:20261208T181500
+TRANSP:OPAQUE
+SUMMARY:PST 315: Wrap-Up
+DESCRIPTION:Week 15. Course schedule: https://jacklreilly.github.io/pst315
+ _f26/logistics.html#course-schedule
+LOCATION:HB Crouse Hall\, Kittredge Auditorium
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20260828-01-project-application@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Project Application
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/01-project-application.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20260904-02-client-email@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Client Email
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/02-client-email.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20260911-03-first-client-meeting@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: First Client Meeting
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/03-first-client-meeting.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20260918-04-contract-timeline@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Finalized Contract & Timeline
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/04-contract-timeline.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20260918-05-second-client-meeting@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Second Client Meeting
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/05-second-client-meeting.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20260925-06-organizational-assessment@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Organizational Assessment
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/06-organizational-assessment.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20260925-07-weekly-task-plan@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Weekly Task Plan
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/07-weekly-task-plan.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20261002-08-draft-executive-summary@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Draft Executive Summary
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/08-draft-executive-summary.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20261002-09-excel-coding-workshop@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Excel Coding Workshop
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/09-excel-coding-workshop.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20261009-10-excel-graphing-workshop@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Excel Graphing Workshop
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/10-excel-graphing-workshop.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20261016-11-practice-report@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Practice Report
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/11-practice-report.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20261023-12-formatted-report-shell@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Formatted Report Shell
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/12-formatted-report-shell.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20261106-13-rough-draft@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Rough Draft
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/13-rough-draft.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20261120-14-final-report@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Final Report
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/14-final-report.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20261130-15-final-presentation@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Final Presentation
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/15-final-presentation.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20261211-16-professional-materials@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Professional Materials
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/16-professional-materials.html
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:pst315-due-20261211-17-final-reflection@jacklreilly.github.io
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+TRANSP:TRANSPARENT
+SUMMARY:PST 315 Due: Final Reflection
+DESCRIPTION:Assignment details: https://jacklreilly.github.io/pst315_f26/a
+ ssignments/17-final-reflection.html
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

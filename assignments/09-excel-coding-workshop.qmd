@@ -1,0 +1,28 @@
+---
+title: "Excel Coding Workshop"
+subtitle: "Due Week 6 (Friday, October 2)"
+---
+
+- **Due**: Week 6 (Friday, October 2)
+- **Points**: 2
+- **Submit to**: Blackboard
+- **Submission**: By Individual
+
+::: {.callout-note title="Coming later"}
+The workshop assignment itself will be posted here closer to Week 6. The
+[Qualitative (Open-Ended) Coding Guide](../guidelines/qualitative-coding.qmd) is
+the reference material for the workshop.
+:::
+
+## Instructions
+
+*Coming later.*
+
+## Guidelines
+
+The following guideline applies to this assignment:
+
+- [Qualitative (Open-Ended) Coding Guide](../guidelines/qualitative-coding.qmd) -- How to categorize and code open-ended survey responses.
+
+You can find all of the course guidelines on the
+[Guidelines](../guidelines/index.qmd) page.

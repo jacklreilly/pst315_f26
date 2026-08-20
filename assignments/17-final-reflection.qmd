@@ -1,0 +1,83 @@
+---
+title: "Final Reflection"
+subtitle: "Due Week 15 (Friday, December 11)"
+---
+
+- **Due**: Week 15 (Friday, December 11)
+- **Points**: 5
+- **Submit to**: Blackboard
+- **Submission**: By Individual
+
+## Instructions
+
+Write a minimum two-page single-spaced (12 pt. Times New Roman) letter to your
+client making a recommendation based on your research this semester.
+
+Write, address, and format the letter as if it were a formal communication. This
+will not be given to your client unless you choose to send it to them.
+
+Organization, clarity, and grammar will be considered during marking. Please cite
+sources where appropriate using APA-style citations. Use in-text citations and
+include a references page.
+
+There are three required parts to this letter:
+
+1. An introductory paragraph
+2. A policy proposal **or** a research proposal
+3. An organizational process proposal
+
+::: {.callout-note}
+Individuals in groups must indicate what elements of the final deliverable were
+completed by each group member.
+:::
+
+## Required: brief introductory paragraph
+
+Briefly thank your client for being your client; explain why you are writing them
+the letter (that is, a central thesis statement); summarize the proposals you
+make; and conclude with the key takeaways of the letter.
+
+## Choose one: policy proposal or research proposal
+
+### Option 1: Policy proposal
+
+Create a policy proposal to improve the organization or its policies.
+
+- **Policy formulation.** Discuss the problem, goal, causes, and your policy
+  proposal. Cite at least three graphs you made in your
+  [final report](14-final-report.qmd) and include them as an appendix.
+- **Policy implementation.** Discuss administration and political feasibility of
+  implementing this program. Discuss (i) monetary costs, (ii) staffing and
+  workload involved, and (iii) other challenges to implementation.
+- **Policy evaluation.** How would you design a feasible study or any data
+  collection method to measure your policy's impact? Please describe these
+  impacts in terms of (i) improving accuracy and representativeness, (ii) the use
+  of benchmarks and forecasts to chart progress, (iii) effectiveness in achieving
+  the mission statement, and (iv) efficiency in terms of resources necessary.
+
+### Option 2: Future research study
+
+Detail one research project that the agency might want to conduct to follow up on
+your study. Explain why.
+
+- **Question formulation.** Identify a new study the agency might want to conduct
+  to better understand their agency, clients, and so on. Cite findings from your
+  study that suggest need for a new study, and/or external sources that support
+  the value of such a new study.
+- **Research questions.** What questions should the new study ask, and how should
+  it ask them? Should the agency use a survey or collect data elsewhere to answer
+  these questions? If a survey, who should be surveyed, and how? If data
+  elsewhere, where and how would this data be gathered? Are there any specialized
+  methods the study will need to use to answer these questions and analyze the
+  data? Discuss at minimum four new questions or findings the study seeks to
+  address.
+- **Research significance.** Why would the agency benefit from seeing the results
+  of this new study? What specific information would the study give the client
+  that would be valuable to its operation?
+
+## Required: organizational process proposal
+
+Comment on how future students completing Community Link research projects could
+work more effectively with the agency. Discuss how the process of working with
+them could have been streamlined. Please keep Dale Carnegie principles in mind
+when writing this section.

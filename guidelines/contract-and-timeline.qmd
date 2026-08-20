@@ -1,0 +1,49 @@
+---
+title: "Contract and Timeline Guide"
+---
+
+The purpose of the Contract and Timeline task is to ensure you have had a
+successful conversation with your client about expectations for the project,
+including timing and deadlines, communication, and the final report. Try to be as
+specific as possible when filling this out with your client. Specificity will
+ensure you have an easier time starting and working on your report and ensure
+your client is pleased with the final result.
+
+When you are in your [initial meeting](../assignments/03-first-client-meeting.qmd), you should
+either share your screen (if on Zoom) or show your client on your laptop (if
+in-person) to complete the task together. Facilitate an open discussion with your
+client to fill out the template, while asking any questions that may arise about
+the scope and the expectations of the final report.
+
+::: {.callout-important}
+The [rough draft](../assignments/13-rough-draft.qmd) and [final report](../assignments/14-final-report.qmd)
+deadlines are **hard deadlines**. If your client requests to change these later,
+please reach out to your UCA to discuss.
+:::
+
+All the other tasks on the timeline template are flexible dates which you and
+your client can set together based on the specific needs of your client and the
+project. Please note that this template is very general -- not all projects will
+have tasks that are relevant. Use your discretion if any task is irrelevant to
+your project and you may delete it or replace it with another task that is not
+listed but relevant for you.
+
+Below is a list of project and relationship specifics you should discuss with
+your client while filling out the template. This is not an exhaustive list, just
+some ideas of questions to ask to get more clarity:
+
+- **Frequency and method of communication.** For example: "The contractor (the
+  student) will email an update to the client every week on Fridays to update the
+  progress made that week on the report and ask any necessary questions."
+- **Data and research necessary for the report.** Do you need to create and send
+  out a survey? Will the client provide you with data to analyze?
+- **Timeline of collecting or receiving data.**
+- **Detail the client wants in the final report.**
+- **Does your client want to receive the rough draft?** Does your client want a
+  final presentation?
+
+After you and your client are both happy with the completed contract and
+timeline, you will sign and date it. Send it to your client and have them return
+it with their signature and date. You can sign by using a cursive font in Word or
+using an external signature site. When you receive the document back signed,
+submit it to Blackboard to receive credit.

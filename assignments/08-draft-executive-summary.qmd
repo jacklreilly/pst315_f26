@@ -1,0 +1,37 @@
+---
+title: "Draft Executive Summary"
+subtitle: "Due Week 6 (Friday, October 2)"
+---
+
+- **Due**: Week 6 (Friday, October 2)
+- **Points**: 3
+- **Submit to**: Blackboard
+- **Submission**: By Project
+
+## Instructions
+
+Submit your Draft Executive Summary.
+
+Your draft should be properly formatted, have a completed intro/methods section,
+and at least seven findings statements.
+
+Your findings statements should be written with "X" as a placeholder for
+variables and percentages you do not have yet. At this point in the class most
+people will need to use "X" as a placeholder in all of their findings statements.
+
+::: {.callout-tip title="Example"}
+**Final finding statement:** 73% of students reported that their favorite
+exercise was typing. (n=89)
+
+**Draft executive summary finding statement:** X% of students reported that their
+favorite exercise was XX. (n=x)
+:::
+
+## Guidelines
+
+The following guideline applies to this assignment:
+
+- [Executive Summary Guide](../guidelines/executive-summary.qmd) -- How to write and format your executive summary.
+
+You can find all of the course guidelines on the
+[Guidelines](../guidelines/index.qmd) page.

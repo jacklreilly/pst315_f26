@@ -1,0 +1,33 @@
+---
+title: "Weekly Task Plan"
+subtitle: "Due Week 5 (Friday, September 25)"
+---
+
+- **Due**: Week 5 (Friday, September 25)
+- **Points**: 2
+- **Submit to**: Blackboard
+- **Submission**: By Project
+
+## Instructions
+
+Download and complete the Weekly Task Planner.
+
+Use the table in the planner to plan and organize each task of your project,
+such as the second client meeting, survey design, survey distribution, data
+collection, and so on. Please consider the assignment deadlines listed in the
+[schedule](../logistics.qmd#course-schedule) as well as the agreed-upon deadlines
+between you and your client (in your
+[contract and timeline](04-contract-timeline.qmd)) when filling out the table.
+
+::: {.callout-note}
+This is not a formal timeline, and you will not lose points if you stray from it
+in the future. Rather, it is a tool to ensure that you understand all that is
+required for your project and to help you stay on track for the rest of the
+semester.
+:::
+
+Groups must create task timelines for each individual in the group.
+
+## Files
+
+- [Weekly Task Planner](files/weekly-task-planner.docx) (Word)

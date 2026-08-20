@@ -1,0 +1,47 @@
+---
+title: "Second Client Meeting Guide"
+---
+
+Congratulations! You have completed your first client meeting and your contract
+and timeline. At this point, you should have a second meeting scheduled with your
+client to go over questions for the
+[Organizational Assessment](../assignments/06-organizational-assessment.qmd), as well as gain
+further clarity on any questions you have about your project.
+
+Before your second client meeting, make sure to spend some time thinking about
+your project and making a list of any questions that come up. These questions
+might be about the scope of your project, details on the survey or data, or their
+expectations for the final report. It is best to ask any questions as soon as
+they arise -- this is how you prevent issues from popping up down the line!
+
+Also, before your second meeting, you should review the Organizational
+Assessment. This assignment's purpose is for you to better understand your
+client's organization. By having a better understanding of their organization's
+goals, you can better tailor your report to their needs (and it will help you
+create your introduction and executive summary sections of your report!). Prepare
+questions ahead of time to guide the conversation surrounding the Organizational
+Assessment.
+
+In your meeting, you have a few things you should cover.
+
+- **Ask your client if they have a list of research questions** that your report
+  should help answer. If they don't already have these, you should work together
+  to create a list.
+  - *Tip:* Ideally you should have a minimum of seven research questions to
+    equate to the minimum of seven findings in your report. More than seven is
+    absolutely acceptable.
+  - *Tip:* Sometimes the client will have some ideas but will need help refining
+    their research questions -- work through this with them in your meeting to
+    ensure everyone is happy and understands what will be answered in the report!
+
+- **Discuss the questions for the Organizational Assessment you prepared.**
+  - *Tip:* Questions 1, 3, and 4 on the assignment will need to be discussed with
+    your client.
+
+- **Ask your client if they have any questions or changes** since your last
+  meeting.
+  - *Tip:* Keeping an open dialogue and asking your client if they have questions
+    or changes throughout the semester will ensure a happy client and a happy
+    consultant on the same page!
+
+If you have any questions, please do not hesitate to reach out to your UCA.

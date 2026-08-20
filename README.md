@@ -1,2 +1,5 @@
-# dwv_f25
-Repository for the PAI 400/600 Fall 2025 Course: Data Wrangling &amp; Visualization
+# pst315_f26
+
+Repository for the PST 315 Fall 2026 course: Methods of Policy Analysis and Presentation.
+
+Course website: <https://jacklreilly.github.io/pst315_f26/>

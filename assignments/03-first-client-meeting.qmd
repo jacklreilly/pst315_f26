@@ -1,0 +1,26 @@
+---
+title: "First Client Meeting"
+subtitle: "Due Week 3 (Friday, September 11)"
+---
+
+- **Due**: Week 3 (Friday, September 11)
+- **Points**: Counts toward professionalism
+- **Submit to**: Meeting with your client
+- **Submission**: By Individual
+
+## Instructions
+
+Hold your first meeting with your client. Come prepared with questions, and work
+through the [Contract and Timeline](04-contract-timeline.qmd) together during
+the meeting.
+
+There is no class this week so that you can schedule this meeting.
+
+## Guidelines
+
+The following guideline applies to this assignment:
+
+- [Initial Client Meeting Guide](../guidelines/initial-client-meeting.qmd) -- How to prepare for and run your first client meeting.
+
+You can find all of the course guidelines on the
+[Guidelines](../guidelines/index.qmd) page.

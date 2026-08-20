@@ -1,0 +1,130 @@
+---
+title: "Organizational Assessment"
+subtitle: "Due Week 5 (Friday, September 25)"
+---
+
+- **Due**: Week 5 (Friday, September 25)
+- **Points**: 10
+- **Submit to**: Blackboard
+- **Submission**: By Project
+
+## Instructions
+
+Download and complete the Organizational Assessment.
+
+::: {.callout-important}
+Review this assignment **before** your
+[second client meeting](05-second-client-meeting.qmd). Many questions in the
+Organizational Assessment require answers from your client.
+:::
+
+You will also need to reference the Bare Essentials slides when completing the
+Organizational Assessment.
+
+## Files
+
+- [Organizational Assessment worksheet](files/organizational-assessment.docx) (Word)
+- [Organizational Assessment grade sheet](files/organizational-assessment-grade-sheet.docx) (Word)
+- [Bare Essentials](files/bare-essentials.pdf) (PDF)
+
+## What the assessment covers
+
+The assignment is worth 10 points, allocated across six sections. Points are
+also deducted for lateness, writing, presentation, and project scoping -- see
+the [grade sheet](files/organizational-assessment-grade-sheet.docx) for the
+full breakdown.
+
+| Section | Points |
+|---------|--------|
+| Organizational culture     | 2 |
+| Website analysis           | 1 |
+| Bare essentials for your agency | 2 |
+| Agency's goal              | 2 |
+| Describe your project      | 1 |
+| Research questions         | 2 |
+
+### 1. Organizational culture {#org-culture}
+
+*Maximum 250 words -- 2 points*
+
+Organizational culture encompasses values and behaviors that contribute to the
+unique social and psychological environment of a business. Schedule a follow-up
+meeting with your client. Take a screenshot of your Zoom meeting or a picture of
+your in-person meeting with your client's permission -- you will be asked to
+include the photo in your assignment.
+
+In addition to continuing work on your project, make sure to ask your client
+about their organization's culture. You could ask your client questions like:
+
+- How many hours do you work in a typical week?
+- What is the best part of working for XYZ Organization?
+- How often, if ever, do you hold organization-wide meetings?
+
+Then briefly summarize how your client described their organization's culture,
+and answer: would you want to work in a similar environment?
+
+### 2. Website analysis
+
+*Maximum 250 words -- 1 point*
+
+Examine the website of your client's agency. Review the Coplin-Dwyer Bare
+Essentials slides and comment whether the site meets or does not meet the
+seven bare essentials listed for a government office (even if your agency is not
+a government office). Type out the bare essential and then start your comment
+after a dash.
+
+> **Example:** The first bare essential is that the organization has a website --
+> XYZ Organization has a website, located at www.xyzorganization.com.
+
+### 3. Bare essentials for your organization
+
+*Maximum 250 words -- 2 points*
+
+Review the bare essentials of chapters 1-9 of Coplin-Dwyer (in the Bare
+Essentials slides) and select the five most important bare essentials that
+your agency or program should meet. Ask your client what their agency does about
+those five essentials and explain their actions and strategies in 1-2 sentences.
+Type out the bare essential and then start your comment after a dash.
+
+> **Example:** The most important bare essential is that the organization conduct
+> customer surveys at least once a year -- My client Suzie Smith, in her position
+> as Executive Director of XYZ Organization, oversees the administration of
+> volunteer and client satisfaction surveys every six months.
+
+### 4. Agency goal
+
+*Maximum 250 words -- 2 points*
+
+Take a screenshot of a document, web page, or other resource created by your
+agency that describes its mission and place it on the next page. Then:
+
+- Quote the mission statement of your agency and indicate the source with an APA
+  citation (no references page needed). If unavailable, describe the goals of the
+  agency.
+- Identify an output of your agency.
+- Identify an outcome related to the output identified above.
+- Discuss potential threats to accuracy in your project.
+- Discuss potential threats to representativeness in your project.
+
+### 5. Describe your project
+
+*1 point*
+
+By each item below, describe as briefly as possible the characteristics of your
+project as defined by you and your client.
+
+- Name of organization
+- A brief title that describes the project
+- Source of data -- survey, records, other
+- Unit of analysis (hint: what are you measuring?)
+- Target population of your study (include a number if possible)
+
+### 6. Research questions
+
+*2 points*
+
+List 7-10 questions your agency hopes to answer with the data in your report.
+
+> **Examples:** How do clients of XYZ Organization feel about the frequency of
+> email newsletters? How many pounds of paper does ABC Agency order in a year?
+> What should PST Inc. do to better include those with disabilities?

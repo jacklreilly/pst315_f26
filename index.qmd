@@ -1,19 +1,21 @@
 
-
 ```{=html}
 
 <div class="row align-items-center g-4 mb-3">
 
   <div class="col-12 col-lg-8">
-    <h1 class="display-5 fw-bold mb-3">Data Wrangling and Visualization</h1>
+    <h1 class="display-5 fw-bold mb-3">Methods of Policy Analysis and Presentation</h1>
 
     <p class="lead text-secondary mb-3">
-      Learn how to use quantitative data to inform decisions in public administration, public policy, and international affairs.
+      An experiential-learning methods course: you will work as a research consultant
+for a real client, and write the kind of professional report a nonprofit,
+academic, or government agency would actually use.
     </p>
 
     <div class="text-secondary">
-      <div><strong>PAI 400/600</strong> • Fall 2025</div>
-      <div>Maxwell School of Citizenship &amp; Public Affairs</div>
+      <div><strong>PST 315</strong> • Fall 2026</div>
+      <div>Policy Studies Program</div>
+      <div>Maxwell School of Citizenship & Public Affairs</div>
       <div>Syracuse University</div>
     </div>
   </div>
@@ -26,24 +28,28 @@
 ::: {.column width="50%"}
 ::: {.callout-note title="Instructor"}
 - 👤 [Dr. Jack Reilly](https://jacklreilly.github.io)
-- 🏛️ Eggers Hall 225
+- 🏛️ Eggers Hall 225F
 - ✉️ [jlreilly@syr.edu](mailto:jlreilly@syr.edu)
+- 🕐 Office hours: Friday, 1:00 – 3:00 PM, or [by appointment](https://jacklreilly.github.io/appointments.html)
 :::
 :::
 
 ::: {.column width="50%"}
 ::: {.callout-note title="Course details"}
-- 📅 Tuesdays & Thursdays
-- 🕒 2:00 – 3:20 PM
-- 📍 Eggers Hall 225B
+- 📅 Tuesdays
+- 🕒 3:30 – 6:15 PM
+- 📍 HB Crouse Hall, Kittredge Auditorium
+- 📎 Prerequisites: PST 101, MAX 201, Policy Studies major
 :::
 :::
 :::
 
-Please browse the course pages for [course overview](overview.qmd), [schedule](schedule.qmd), [course content](assignments/index.qmd), [problem sets](problemsets/index.qmd), course and campus [policies](policies.qmd), and [guidelines](ai.qmd) for initially thinking about use of AI in this class.  If you would prefer to have the syllabus as a single page, [go here](syllabus.qmd).  And note you can download any page on the website you like as a pdf or formatted document.
+Please browse the course pages for the [course overview](overview.qmd),
+course [logistics](logistics.qmd) — schedule, assignments, and evaluation —
+the [assignments](assignments/index.qmd) themselves, the
+[guidelines](guidelines/index.qmd) that show you how to do the work, and campus
+[policies](policies.qmd). If you would prefer the syllabus as a single page,
+[go here](syllabus.qmd). Note that you can download any page on this website
+as a PDF or formatted document.
 
 I look forward to seeing you in class.
-
-
-
-

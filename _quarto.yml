@@ -1,33 +1,33 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - assignments/files/**
+    - pst315_schedule.ics
 
 website:
-  title: "**Data Wrangling and Visualization**"
-  site-url: https://jacklreilly.github.io/dwv_f25/
-  repo-url: https://github.com/jacklreilly/dwv_f25
+  title: "**PST 315**"
+  site-url: https://jacklreilly.github.io/pst315_f26/
+  repo-url: https://github.com/jacklreilly/pst315_f26
   navbar:
-    left:
+    background: "#1A5490"
+    foreground: "#FFFFFF"
+    right:
       - href: overview.qmd
         text: 🏠 Overview
-      - href: schedule.qmd
-        text: 📅 Schedule
+      - href: logistics.qmd
+        text: 📅 Logistics
       - href: assignments/index.qmd
-        text: 📚 Content
-      - href: problemsets/index.qmd
-        text: 📝 Assignments 
+        text: 📝 Assignments
+      - href: guidelines/index.qmd
+        text: 📗 Guidelines
       - href: policies.qmd
         text: 🏫 Policies
-      - href: ai.qmd
-        text: 🤖 AI & LLMs
   page-footer:
     left: |
-      © 2025 Jack Reilly<br>
+      © 2026 Jack Reilly<br>
       [Contact](mailto:jlreilly@syr.edu)
-      
-    center: |
-      
-      
+
     right: |
       Built with [Quarto](https://quarto.org)<br>
       [About](/about.qmd)
@@ -35,69 +35,75 @@ website:
   sidebar:
     - id: assign
       style: docked
-      title: "Content"
-      #logo: images/pai600_dwv_logo2.svg
-      contents:
-        - section: "Weekly Content"
-          href: assignments/index.qmd
-          contents:
-          - assignments/assign1.qmd
-          - assignments/assign2.qmd
-          - assignments/assign3.qmd
-          - assignments/assign4.qmd
-          - assignments/assign5.qmd
-          - assignments/assign6.qmd
-          - assignments/assign7.qmd
-          - assignments/assign8.qmd
-          - assignments/assign9.qmd
-          - assignments/assign10.qmd
-          - assignments/assign11.qmd
-          - assignments/assign12.qmd
-          - assignments/assign13.qmd
-          - assignments/assign14.qmd
-          - assignments/assign15.qmd
-          - assignments/assign16.qmd
-
-    - id: ps
-      style: docked
       title: "Assignments"
-      #logo: images/pai600_dwv_logo2.svg
       contents:
-        - section: "Problem Sets"
-          href: problemsets/index.qmd
-          contents:
-          - problemsets/ps1.qmd
-          - problemsets/ps2.qmd
-          - problemsets/ps3.qmd
-          - problemsets/ps4.qmd
-          - problemsets/ps5.qmd
-          - problemsets/ps6.qmd
-          - problemsets/ps7.qmd
-          - problemsets/ps8.qmd
-          - problemsets/ps9.qmd
-          - problemsets/ps10.qmd
-          - problemsets/ps11.qmd
+        - href: assignments/index.qmd
+          text: "All Assignments"
 
-        - section: "Practica"
-          href: problemsets/index.qmd
+        - section: "Getting Started"
           contents:
-          - problemsets/prac1.qmd
-          - problemsets/prac2.qmd
+            - assignments/01-project-application.qmd
+            - assignments/02-client-email.qmd
+            - assignments/03-first-client-meeting.qmd
+            - assignments/04-contract-timeline.qmd
+            - assignments/05-second-client-meeting.qmd
 
-        - section: "Final Project"
-          href: problemsets/final.qmd
+        - section: "Project Organization"
           contents:
-          - problemsets/final.qmd
+            - assignments/06-organizational-assessment.qmd
+            - assignments/07-weekly-task-plan.qmd
+            - assignments/08-draft-executive-summary.qmd
+            - assignments/09-excel-coding-workshop.qmd
+            - assignments/10-excel-graphing-workshop.qmd
+
+        - section: "Practice Report"
+          contents:
+            - assignments/11-practice-report.qmd
+
+        - section: "Report & Presentation"
+          contents:
+            - assignments/12-formatted-report-shell.qmd
+            - assignments/13-rough-draft.qmd
+            - assignments/14-final-report.qmd
+            - assignments/15-final-presentation.qmd
+
+        - section: "Wrap-Up"
+          contents:
+            - assignments/16-professional-materials.qmd
+            - assignments/17-final-reflection.qmd
+
+    - id: guides
+      style: docked
+      title: "Guidelines"
+      contents:
+        - href: guidelines/index.qmd
+          text: "All Guidelines"
+
+        - section: "Working With Your Client"
+          contents:
+            - guidelines/client-email.qmd
+            - guidelines/initial-client-meeting.qmd
+            - guidelines/contract-and-timeline.qmd
+            - guidelines/second-client-meeting.qmd
+
+        - section: "Working With Your Data"
+          contents:
+            - guidelines/codebook-and-spreadsheet.qmd
+            - guidelines/qualitative-coding.qmd
+            - guidelines/graphing.qmd
+
+        - section: "Writing the Report"
+          contents:
+            - guidelines/executive-summary.qmd
+            - guidelines/introduction-and-methods.qmd
+            - guidelines/findings.qmd
+            - guidelines/appendices.qmd
+            - guidelines/footers-and-section-breaks.qmd
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
 execute:
   freeze: auto
-
-
-

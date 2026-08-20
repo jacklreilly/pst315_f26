@@ -1,1 +1,23 @@
-/* css styles */
+/* Navbar: medium blue (#1A5490) with solid white text.
+
+   Bootstrap gives navbar links a translucent white by default, which lands at
+   about 4.3:1 against this blue - just under the 4.5:1 WCAG AA minimum for
+   body text. Forcing solid white raises it to 7.7:1, which clears AAA. */
+
+.navbar {
+  --bs-navbar-color: #ffffff;
+  --bs-navbar-hover-color: #ffffff;
+  --bs-navbar-active-color: #ffffff;
+  --bs-navbar-brand-color: #ffffff;
+  --bs-navbar-brand-hover-color: #ffffff;
+  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.75);
+}
+
+/* Because every link is the same white, hover and current-page states are
+   marked with an underline rather than a colour shift. */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}

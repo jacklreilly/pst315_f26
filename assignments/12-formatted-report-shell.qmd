@@ -1,0 +1,38 @@
+---
+title: "Formatted Report Shell"
+subtitle: "Due Week 9 (Friday, October 23)"
+---
+
+- **Due**: Week 9 (Friday, October 23)
+- **Points**: 3
+- **Submit to**: Blackboard
+- **Submission**: By Project
+
+## Instructions
+
+Please submit **two documents**:
+
+**1. A formatted report shell containing:**
+
+- Your **revised** [Executive Summary](08-draft-executive-summary.qmd)
+- Your codebook and spreadsheet (screenshot) in Appendix III
+- A drafted [Introduction and Methods section](../guidelines/introduction-and-methods.qmd)
+
+*Hint: to make the Formatted Report Shell complete, add your project title and
+name where appropriate. See the
+[Footers and Section Breaks Guide](../guidelines/footers-and-section-breaks.qmd).*
+
+**2. Your spreadsheet in an Excel file.**
+
+## Files
+
+- [Formatted Report Shell](files/formatted-report-shell.docx) (Word)
+
+## Guidelines
+
+The following guideline applies to this assignment:
+
+- [Codebook and Spreadsheet Guide](../guidelines/codebook-and-spreadsheet.qmd) -- How to build a codebook and code your data in Excel.
+
+You can find all of the course guidelines on the
+[Guidelines](../guidelines/index.qmd) page.

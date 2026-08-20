@@ -1,0 +1,17 @@
+---
+title: "Project Application"
+subtitle: "Due Week 1 (Friday, August 28)"
+---
+
+- **Due**: Week 1 (Friday, August 28)
+- **Points**: 2
+- **Submit to**: Qualtrics link
+- **Submission**: By Individual
+
+::: {.callout-note title="To be posted"}
+Instructions for this assignment will be posted here before it is assigned.
+:::
+
+## Instructions
+
+*To be posted.*

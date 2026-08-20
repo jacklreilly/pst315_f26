@@ -1,0 +1,35 @@
+---
+title: "Final Presentation"
+subtitle: "Due Week 14 (Monday, November 30)"
+---
+
+- **Due**: Week 14 (Monday, November 30)
+- **Points**: 5
+- **Submit to**: Blackboard, and email to your UCA
+- **Submission**: By Project
+
+## Instructions
+
+Submit your presentation by **Monday night** of Week 14, in two places:
+
+- Upload it to Blackboard, **and**
+- Email it to your UCA.
+
+You must submit your presentation as a **PowerPoint attachment**. No PDFs, no
+OneDrive links, no Canva links, no Google Slides.
+
+Presentations are given **in class on the Tuesday after submission**.
+
+The template below outlines the required slides in your presentation. You can
+(and are encouraged to) use a different template.
+
+::: {.callout-tip title="Presenting to your client"}
+Some clients ask for a presentation of their own. This happens only if your
+client requests it, and a client presentation may have different requirements
+than the in-class presentation. Students who present to their client earn an
+extra **professionalism point**.
+:::
+
+## Files
+
+- [Presentation Template](files/presentation-template.pptx) (PowerPoint)

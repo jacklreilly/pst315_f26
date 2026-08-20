@@ -1,0 +1,129 @@
+---
+title: "Practice Report"
+subtitle: "Due Week 8 (Friday, October 16)"
+---
+
+- **Due**: Week 8 (Friday, October 16)
+- **Points**: 10
+- **Submit to**: Blackboard
+- **Submission**: By Individual
+
+::: {.callout-important}
+Start with the instructions, and **start this assignment early**. It will likely
+take longer than you think. If you have any questions, ask your UCA.
+:::
+
+## Instructions
+
+The practice report assignment is designed to allow you to practice putting
+together a PST 315 final report. You will complete all sections of a final report
+using the data and information provided.
+
+- A **Formatted Report Shell** is provided below. The report shell includes a title
+  page, headers for the start of each section, footers, and page numbers. You
+  just need to add the content of the report. Be careful you do not mess with the
+  formatting!
+- An **Excel spreadsheet** with data for you to use to craft the report is
+  posted on Blackboard.
+- Additional information needed to complete the assignment is broken down by
+  section on this page.
+
+## Files
+
+- [Formatted Report Shell](files/formatted-report-shell.docx) (Word)
+
+The **practice report data** (Excel) is posted on Blackboard.
+
+## About your "client" and the "data"
+
+You are completing this final report for Allie Ellen, President of the Skills Win
+Coaching Organization (SWCO). The Skills Win Coaching Organization's mission is to
+"enhance the professional skills of youth in the City of Syracuse, paving the way
+for career and personal success." If you wish, you can read more about SWCO on
+[their website](https://skillswin.syr.edu/).
+
+Each semester, SWCO conducts a series of skill development sessions, known as
+site sessions, at local high schools and community organizations. During the Fall
+2024 semester, these sessions were held at three sites: the Institute of
+Technology at Syracuse Central (ITC), the Public Service Leadership Academy at
+Fowler (PLSA@Fowler), and with the Syracuse Police Cadets. Allie has asked you to
+analyze the results of a student survey so that SWCO can better understand
+student satisfaction with these sessions.
+
+On November 4th, 2024, Allie distributed a survey she designed to students at all
+three sites. The form was closed the same day. The survey was created using
+Google Forms, and students accessed it by scanning a QR code. Responses were
+automatically recorded in Google Sheets and later downloaded into an Excel file,
+which is posted on Blackboard.
+
+On the day the survey was shared, 432 students were present across all three
+sites. SWCO's goal was to collect feedback from the approximately 457 students
+who participated in sessions that semester. Because Allie waited until the very
+end of each session to distribute the survey, some students rushed through their
+responses. Additionally, many students who were less engaged during the sessions
+were also not attentive when the QR code was displayed.
+
+## Section-by-section instructions
+
+### Title page
+
+Be sure that you fill out the title page! Don't lose these easy points.
+
+### Executive summary
+
+See the [Executive Summary Guide](../guidelines/executive-summary.qmd).
+
+### Introduction and methods
+
+See the [Introduction and Methods Guide](../guidelines/introduction-and-methods.qmd).
+
+### Findings
+
+See the [PST 315 Graphing Guidelines](../guidelines/graphing.qmd)
+and the [Findings Guide](../guidelines/findings.qmd). If you do not remember how
+to write findings statements, please refer back to class slides.
+
+You will complete three findings using the data set provided by the Skills Win
+Coaching Organization.
+
+**Finding 1 | Basic graphing.** Create a graph following the PST 315 graphing
+guidelines that answers the following question: did students find the coaches
+helpful, not helpful, or did they feel neutral?
+
+**Finding 2 | Aggregate graph.** Create a graph following the PST 315 graphing
+guidelines that answers the following question: how strongly did students from
+each site agree that the exercises were engaging?
+
+**Finding 3 | Open-ended question, single category.** Create a graph following
+the PST 315 graphing guidelines that answers the following question: what did
+students feel could be improved at their site sessions?
+
+::: {.callout-tip}
+Every aggregate graph should be accompanied by disaggregated graphs in Appendix
+V. Open-ended responses should be listed in Appendix IV.
+:::
+
+### Appendices
+
+See the [Appendices Guide](../guidelines/appendices.qmd). This report will
+require all five appendices -- your actual final report may not!
+
+### Formatting
+
+Ensure page numbers are correct and footers are filled out correctly. See the
+[Footers and Section Breaks Guide](../guidelines/footers-and-section-breaks.qmd).
+
+*Hint: refer to the UCA example reports on Blackboard if you are unsure what the
+formatting of any aspect of the report should look like.*
+
+## Guidelines
+
+The following guidelines apply to this assignment:
+
+- [Introduction and Methods Guide](../guidelines/introduction-and-methods.qmd) -- How to write the introduction and methods sections of your report.
+- [Findings Guide](../guidelines/findings.qmd) -- How to lay out a findings page: statement, graph, source, comment.
+- [Appendices Guide](../guidelines/appendices.qmd) -- What belongs in each of the five appendices.
+- [Footers and Section Breaks Guide](../guidelines/footers-and-section-breaks.qmd) -- How to edit footers, align page numbers, and delete section breaks.
+
+You can find all of the course guidelines on the
+[Guidelines](../guidelines/index.qmd) page.
