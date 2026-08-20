@@ -76,5 +76,5 @@ their due dates.
 
 : {tbl-colwidths="[62,19,19]"}
 
-*Items marked "—" are not separately graded; they count toward your
+*Items marked with an asterisk are not separately graded; they count toward your
 professionalism points.
