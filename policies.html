@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Wrangling and Visualization – Data Wrangling and Visualization</title>
+<title>Campus Policies – PST 315</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -36,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-960cc9eac5395d1658253b679c30d018.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d194d948db04b1ef1d5ad9c23ca2fa27.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><strong>Data Wrangling and Visualization</strong></span>
+    <span class="navbar-title"><strong>PST 315</strong></span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -88,30 +94,26 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./overview.html"> 
 <span class="menu-text">🏠 Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html"> 
-<span class="menu-text">📅 Schedule</span></a>
+    <a class="nav-link" href="./logistics.html"> 
+<span class="menu-text">📅 Logistics</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./assignments/index.html"> 
-<span class="menu-text">📚 Content</span></a>
+<span class="menu-text">📝 Assignments</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./problemsets/index.html"> 
-<span class="menu-text">📝 Assignments</span></a>
+    <a class="nav-link" href="./guidelines/index.html"> 
+<span class="menu-text">📗 Guidelines</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./policies.html" aria-current="page"> 
 <span class="menu-text">🏫 Policies</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ai.html"> 
-<span class="menu-text">🤖 AI &amp; LLMs</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -131,17 +133,13 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#campus-academic-resources-policies" id="toc-campus-academic-resources-policies" class="nav-link active" data-scroll-target="#campus-academic-resources-policies">Campus Academic Resources &amp; Policies</a>
   <ul class="collapse">
-  <li><a href="#academic-drop-deadline" id="toc-academic-drop-deadline" class="nav-link" data-scroll-target="#academic-drop-deadline">⚠️ Academic Drop Deadline</a></li>
   <li><a href="#academic-integrity" id="toc-academic-integrity" class="nav-link" data-scroll-target="#academic-integrity">📖 Academic Integrity</a></li>
   <li><a href="#artificial-intelligence" id="toc-artificial-intelligence" class="nav-link" data-scroll-target="#artificial-intelligence">🤖 Artificial Intelligence</a></li>
-  <li><a href="#academic-integrity-online" id="toc-academic-integrity-online" class="nav-link" data-scroll-target="#academic-integrity-online">💻 Academic Integrity Online</a></li>
-  <li><a href="#attendance-policy" id="toc-attendance-policy" class="nav-link" data-scroll-target="#attendance-policy">👤 Attendance Policy</a></li>
+  <li><a href="#disability-statement" id="toc-disability-statement" class="nav-link" data-scroll-target="#disability-statement">🤝 Disability Statement</a></li>
+  <li><a href="#discrimination-or-harassment" id="toc-discrimination-or-harassment" class="nav-link" data-scroll-target="#discrimination-or-harassment">🚫 Discrimination or Harassment</a></li>
+  <li><a href="#faith-tradition-observances" id="toc-faith-tradition-observances" class="nav-link" data-scroll-target="#faith-tradition-observances">🌐 Faith Tradition Observances</a></li>
+  <li><a href="#health-wellness-considerations" id="toc-health-wellness-considerations" class="nav-link" data-scroll-target="#health-wellness-considerations">🩺 Health &amp; Wellness Considerations</a></li>
   <li><a href="#blackboard" id="toc-blackboard" class="nav-link" data-scroll-target="#blackboard">🖼 Blackboard</a></li>
-  <li><a href="#discrimination-and-harassment" id="toc-discrimination-and-harassment" class="nav-link" data-scroll-target="#discrimination-and-harassment">🚫 Discrimination and Harassment</a></li>
-  <li><a href="#diversity" id="toc-diversity" class="nav-link" data-scroll-target="#diversity">🌍 Diversity</a></li>
-  <li><a href="#inclusion" id="toc-inclusion" class="nav-link" data-scroll-target="#inclusion">🤝 Inclusion</a></li>
-  <li><a href="#faith-and-religious-accommodations" id="toc-faith-and-religious-accommodations" class="nav-link" data-scroll-target="#faith-and-religious-accommodations">🌐 Faith and Religious Accommodations</a></li>
-  <li><a href="#health-and-wellness" id="toc-health-and-wellness" class="nav-link" data-scroll-target="#health-and-wellness">🩺 Health and Wellness</a></li>
   </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="policies.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="policies.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="policies.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></nav>
@@ -151,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Wrangling and Visualization</h1>
+<h1 class="title">Campus Policies</h1>
 </div>
 
 
@@ -170,62 +168,48 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="campus-academic-resources-policies" class="level1">
 <h1>Campus Academic Resources &amp; Policies</h1>
-<p>The following reflects the approved campus-wide academic policies of Syracuse University. For more information and detail, please consult the full documentation of University policies <a href="https://policies.syr.edu">here</a>.</p>
-<section id="academic-drop-deadline" class="level2">
-<h2 class="anchored" data-anchor-id="academic-drop-deadline">⚠️ Academic Drop Deadline</h2>
-<p>As part of our efforts to track satisfactory academic progress, the Academic Drop Deadline and the Financial Drop deadline will both occur on September 15, 2025, for the fall semester and February 2, 2026, for the spring semester. Students may still withdraw from courses after these deadlines; this would place a ‘WD’ grade on their transcripts. Students enrolled in “flex” classes (Flexibly formatted classes) have different deadlines and will need to check MySlice for the Academic and Financial Drop deadlines that pertains to their class.</p>
-</section>
+<p>The following reflects the approved campus-wide academic policies of Syracuse University. For more information and detail, please consult the full documentation of University policies at <a href="https://policies.syr.edu" class="uri">https://policies.syr.edu</a>.</p>
 <section id="academic-integrity" class="level2">
 <h2 class="anchored" data-anchor-id="academic-integrity">📖 Academic Integrity</h2>
-<p>As a pre-eminent and inclusive student-focused research institution, Syracuse University considers academic integrity at the forefront of learning, serving as a core value and guiding pillar of education. Syracuse University’s Academic Integrity Policy provides students with the necessary guidelines to complete academic work with integrity throughout their studies. Students are required to uphold both course-specific and university-wide academic integrity expectations such as crediting your sources, doing your own work, communicating honestly, and supporting academic integrity. The full <a href="https://policies.syr.edu/policies/academic-rules-student-responsibilities-and-services/academic-integrity-policy/">Syracuse University Academic Integrity Policy</a> can be viewed by visiting the <a href="https://policies.syr.edu/">Syracuse University Policies</a> website.</p>
-<p>Upholding Academic Integrity includes the protection of faculty’s intellectual property. Students should not upload, distribute, or share instructors’ course materials, including presentations, assignments, exams, or other evaluative materials without permission. Using websites that charge fees or require uploading of course material (e.g., Chegg, Course Hero) to obtain exam solutions or assignments completed by others, which are then presented as your own violates academic integrity expectations in this course and may be classified as a Level 3 violation. All academic integrity expectations that apply to in-person assignments, quizzes, and exams also apply online.</p>
-<p>Students found in violation of the policy are subject to grade sanctions determined by the course instructor and non-grade sanctions determined by the School or College where the course is offered. Students may not drop or withdraw from courses in which they face a suspected violation. Any established violation in this course may result in course failure regardless of violation level.</p>
+<p>As a preeminent and inclusive student-focused research institution, Syracuse University places academic integrity at the forefront of learning and considers it a core value and guiding pillar of education. The University’s <a href="https://policies.syr.edu/policies/academic-rules-student-responsibilities-and-services/academic-integrity-policy/">Academic Integrity Policy</a> provides guidelines for completing academic work with integrity. Students are required to meet both course-specific and University-wide academic integrity expectations, such as crediting your sources, doing your own work, communicating honestly, and supporting academic integrity.</p>
+<p>Upholding academic integrity includes the protection of faculty intellectual property. Students should not upload, distribute, or share an instructor’s course materials — including presentations, assignments, exams, or other evaluative materials — without permission. Using websites that charge fees or require uploading of course material (e.g., Chegg, Course Hero) to obtain exam solutions or assignments completed by others and presenting them as your own violates academic integrity expectations in this course and may be classified as a Level 3 violation. All academic integrity expectations that apply to in-person assignments, quizzes, and exams also apply online.</p>
+<p>Students found in violation of the policy are subject to grade sanctions determined by the course instructor and non-grade sanctions determined by the school or college offering the course. Students may not drop or withdraw from courses in which they face a suspected violation. Any established violation in this course may result in course failure regardless of violation level.</p>
 </section>
 <section id="artificial-intelligence" class="level2">
 <h2 class="anchored" data-anchor-id="artificial-intelligence">🤖 Artificial Intelligence</h2>
-<p>Based on the specific learning outcomes and assignments in this course, artificial intelligence is permitted on the following: all weekly assignments. Artificial intelligence is <em>not</em> permitted in tests and practicums. See each assignment, quiz, or exam instructions for more information about what artificial intelligence tools are permitted and to what extent, as well as citation requirements. If no instructions are provided for a specific assignment, then no use of any artificial intelligence tool is permitted. Any AI use beyond that which is detailed in course assignments is explicitly prohibited except when documented permission is granted.</p>
-<p>Please also see Syracuse University’s <a href="https://its.syr.edu/artificialintelligence/aiguidelines/">general campus AI policies here</a>.</p>
+<p>Based on the specific learning outcomes and assignments in this course, artificial intelligence is permitted on the following: <strong>spelling and grammar checking</strong>. See each assignment, quiz, or exam instructions for more information about which artificial intelligence tools are permitted and to what extent, as well as citation requirements. If no instructions are provided for a specific assignment, then no use of any artificial intelligence tool is permitted. Any AI use beyond what is detailed in course assignments is explicitly prohibited except when documented permission is granted.</p>
+<p>I, as the instructor, may use generative AI tools to help develop and check course materials. When I do, I take full responsibility for reviewing and verifying all AI-generated content to ensure it is accurate, appropriate, and aligned with our learning objectives. All course materials were originally written by my (or a UCA’s) hand and final materials represent my professional judgment about what will best support your learning.</p>
 </section>
-<section id="academic-integrity-online" class="level2">
-<h2 class="anchored" data-anchor-id="academic-integrity-online">💻 Academic Integrity Online</h2>
-<p>All academic integrity expectations that apply to in-person quizzes and exams also apply to online quizzes and exams. In this course, all work submitted for quizzes and exams must be yours alone. Discussing quiz or exam questions with anyone during the quiz or exam period violates academic integrity expectations for this course.</p>
-<p>Using websites that charge fees or require uploading of course material (e.g., Chegg, Course Hero) to obtain exam solutions or assignments completed by others and present the work as your own violates academic integrity expectations in this course and may be classified as a Level 3 violation, resulting in suspension or expulsion from Syracuse University.</p>
+<section id="disability-statement" class="level2">
+<h2 class="anchored" data-anchor-id="disability-statement">🤝 Disability Statement</h2>
+<p>Syracuse University values diversity and inclusion and is committed to a climate of mutual respect and full participation. There may be aspects of the instruction or design of this course that result in barriers to your inclusion and full participation. I invite students to meet with me to discuss strategies and/or accommodations (academic adjustments) that may be essential to your success, in collaboration with the <strong>Center for Disability Resources (CDR)</strong>.</p>
+<p>To discuss disability accommodations or register with CDR, visit <a href="https://disabilityresources.syr.edu" class="uri">https://disabilityresources.syr.edu</a>, or contact the center at 315.443.4498 or <a href="mailto:disabilityresources@syr.edu" class="email">disabilityresources@syr.edu</a> for more detailed information. CDR is responsible for coordinating disability-related academic accommodations and will work with you to develop an access plan. Since accommodations may require early planning and generally are not provided retroactively, please contact CDR as soon as possible.</p>
 </section>
-<section id="attendance-policy" class="level2">
-<h2 class="anchored" data-anchor-id="attendance-policy">👤 Attendance Policy</h2>
-<p>Attendance in classes is expected in all courses at Syracuse University. It is a federal requirement that faculty promptly notify the university of students who do not attend or cease to attend any class. Faculty will use Early-Semester Progress Reports and Mid-Semester Progress Reports in Orange SUccess to alert the Registrar and Financial Aid Office on non-attendance. For more information visit:</p>
-<p><a href="http://registrar.syr.edu/faculty-staff/non-attendance/">Faculty: Information for Faculty: Non-attendance or Stopped Attending</a> <a href="http://registrar.syr.edu/students/non-attendance/">Students: Information for Students: Non-attendance or Stopped Attending</a></p>
-<p>If a student is unable to participate in-person or virtually for an extended period of time (48 hours or more), the student may request an absence notification from their home school/college Dean’s Office or through Student Outreach and Support office. Instructors will be notified via the “Absence Notification” flag in Orange SUccess.</p>
-<p>Barnes Center at the Arch (Health, Counseling, etc.) staff will not provide medical excuse notes for students. When Barnes Center staff determine it is medically necessary to remove a student from classes, they will coordinate with Student Outreach and Support case management staff to provide appropriate notification to faculty through Orange Success. For absences lasting less than 48 hours, students are encouraged to discuss academic arrangements directly with their faculty.</p>
-<p>Additional information may be found at <a href="https://experience.syracuse.edu/student-outreach/student-support/absence-notifications/">Student Outreach and Support: Absence Notifications</a>.</p>
+<section id="discrimination-or-harassment" class="level2">
+<h2 class="anchored" data-anchor-id="discrimination-or-harassment">🚫 Discrimination or Harassment</h2>
+<p>Syracuse University does not discriminate and prohibits harassment or discrimination related to any protected category including creed, ethnicity, citizenship status, reproductive health decisions, national origin, sex, gender, pregnancy, disability, marital status, age, race, color, veteran status, military status, religion, sexual orientation, domestic violence status, genetic information, gender identity and/or gender expression, shared common ancestry, or any other status protected by applicable law.</p>
+<p>Any complaint of discrimination or harassment related to any of these protected bases should be reported to Sheila Johnson-Willis, associate vice president and chief equal opportunity and Title IX officer in the Office of Equal Opportunity, Inclusion, and Resolution Services (621 Skytop Road, Suite 1001, Syracuse, NY 13244; <a href="mailto:equalopp@syr.edu" class="email">equalopp@syr.edu</a>; 315.443.4018). She is responsible for coordinating compliance efforts under various laws including Titles VI, VII, IX and Section 504 of the Rehabilitation Act.</p>
+</section>
+<section id="faith-tradition-observances" class="level2">
+<h2 class="anchored" data-anchor-id="faith-tradition-observances">🌐 Faith Tradition Observances</h2>
+<p><a href="https://policies.syr.edu/policies/university-governance-ethics-integrity-and-legal-compliance/religious-observances-policy/">Syracuse University’s Religious Observances Policy</a> recognizes the diversity of faiths represented in the campus community and protects the rights of students, faculty, and staff to observe religious holy days according to their traditions. Under the policy, students are given an opportunity to make up any examination, study, or work requirements that may be missed due to a religious observance, provided they notify their instructors no later than the academic drop deadline. For any observances occurring before the academic drop deadline, students must notify faculty at least two academic days in advance. Students register their observances using MySlice.</p>
+</section>
+<section id="health-wellness-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="health-wellness-considerations">🩺 Health &amp; Wellness Considerations</h2>
+<p>All of us need a support system, and many students benefit from the use of counseling services. Your well-being and mental health are important to me, to your academic success, and to your ability to thrive at Syracuse University.</p>
+<p>The Barnes Center at the Arch, located at 150 Sims Drive on the South End of campus near the JMA Wireless Dome, works with students to identify and address issues related to personal growth, self-confidence, anxiety, depression, eating disorders, academic difficulties, and career indecision. Visit <a href="https://ese.syr.edu/bewell" class="uri">https://ese.syr.edu/bewell</a> to see the range of available resources. Syracuse University provides counseling services to students at no cost, available 24/7, 365 days, by calling 315.443.8000.</p>
 </section>
 <section id="blackboard" class="level2">
 <h2 class="anchored" data-anchor-id="blackboard">🖼 Blackboard</h2>
-<p>This class will use the Blackboard Learning Management to house the syllabus, course content, links to external course materials, assignments, quizzes, exams, feedback, and grades. Due dates and times in Blackboard are stored in Coordinated Universal Time (UTC) and displayed for each user based on the time zone setting of their computer and data from their internet browser. The system will always display the time zone being used. If an instructor sets a due date of 11pm Eastern time, a student in the Pacific time zone will see a due date of 8pm.”</p>
-<p>Information about Blackboard is available on <a href="https://su-jsm.atlassian.net/wiki/x/zcUzCQ">Answers Blackboard</a>; alternatively, you can contact Information Technology Services by sending an email to <a href="mailto:help@syr.edu" class="email">help@syr.edu</a>, calling 315.443.2677, or in-person at the ITS Service Center, located at 1-227 CST in the Life Sciences Complex. Business hours for the Service Center can be found on the <a href="http://its.syr.edu/its_service_center">ITS website</a>.</p>
-</section>
-<section id="discrimination-and-harassment" class="level2">
-<h2 class="anchored" data-anchor-id="discrimination-and-harassment">🚫 Discrimination and Harassment</h2>
-<p>The University does not discriminate and prohibits harassment or discrimination related to any protected category including creed, ethnicity, citizenship, sexual orientation, national origin, sex, gender, pregnancy, reproductive health decisions, disability, marital status, political or social affiliation, age, race, color, veteran status, military status, religion, sexual orientation, domestic violence status, genetic information, gender identity, gender expression or perceived gender.</p>
-<p>Any complaint of discrimination or harassment related to any of these protected bases should be reported to Sheila Johnson-Willis, the University’s Chief Equal Opportunity &amp; Title IX Officer for Faculty and Staff. She is responsible for coordinating compliance efforts under the various laws including Titles VI, VII, IX and Section 504 of the Rehabilitation Act. She can be contacted at Equal Opportunity, Inclusion, and Resolution Services, 621 Skytop Road, Suite 1001, Syracuse University, Syracuse, NY 13244-1120; or by email: <a href="mailto:equalopp@syr.edu" class="email">equalopp@syr.edu</a>; or by telephone: 315-443-4018.</p>
-</section>
-<section id="diversity" class="level2">
-<h2 class="anchored" data-anchor-id="diversity">🌍 Diversity</h2>
-<p>It is the intent of this course for students from all diverse backgrounds and perspectives to be well served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength, and benefit. It is also critical to present materials and activities that are respectful of diversity: gender, sexuality, disability, age, socioeconomic status, ethnicity, race, and culture. Your suggestions are encouraged and appreciated. Please let your instructor know ways to improve the effectiveness of the course for you personally or for other students or student groups.</p>
-</section>
-<section id="inclusion" class="level2">
-<h2 class="anchored" data-anchor-id="inclusion">🤝 Inclusion</h2>
-<p>Syracuse University values diversity and inclusion; we are committed to a climate of mutual respect and full participation. There may be aspects of the instruction or design of this course that result in barriers to your inclusion and full participation in this course. I invite any student to contact me to discuss strategies and/or accommodations (academic adjustments) that may be essential to your success and to collaborate with the <strong>Center for Disability Resources (CDR)</strong> in this process.</p>
-<p>If you would like to discuss disability accommodations or register with CDR, please visit the Center for Disability Resources. Call (315) 443-4498 or email <a href="mailto:disabilityresources@syr.edu" class="email">disabilityresources@syr.edu</a> for more information.</p>
-<p>The CDR is responsible for coordinating disability-related academic accommodations and will work with the student to develop an access plan. Since academic accommodations may require early planning and generally are not provided retroactively, please contact CDR as soon as possible.</p>
-</section>
-<section id="faith-and-religious-accommodations" class="level2">
-<h2 class="anchored" data-anchor-id="faith-and-religious-accommodations">🌐 Faith and Religious Accommodations</h2>
-<p><a href="https://policies.syr.edu/policies/university-governance-ethics-integrity-and-legal-compliance/religious-observances-policy/">Syracuse University’s Religious Observances Policy</a> recognizes the diversity of faiths represented in the campus community and protects the rights of students, faculty, and staff to observe religious holy days according to their traditions. Under the policy, students are given an opportunity to make up any examination, study, or work requirements that may be missed due to a religious observance, provided they notify their instructors no later than the academic drop deadline. For observances occurring before the drop deadline, notification is required at least two academic days in advance. Students may enter their observances in MySlice under Student Services/Enrollment/My Religious Observances/Add a Notification.</p>
-</section>
-<section id="health-and-wellness" class="level2">
-<h2 class="anchored" data-anchor-id="health-and-wellness">🩺 Health and Wellness</h2>
-<p>Well-being and mental health are significant predictors of academic success. It is critical to take care of yourself physically and emotionally and to effectively navigate stress, anxiety, and depression. Please familiarize yourself with the range of resources the Barnes Center provides <a href="https://ese.syr.edu/bewell/" class="uri">https://ese.syr.edu/bewell/</a> and seek out support for mental health concerns as needed. Counseling services are available 24/7, 365 days, at 315-443-8000.</p>
+<p>This course uses the Blackboard Learning Management System. You can access Blackboard at <a href="https://blackboard.syr.edu" class="uri">https://blackboard.syr.edu</a>. Use your NetID and password to log in. Through Blackboard, you will be able to:</p>
+<ul>
+<li>Access course materials, assignments, and resources</li>
+<li>Submit assignments</li>
+<li>View grades and feedback</li>
+<li>Participate in course discussions</li>
+<li>Communicate with your instructor and classmates</li>
+</ul>
+<p>For technical assistance with Blackboard, contact the ITS Service Center at 315.443.2677 or <a href="mailto:help@syr.edu" class="email">help@syr.edu</a>.</p>
 
 
 </section>
@@ -283,13 +267,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -304,7 +289,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jacklreilly\.github\.io\/dwv_f25\/");
+        var filterRegex = new RegExp("https:\/\/jacklreilly\.github\.io\/pst315_f26\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -635,7 +620,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Jack Reilly<br> <a href="mailto:jlreilly@syr.edu">Contact</a></p>
+<p>© 2026 Jack Reilly<br> <a href="mailto:jlreilly@syr.edu">Contact</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

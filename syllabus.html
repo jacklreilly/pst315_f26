@@ -2,18 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Prof.&nbsp;Jack Reilly">
 
-<title>PAI 400/600: Data Wrangling and Visualization – **Data Wrangling and Visualization**</title>
+<title>PST 315: Methods of Policy Analysis and Presentation – PST 315</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -37,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-960cc9eac5395d1658253b679c30d018.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d194d948db04b1ef1d5ad9c23ca2fa27.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><strong>Data Wrangling and Visualization</strong></span>
+    <span class="navbar-title"><strong>PST 315</strong></span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -89,30 +95,26 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./overview.html"> 
 <span class="menu-text">🏠 Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html"> 
-<span class="menu-text">📅 Schedule</span></a>
+    <a class="nav-link" href="./logistics.html"> 
+<span class="menu-text">📅 Logistics</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./assignments/index.html"> 
-<span class="menu-text">📚 Content</span></a>
+<span class="menu-text">📝 Assignments</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./problemsets/index.html"> 
-<span class="menu-text">📝 Assignments</span></a>
+    <a class="nav-link" href="./guidelines/index.html"> 
+<span class="menu-text">📗 Guidelines</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./policies.html"> 
 <span class="menu-text">🏫 Policies</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ai.html"> 
-<span class="menu-text">🤖 AI &amp; LLMs</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -134,59 +136,52 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#class" id="toc-class" class="nav-link" data-scroll-target="#class">Class</a></li>
   <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor</a></li>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course Description</a></li>
-  <li><a href="#expanded-description" id="toc-expanded-description" class="nav-link" data-scroll-target="#expanded-description">Expanded Description</a></li>
+  <li><a href="#undergraduate-course-assistants" id="toc-undergraduate-course-assistants" class="nav-link" data-scroll-target="#undergraduate-course-assistants">Undergraduate Course Assistants</a></li>
+  </ul></li>
+  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course Description</a>
+  <ul class="collapse">
   <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
   <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
   </ul></li>
-  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a>
+  <li><a href="#required-materials" id="toc-required-materials" class="nav-link" data-scroll-target="#required-materials">Required Materials</a>
   <ul class="collapse">
-  <li><a href="#books" id="toc-books" class="nav-link" data-scroll-target="#books">Books</a></li>
-  <li><a href="#computing" id="toc-computing" class="nav-link" data-scroll-target="#computing">Computing</a></li>
+  <li><a href="#microsoft-office" id="toc-microsoft-office" class="nav-link" data-scroll-target="#microsoft-office">Microsoft Office</a></li>
   <li><a href="#online-course-resources" id="toc-online-course-resources" class="nav-link" data-scroll-target="#online-course-resources">Online Course Resources</a></li>
   </ul></li>
-  <li><a href="#course-requirements" id="toc-course-requirements" class="nav-link" data-scroll-target="#course-requirements">Course Requirements</a>
+  <li><a href="#course-schedule" id="toc-course-schedule" class="nav-link" data-scroll-target="#course-schedule">Course Schedule</a></li>
+  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a>
   <ul class="collapse">
-  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#attendance" id="toc-attendance" class="nav-link" data-scroll-target="#attendance">Attendance</a></li>
-  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
-  <li><a href="#practicum" id="toc-practicum" class="nav-link" data-scroll-target="#practicum">Practicum</a></li>
-  <li><a href="#core-exam" id="toc-core-exam" class="nav-link" data-scroll-target="#core-exam">Core Exam</a></li>
-  <li><a href="#final-project" id="toc-final-project" class="nav-link" data-scroll-target="#final-project">Final Project</a></li>
+  <li><a href="#major-assignment-overview" id="toc-major-assignment-overview" class="nav-link" data-scroll-target="#major-assignment-overview">Major Assignment Overview</a></li>
+  <li><a href="#group-projects" id="toc-group-projects" class="nav-link" data-scroll-target="#group-projects">Group Projects</a></li>
   </ul></li>
-  <li><a href="#course-expectations-guidelines" id="toc-course-expectations-guidelines" class="nav-link" data-scroll-target="#course-expectations-guidelines">Course Expectations &amp; Guidelines</a>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation">Evaluation</a>
   <ul class="collapse">
-  <li><a href="#etiquette-decorum" id="toc-etiquette-decorum" class="nav-link" data-scroll-target="#etiquette-decorum">Etiquette &amp; Decorum</a></li>
-  <li><a href="#office-consultation-hours-appointments" id="toc-office-consultation-hours-appointments" class="nav-link" data-scroll-target="#office-consultation-hours-appointments">Office &amp; Consultation Hours, Appointments</a></li>
-  <li><a href="#e-mail" id="toc-e-mail" class="nav-link" data-scroll-target="#e-mail">E-mail</a></li>
-  <li><a href="#course-schedule" id="toc-course-schedule" class="nav-link" data-scroll-target="#course-schedule">Course Schedule</a>
+  <li><a href="#professionalism" id="toc-professionalism" class="nav-link" data-scroll-target="#professionalism">Professionalism</a>
   <ul class="collapse">
-  <li><a href="#advanced-topics-if-we-have-time" id="toc-advanced-topics-if-we-have-time" class="nav-link" data-scroll-target="#advanced-topics-if-we-have-time">Advanced Topics <em>(if we have time)</em></a></li>
+  <li><a href="#how-to-gain-and-lose-professionalism-points" id="toc-how-to-gain-and-lose-professionalism-points" class="nav-link" data-scroll-target="#how-to-gain-and-lose-professionalism-points">How to Gain and Lose Professionalism Points</a></li>
   </ul></li>
+  <li><a href="#late-assignment-policy" id="toc-late-assignment-policy" class="nav-link" data-scroll-target="#late-assignment-policy">Late Assignment Policy</a></li>
+  <li><a href="#grading-scale" id="toc-grading-scale" class="nav-link" data-scroll-target="#grading-scale">Grading Scale</a></li>
   </ul></li>
   <li><a href="#campus-academic-resources-policies" id="toc-campus-academic-resources-policies" class="nav-link" data-scroll-target="#campus-academic-resources-policies">Campus Academic Resources &amp; Policies</a>
   <ul class="collapse">
-  <li><a href="#academic-drop-deadline" id="toc-academic-drop-deadline" class="nav-link" data-scroll-target="#academic-drop-deadline">⚠️ Academic Drop Deadline</a></li>
   <li><a href="#academic-integrity" id="toc-academic-integrity" class="nav-link" data-scroll-target="#academic-integrity">📖 Academic Integrity</a></li>
   <li><a href="#artificial-intelligence" id="toc-artificial-intelligence" class="nav-link" data-scroll-target="#artificial-intelligence">🤖 Artificial Intelligence</a></li>
-  <li><a href="#academic-integrity-online" id="toc-academic-integrity-online" class="nav-link" data-scroll-target="#academic-integrity-online">💻 Academic Integrity Online</a></li>
-  <li><a href="#attendance-policy" id="toc-attendance-policy" class="nav-link" data-scroll-target="#attendance-policy">👤 Attendance Policy</a></li>
+  <li><a href="#disability-statement" id="toc-disability-statement" class="nav-link" data-scroll-target="#disability-statement">🤝 Disability Statement</a></li>
+  <li><a href="#discrimination-or-harassment" id="toc-discrimination-or-harassment" class="nav-link" data-scroll-target="#discrimination-or-harassment">🚫 Discrimination or Harassment</a></li>
+  <li><a href="#faith-tradition-observances" id="toc-faith-tradition-observances" class="nav-link" data-scroll-target="#faith-tradition-observances">🌐 Faith Tradition Observances</a></li>
+  <li><a href="#health-wellness-considerations" id="toc-health-wellness-considerations" class="nav-link" data-scroll-target="#health-wellness-considerations">🩺 Health &amp; Wellness Considerations</a></li>
   <li><a href="#blackboard" id="toc-blackboard" class="nav-link" data-scroll-target="#blackboard">🖼 Blackboard</a></li>
-  <li><a href="#discrimination-and-harassment" id="toc-discrimination-and-harassment" class="nav-link" data-scroll-target="#discrimination-and-harassment">🚫 Discrimination and Harassment</a></li>
-  <li><a href="#diversity" id="toc-diversity" class="nav-link" data-scroll-target="#diversity">🌍 Diversity</a></li>
-  <li><a href="#inclusion" id="toc-inclusion" class="nav-link" data-scroll-target="#inclusion">🤝 Inclusion</a></li>
-  <li><a href="#faith-and-religious-accommodations" id="toc-faith-and-religious-accommodations" class="nav-link" data-scroll-target="#faith-and-religious-accommodations">🌐 Faith and Religious Accommodations</a></li>
-  <li><a href="#health-and-wellness" id="toc-health-and-wellness" class="nav-link" data-scroll-target="#health-and-wellness">🩺 Health and Wellness</a></li>
   </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="syllabus.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="syllabus.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="syllabus.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="syllabus.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="syllabus.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">PAI 400/600: Data Wrangling and Visualization</h1>
+<h1 class="title">PST 315: Methods of Policy Analysis and Presentation</h1>
 <p class="subtitle lead">Course Syllabus</p>
 </div>
 
@@ -194,11 +189,17 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Prof.&nbsp;Jack Reilly </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">F2025</p>
+      <p class="date">F2026</p>
     </div>
   </div>
   
@@ -214,164 +215,420 @@ ul.task-list li input[type="checkbox"] {
 <h1>Course Information</h1>
 <section id="class" class="level2">
 <h2 class="anchored" data-anchor-id="class">Class</h2>
-<p><strong>Time</strong>: Tuesdays and Thursday, 2:00 PM - 3:20 PM</p>
-<p><strong>Location</strong>: Eggers 225B</p>
+<p><strong>Time</strong>: Tuesdays, 3:30 PM – 6:15 PM</p>
+<p><strong>Location</strong>: HB Crouse Hall, Kittredge Auditorium</p>
 </section>
 <section id="instructor" class="level2">
 <h2 class="anchored" data-anchor-id="instructor">Instructor</h2>
 <p><strong>Professor Jack Reilly</strong></p>
-<p><strong>Office</strong>: Eggers 225F</p>
-<p><strong>Office Hours</strong>: Tuesday and Thursday, 11 AM - Noon (drop in) and by appointment.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-<p><strong>Zoom Hours</strong>: Friday, 1-3 (<a href="https://jacklreilly.github.io/appointments.html">schedule online</a>)</p>
-<p><strong>Phone</strong>: 315-443-2687 (office)</p>
+<p><strong>Office</strong>: Eggers 225F (in the Policy Studies suite)</p>
+<p><strong>Office Hours</strong>: Friday, 1:00 – 3:00 PM, and <a href="https://jacklreilly.github.io/appointments.html">by appointment</a></p>
 <p><strong>e-mail</strong>: <a href="mailto:jlreilly@syr.edu" class="email">jlreilly@syr.edu</a></p>
 </section>
-<section id="course-description" class="level2">
-<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>Every step in policymaking relies on data. This course introduces students to data management, wrangling, communication, and visualization in the context of public policy, public administration, and behavioral science as well as the technical tools necessary to do such work in an open and reproducible fashion.</p>
+<section id="undergraduate-course-assistants" class="level2">
+<h2 class="anchored" data-anchor-id="undergraduate-course-assistants">Undergraduate Course Assistants</h2>
+<p>Your Undergraduate Course Assistant (UCA) is your supervisor for the semester and your first point of contact for questions about the course and your project.</p>
 </section>
-<section id="expanded-description" class="level2">
-<h2 class="anchored" data-anchor-id="expanded-description">Expanded Description</h2>
-<p>Data preprocessing, wrangling, and management often consumes a large fraction of the time spent doing quantitative data analysis in public administration, public policy, and behavioral science research. Yet these topics frequently do not receive regular attention in methodological courses that focus on statistical inference. This class introduces students to the technical tools necessary to do these tasks in an open and reproducible fashion suitable for modern computational data workflows in the public sector. Throughout the course of the semester, students will learn the principles and practice of conducting reproducible quantitative research, including readable programming and coding, version control, methods of documentation, data storage, workflow management, and exploratory data visualization. A variety of relevant open technical software tools will be introduced and used, including but not limited to R (and RStudio), git (and github), markdown, and a variety of helper programs to tie things together. Special attention will be paid to data frequently used in public policy, public administration, and behavioral science.</p>
 </section>
+<section id="course-description" class="level1">
+<h1>Course Description</h1>
+<p>The purpose of this experiential-learning methods course is to teach you how to write a professional report, characteristic of a nonprofit, academic, or government agency. This course will help improve your research sophistication and understanding of social science research and will further your skills in the Microsoft Office suite. The instructor will lecture, hold discussions, and administer trainings in class, and students will be responsible for completing assignments by applying taught skills.</p>
+<p>During our class, you will be assigned a client based on your interests. You will be acting as a research consultant to your assigned client, your Undergraduate Course Assistant will act as your supervisor, and the professor will act as the CEO. You will spend approximately 90 hours developing surveys, collecting and analyzing data, giving and receiving feedback, and creating a report for your client. Your goal is to satisfy the client and meet the standards of conduct and performance set by the supervisors and CEO.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Chain of Command
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Direct any questions about expectations first to your supervisor — that is, your UCA. They will elevate them as needed.</p>
+</div>
+</div>
 <section id="prerequisites" class="level2">
 <h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<p>No formal pre-requisites. It is assumed you have either previously taken or are currently enrolled in an “Introduction to Statistics” or “Quantitative Methods” class (ie, PAI 721 or MAX 201), and are conversant enough in statistics to be able to work with concepts like “mean” and “standard deviation”.</p>
-<p>While this course has no <em>formal</em> pre-requisites, it does have a substantial <em>informal</em> prerequisite: <strong>motivation</strong>. Learning a programming langauge is challenging work, and students must be prepared to invest the appropriate time, energy, effort, and - <em>above all</em> - patience.</p>
+<p>PST 101, MAX 201, and admittance to the Policy Studies major.</p>
 </section>
 <section id="learning-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
 <ol type="1">
-<li>Demonstrate capability in open science and contemporary reproducible data processing, wrangling, and management tools</li>
-<li>Apply appropriate principles of data and file management to data projects</li>
-<li>Evaluate the credibility and clarity of data visualizations</li>
-<li>Create effective, reproducible, and well designed data visualizations with appropriate tools</li>
-<li>Analyze large-N datasets commonly used in public policy and behavioral science</li>
+<li>Frame a research question and define a research scope</li>
+<li>Gather information and data from a variety of sources</li>
+<li>Judge sources’ credibility, authority, relevance, bias, and accuracy</li>
+<li>Calculate results, support arguments, and draw conclusions</li>
+<li>Demonstrate software and technology proficiency</li>
+<li>Present conclusions or data visually, clearly, and succinctly</li>
 </ol>
 </section>
 </section>
-<section id="materials" class="level1">
-<h1>Materials</h1>
-<section id="books" class="level2">
-<h2 class="anchored" data-anchor-id="books">Books</h2>
-<ul>
-<li>Required:
-<ul>
-<li>Weidmann, Nils. <em>Data Management for Social Scientists</em>. Open access: <a href="https://doi.org/10.1017/9781108990424" class="uri">https://doi.org/10.1017/9781108990424</a></li>
-<li>Healy, Kieran. <em>Data Visualization: A Practical Introduction</em>. Open access: <a href="https://socviz.co" class="uri">https://socviz.co</a></li>
-</ul></li>
-<li>Recommended: A book on R programming or data wrangling
-<ul>
-<li><em>Recommended:</em> Braun &amp; Murdoch, <em>A First Course in Statistical Programming</em>, 3rd Edition. <em>Purchase links:</em> <a href="https://doi.org/10.1017/9781108993456">cambridge</a> <a href="https://www.amazon.com/First-Course-Statistical-Programming/dp/1108995144">amazon</a></li>
-<li><em>Other options:</em>
-<ul>
-<li>Freeman &amp; Ross, <em>Programming Skills for Data Science</em></li>
-<li>Hadley Wickham, Garrett Grolemund, and Mine Çetinkaya-Rundel, <em>R for Data Science: Import, Tidy, Transform, Visualize, and Model Data</em>, 2nd ed.&nbsp;<a href="https://r4ds.hadley.nz" class="uri">https://r4ds.hadley.nz</a>.</li>
-</ul></li>
-</ul></li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-A Programming Book
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>There are, in essence, three kinds of books that are useful for the class - a book on data management, a book on data visualization, and a book on data programming. For the first two, I’ve required the open access books by Weidmann and Healy (<strong>DMSS</strong> and <strong>DV</strong>, respectively). For the third, you have options. I recommend Braun and Murdoch (<strong>FCSP</strong>), which is a good general overview of the R language from a statistical programming perspecitve. Freeman &amp; Ross (<strong>PSDS</strong>) is a more general introduction to the overall data science technical environment, and Wickham et al (<strong>RDS</strong>) has the advantage of being open access (always useful). <strong>PSDS</strong>, however, doesn’t have as detailed information on actual programming in it, and <strong>RDW</strong> but is primarily focused on the tidyverse, which our course is not exclusively focused on. We will cover all programming and scripting content in class, so the book you choose for background reference is up to you, but you will find it valuable to have one.</p>
-</div>
-</div>
-</section>
-<section id="computing" class="level2">
-<h2 class="anchored" data-anchor-id="computing">Computing</h2>
-<p>You will need access to a personal computer for this class. It will need to run a full operating system, where you have the ability to install local applications outside of app stores and have access to the command line. MacOS, Windows, and Linux are all fine. Tablet or web-book OSes - like Chromebooks or iPads - won’t be sufficient. Aside from the computer, all significant software we use will be free/open-source, and we’ll cover usage and installation in class.</p>
+<section id="required-materials" class="level1">
+<h1>Required Materials</h1>
+<p>Computer access with Microsoft Office. <strong>No textbooks are required.</strong></p>
+<section id="microsoft-office" class="level2">
+<h2 class="anchored" data-anchor-id="microsoft-office">Microsoft Office</h2>
+<p>As a current student, you can use your SU student electronic account to download and install Office 365 applications (including Word, Excel, and PowerPoint) on up to five computers (PC and Mac) and five mobile devices (iPhone, iPad, Android). Students should download Microsoft Word, Excel, and PowerPoint in the first week of class.</p>
+<p>While you can technically use Office on mobile devices, you should use a full computer (Mac or PC) for data analysis in the class. The mobile versions of the applications are not feature complete.</p>
 </section>
 <section id="online-course-resources" class="level2">
 <h2 class="anchored" data-anchor-id="online-course-resources">Online Course Resources</h2>
-<p>Blackboard is our internet-based course platform: <a href="http://blackboard.syr.edu" class="uri">http://blackboard.syr.edu</a>. In it, you will find submission portals for assignments and a link to the <a href="https://jacklreilly.github.io/dwv_f25/">course webpage</a>, where you can find the course syllabus, problem sets, and links to readings.</p>
-<p>You can also link to our <a href="https://sumailsyr-my.sharepoint.com/:f:/g/personal/jlreilly_syr_edu/EoZ9P8tT-JBLjEHb1XzVqnMBVwBozLfeD0XJm2yoDzTPJw">course drive here</a>, which contains lecture slides, data sets, and some other useful things for the class.</p>
-<p>Please note that class attendance is the primary source of course-related announcements and material.</p>
+<p>Blackboard is our internet-based course platform: <a href="https://blackboard.syr.edu" class="uri">https://blackboard.syr.edu</a>. Log in with your NetID and password. Nearly all assignments are submitted through Blackboard; the Project Application is submitted through a Qualtrics link instead.</p>
+<p>This website holds the course syllabus, schedule, and assignment descriptions. Please note that class attendance is the primary source of course-related announcements and material.</p>
 </section>
 </section>
-<section id="course-requirements" class="level1">
-<h1>Course Requirements</h1>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Satisfactory completion of the course requires completion of the following:</p>
-<ul>
-<li>Regular course participation and attendance (10%)</li>
-<li>Weekly Assignments (30%)</li>
-<li>Practicum (Take Home) (15%)</li>
-<li>Core Exam (In Class) (15%)</li>
-<li>Final Project (30%)</li>
-</ul>
-</section>
-<section id="attendance" class="level2">
-<h2 class="anchored" data-anchor-id="attendance">Attendance</h2>
-<p>One of the guiding principles of my class is that you are adults, and thus, capable of managing your own time. I have little interest in policing your lives. Attendance is kept for each day of class, but you will lose no points on attendance if you happen to miss a couple days: everyone has things that occasionally come up in life that need to be dealt with, and I fully realize that some of those things are things you - very understandably - may not want to discuss with your professor. <em>That’s OK!</em></p>
-<p>That said, attendance in class is an important element to doing well in the course. If you must miss more than a couple days, it’s a good idea to check in with me so that I don’t mark you off for chronic absenteeism. The easiest way to do this is just email me with a brief reason when something comes up and you have to miss class (which will also allow me to tell you if you’re missing anything particularly important).</p>
-<p>If you must miss class, the way to make up what you’ve missed is straightforward: make sure to look over the posted material, do the reading, get notes from a friend, and still complete the assignment if you are able (and make sure to look over any assignment solutions). If you do these things and still feel like you’re missing something, please feel free to come into my office hours and we can talk it through.</p>
+<section id="course-schedule" class="level1">
+<h1>Course Schedule</h1>
+<p>Class meets Tuesdays. <strong>Assignments and responsibilities are due Friday</strong> of the week listed, with one exception: the <a href="./assignments/15-final-presentation.html">Final Presentation</a> is submitted by <strong>Monday night</strong> of Week 14 and presented in class the next day.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Week</th>
+<th>Main Topic</th>
+<th>Due</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Course Intro</td>
+<td><a href="./assignments/01-project-application.html">Project Application</a></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Working With Clients</td>
+<td><a href="./assignments/02-client-email.html">Client Email</a></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Client Meeting (No Class)</td>
+<td><a href="./assignments/03-first-client-meeting.html">First Client Meeting</a></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Individual Meetings</td>
+<td><a href="./assignments/04-contract-timeline.html">Finalized Contract/Timeline</a>, <a href="./assignments/05-second-client-meeting.html">Second Client Meeting</a></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Data &amp; Surveys</td>
+<td><a href="./assignments/06-organizational-assessment.html">Organizational Assessment</a>, <a href="./assignments/07-weekly-task-plan.html">Weekly Task Plan</a></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Excel &amp; Coding</td>
+<td><a href="./assignments/08-draft-executive-summary.html">Draft Executive Summary</a>, <a href="./assignments/09-excel-coding-workshop.html">Excel Coding Workshop</a></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Graphing &amp; Methods</td>
+<td><a href="./assignments/10-excel-graphing-workshop.html">Excel Graphing Workshop</a></td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Fall Break</td>
+<td><a href="./assignments/11-practice-report.html">Practice Report</a></td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Individual Meetings</td>
+<td><a href="./assignments/12-formatted-report-shell.html">Formatted Report Shell</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Work Time</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Professional Materials</td>
+<td><a href="./assignments/13-rough-draft.html">Rough Draft</a></td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Individual Meetings</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Presenting Your Work</td>
+<td><a href="./assignments/14-final-report.html">Final Report</a></td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Student Presentations</td>
+<td><a href="./assignments/15-final-presentation.html">Final Presentation</a></td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Wrap-Up</td>
+<td><a href="./assignments/16-professional-materials.html">Professional Materials</a>, <a href="./assignments/17-final-reflection.html">Final Reflection</a></td>
+</tr>
+</tbody>
+</table>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Participation
+<span class="screen-reader-only">Note</span>Subscribe to the Class Calendar
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>There is no formal grade for “participation”. However, I reserve the right to dock a couple points here if you do ridiculous/unprofessional things in class (like answering your cell phone, always coming in late and regularly distracting others, spontaneously breaking out into ribald song in the middle of class, etc).</p>
+<p>You can subscribe to the class schedule in your calendar software of your choice:</p>
+<p><a href="webcal://jacklreilly.github.io/pst315_f26/pst315_schedule.ics" class="btn btn-outline-primary">📡 Subscribe</a> <a href="pst315_schedule.ics" class="btn btn-outline-primary">💾 Download .ics</a></p>
+<p>Class sessions appear on Tuesdays during class time; assignment deadlines appear as all-day events on the day they are due.</p>
 </div>
 </div>
 </section>
-<section id="assignments" class="level2">
-<h2 class="anchored" data-anchor-id="assignments">Assignments</h2>
-<p>There is an assignment each week in class, <strong>due Thursday by class time</strong>.</p>
-<p>Assignments will vary in nature: some will be one-off problem sets, some may build on problem sets from a prior week. All material needed for an assignment will be covered by the Tuesday before the assignment is due (usually much earlier), and the assignment itself will be given a week ahead of time. <strong>No assignment work is accepted after class</strong>, as we will go over answers for assignments in class.</p>
-<p>Students may miss up to two assignments with no penalty. Students may also work together on assignments - in fact, I encourage you to do so - although each student is ultimately responsible for their own learning and work.</p>
-<div class="callout callout-style-default callout-note callout-titled">
+<section id="assignments" class="level1">
+<h1>Assignments</h1>
+<p>Instructions for each individual assignment are posted on the <a href="./assignments/index.html">assignments page</a>.</p>
+<section id="major-assignment-overview" class="level2">
+<h2 class="anchored" data-anchor-id="major-assignment-overview">Major Assignment Overview</h2>
+<p><strong>Organizational Assessment</strong>: An assignment to help each student learn about their agency and project.</p>
+<p><strong>Practice Report</strong>: This assignment gives students the opportunity to practice and receive performance feedback on the skills necessary for the final Client Report, including calculations, scaling numbers, qualitative coding, making graphs, and more.</p>
+<p><strong>Final Report and Presentation</strong>: A report created for each student’s client that has a breakdown of the data collected (through a survey or data files) by the student or organization. The report includes an introduction, methods section, findings, and appendices; the presentation is a distilled slide deck and presentation from the report itself.</p>
+<p><strong>Professional Materials</strong>: A Cover Letter, Resume, LinkedIn Profile, and draft Reference Letter, intended to prepare students to apply for jobs. Students are required to meet with an A&amp;S advisor for review of professional materials.</p>
+<p><strong>Final Reflection</strong>: A reflection that ties together the various components of the course and experiential learning experience. You will take findings from your Final Report and consider how they could potentially inform policy-making and organizational change for your client.</p>
+</section>
+<section id="group-projects" class="level2">
+<h2 class="anchored" data-anchor-id="group-projects">Group Projects</h2>
+<p>The substantial majority of projects in PST 315 are individual projects. However, occasionally a client may request a group project that two or more students will complete together.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>Group projects have a single deliverable and final project, but group projects are broader, deeper, and more complex, requiring more hours than an individual project. Those hours get spread across numerous individuals, who must coordinate to shape the final deliverable together.</p>
+<p>Individuals in a group must complete their own individual work for the course (workshops and individual assignments), while groups are collectively responsible for production of the final project and deliverable. The table below describes this on a per-assignment basis.</p>
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Effort-Based Evaluation
+Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Assignments are evaluated based upon effort and a check completion system. Students who answer every problem will earn a check, with each check worth one point toward their final assignment grade.</p>
+<p>All students in a group must submit all assignments to Blackboard, <strong>even when those assignments are identical</strong>.</p>
 </div>
 </div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Assignment</th>
+<th>Submission</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Project Application</td>
+<td>By Individual</td>
+</tr>
+<tr class="even">
+<td>Finalized Contract/Timeline</td>
+<td>By Project<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></td>
+</tr>
+<tr class="odd">
+<td>Organizational Assessment</td>
+<td>By Project</td>
+</tr>
+<tr class="even">
+<td>Weekly Task Plan</td>
+<td>By Project<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></td>
+</tr>
+<tr class="odd">
+<td>Draft Executive Summary</td>
+<td>By Project</td>
+</tr>
+<tr class="even">
+<td>Excel Coding Workshop</td>
+<td>By Individual</td>
+</tr>
+<tr class="odd">
+<td>Excel Graphing Workshop</td>
+<td>By Individual</td>
+</tr>
+<tr class="even">
+<td>Practice Report</td>
+<td>By Individual</td>
+</tr>
+<tr class="odd">
+<td>Formatted Report Shell</td>
+<td>By Project</td>
+</tr>
+<tr class="even">
+<td>Rough Draft</td>
+<td>By Project</td>
+</tr>
+<tr class="odd">
+<td>Final Report</td>
+<td>By Project</td>
+</tr>
+<tr class="even">
+<td>Final Presentation</td>
+<td>By Project</td>
+</tr>
+<tr class="odd">
+<td>Professional Materials</td>
+<td>By Individual</td>
+</tr>
+<tr class="even">
+<td>Final Reflection</td>
+<td>By Individual<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></td>
+</tr>
+<tr class="odd">
+<td>Professionalism</td>
+<td>By Project and/or By Individual</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="practicum" class="level2">
-<h2 class="anchored" data-anchor-id="practicum">Practicum</h2>
-<p>A practicum is a large assignment that is worth more and graded on a scale.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> It is untimed, take-home, cumulative, and will be completed on your own time (and computer). Unlike the weekly assignments, you are not allowed to work together on the practicum. Essentially, think of it as take home test that complements the in-class core exam.</p>
 </section>
-<section id="core-exam" class="level2">
-<h2 class="anchored" data-anchor-id="core-exam">Core Exam</h2>
-<p>The core exam will be in class. More information will be given as the exam gets closer.</p>
+<section id="evaluation" class="level1">
+<h1>Evaluation</h1>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Points</th>
+<th>Evaluation</th>
+<th>Submit to</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2</td>
+<td>Project Application</td>
+<td>Qualtrics link</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Finalized Contract/Timeline</td>
+<td>Blackboard and Client</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>Organizational Assessment</td>
+<td>Blackboard</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Weekly Task Plan</td>
+<td>Blackboard</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Draft Executive Summary</td>
+<td>Blackboard</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Excel Coding Workshop</td>
+<td>Blackboard</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Excel Graphing Workshop</td>
+<td>Blackboard</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Practice Report</td>
+<td>Blackboard</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Formatted Report Shell</td>
+<td>Blackboard</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Rough Draft</td>
+<td>Blackboard</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>Final Report</td>
+<td>Blackboard and Client</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Final Presentation</td>
+<td>Blackboard and UCA</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Professional Materials</td>
+<td>Blackboard</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Final Reflection</td>
+<td>Blackboard</td>
+</tr>
+<tr class="odd">
+<td>+/- 0</td>
+<td>Professionalism</td>
+<td>Ongoing</td>
+</tr>
+</tbody>
+</table>
+<section id="professionalism" class="level2">
+<h2 class="anchored" data-anchor-id="professionalism">Professionalism</h2>
+<p>Professionalism points can be earned throughout the semester for demonstrating exceptional professionalism to your client, UCA, or Professor Reilly. Taking initiative to go above and beyond basic course requirements is strongly encouraged and will be rewarded. Professionalism points may also be subtracted for actions that are unprofessional (failure to send client emails on time, absence from class, etc.).</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Caps
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>There is a cap of <strong>+5 points</strong> and <strong>-10 points</strong> toward your final grade.</p>
+</div>
+</div>
+<section id="how-to-gain-and-lose-professionalism-points" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-gain-and-lose-professionalism-points">How to Gain and Lose Professionalism Points</h3>
+<dl>
+<dt><strong>Attendance</strong></dt>
+<dd>
+To be considered excused, you must email your UCA <em>before</em> class. Upon approval, your absence may be excused. Students may have one unexcused absence without penalty. Additional unexcused absences will result in the loss of a professionalism point per absence. Repeated lateness will incur point loss.
+</dd>
+<dt><strong>Class Work Time</strong></dt>
+<dd>
+Class is primarily a period for work time on your projects. You may not leave class early unless you have completed work on all assignments for the week <em>and</em> there is no more work you could feasibly do on your project. If you have done so, you may ask your UCA for an early exit.
+</dd>
+<dt><strong>Emails to Client</strong></dt>
+<dd>
+CC your UCA on <strong>all</strong> emails with your client, or you will lose one professionalism point per email. Only CC Professor Reilly if your UCA has instructed you to do so. UCAs reserve the right to deduct points for slapdash language or intent in emails to clients.
+</dd>
+<dt><strong>Emails to UCAs and Professor</strong></dt>
+<dd>
+Exercise professionalism when emailing UCAs and Professor Reilly. UCAs reserve the right to deduct points for slapdash language or intent in emails to Professor Reilly and/or UCAs.
+</dd>
+<dt><strong>Deadlines and Meetings</strong></dt>
+<dd>
+Failure to attend any scheduled meeting — including meetings with your client, your UCA, Professor Reilly, or an A&amp;S advisor — will result in a loss of 3 points per meeting.
+</dd>
+<dt><strong>Client Presentation</strong></dt>
+<dd>
+Some clients ask for a presentation of their own. Students who give a presentation to their client earn an extra professionalism point. See the <a href="./assignments/15-final-presentation.html">Final Presentation</a> assignment.
+</dd>
+<dt><strong>Client Evaluation</strong></dt>
+<dd>
+If a client reaches out with a valid and reasonable complaint about your performance or professionalism, this will result in a loss of up to 10 points, at the discretion of your UCA and Professor Reilly.
+</dd>
+<dt><strong>Other</strong></dt>
+<dd>
+Other exceptional or unprofessional conduct not listed here can result in a gain or loss of professionalism points accordingly, at Professor Reilly’s and the UCAs’ discretion.
+</dd>
+</dl>
 </section>
-<section id="final-project" class="level2">
-<h2 class="anchored" data-anchor-id="final-project">Final Project</h2>
-<p>A project utilizing data of your own choice. Graduate students will have higher expectations than undergraduate students. More information will be given as the exam gets closer.</p>
 </section>
-</section>
-<section id="course-expectations-guidelines" class="level1">
-<h1>Course Expectations &amp; Guidelines</h1>
-<section id="etiquette-decorum" class="level2">
-<h2 class="anchored" data-anchor-id="etiquette-decorum">Etiquette &amp; Decorum</h2>
-<p>This is a graduate course: I take it for granted that you have a basic interest in the material, an enthusiastic attitude toward participation, and a respectful attitude to everyone in the room. A university classroom is fundamentally a learning community: be courteous to fellow students and the professor, don’t let yourself be distracted by your cell phone in class, and don’t let what is on your computer screen distract fellow students in the class, either.</p>
-</section>
-<section id="office-consultation-hours-appointments" class="level2">
-<h2 class="anchored" data-anchor-id="office-consultation-hours-appointments">Office &amp; Consultation Hours, Appointments</h2>
-<p>I encourage you to chat with me at any point if you have questions about the course. You can schedule a meeting with me by going to my website here: <a href="http://jacklreilly.github.io">http://jacklreilly.github.io</a> and sign up for time at your convenience. You can also always just drop in during my regularly scheduled drop-in office hours without appointment or stop by to see if my door is open: if it’s open, come on in. (Don’t feel like you’re intruding! I’ll tell you if it’s not a good time.)</p>
-</section>
-<section id="e-mail" class="level2">
-<h2 class="anchored" data-anchor-id="e-mail">E-mail</h2>
-<p>Email is the best way to contact me. I’m usually pretty responsive, but as a baseline, I always aim to get back to you in a modified 24-hour fashion: by the end of the business day the day after you email. So if you email me at 2 PM Tuesday, I’ll get back to you by 6 PM Wednesday at the latest; if 10 PM Thursday, by 6 PM Friday; if you email me at 3 PM on Friday, by 6 PM Monday, etc.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<section id="late-assignment-policy" class="level2">
+<h2 class="anchored" data-anchor-id="late-assignment-policy">Late Assignment Policy</h2>
+<p>All assignments must be turned in on time unless otherwise noted or approved. Each day late will be subject to a per-day penalty unless a prior arrangement for an extension is given. Assignments more than 7 days late will not be accepted unless an exception is granted by the Professor.</p>
+<p>Blackboard’s assignment portal indicates whether an assignment is late; UCAs will notify you of points lost when an assignment is submitted late. Late penalties only accrue on business days (Monday through Friday). The late penalty for all assignments is <strong>one point per late day</strong>, with a maximum of half of the assignment’s points off.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -382,244 +639,119 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>If your email requires a long response, expect me to encourage you to schedule an appointment with me so that we can more effectively discuss the matter.</p>
+<p>Extensions may only be granted by Professor Reilly.</p>
 </div>
 </div>
 </section>
-<section id="course-schedule" class="level2">
-<h2 class="anchored" data-anchor-id="course-schedule">Course Schedule</h2>
+<section id="grading-scale" class="level2">
+<h2 class="anchored" data-anchor-id="grading-scale">Grading Scale</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Week</th>
-<th><strong>Topic</strong></th>
-<th><strong>Tools</strong></th>
-<th></th>
+<th>Grade</th>
+<th>Grade Point/Credit</th>
+<th>Class Points</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td><a href="./assignments/assign1.html">Preliminaries</a></td>
-<td></td>
-<td></td>
+<td>A</td>
+<td>4.000</td>
+<td>94 – 100</td>
 </tr>
 <tr class="even">
-<td>1</td>
-<td><a href="./assignments/assign2.html">Course Introduction</a></td>
-<td>Scripts; R and RStudio</td>
-<td></td>
+<td>A-</td>
+<td>3.667</td>
+<td>90 – 93.99</td>
 </tr>
 <tr class="odd">
-<td>2</td>
-<td><a href="./assignments/assign3.html">Reproducible Data Analyses</a></td>
-<td>Markup Languages; Quarto</td>
-<td></td>
+<td>B+</td>
+<td>3.333</td>
+<td>87 – 89.99</td>
 </tr>
 <tr class="even">
-<td>3</td>
-<td><a href="./assignments/assign4.html">File Management &amp; Version Control</a></td>
-<td>Filesystems; git; GitHub</td>
-<td></td>
+<td>B</td>
+<td>3.000</td>
+<td>83 – 86.99</td>
 </tr>
 <tr class="odd">
-<td>4</td>
-<td><a href="./assignments/assign5.html">A Field Guide to Data</a></td>
-<td>Data Formats; surveys, readr; tidyr</td>
-<td></td>
+<td>B-</td>
+<td>2.667</td>
+<td>80 – 82.99</td>
 </tr>
 <tr class="even">
-<td>5</td>
-<td><a href="./assignments/assign6.html">Structural Data Manipulation</a></td>
-<td>dplyr; srvyr</td>
-<td></td>
+<td>C+</td>
+<td>2.333</td>
+<td>77 – 79.99</td>
 </tr>
 <tr class="odd">
-<td>6</td>
-<td><a href="./assignments/assign7.html">Data Visualization I</a></td>
-<td>Grammar of Graphics; ggplot2</td>
-<td></td>
+<td>C</td>
+<td>2.000</td>
+<td>73 – 76.99</td>
 </tr>
 <tr class="even">
-<td>7</td>
-<td><a href="./assignments/assign8.html">Data Visualization II</a></td>
-<td>ggplot2</td>
-<td></td>
+<td>C-</td>
+<td>1.667</td>
+<td>70 – 72.99</td>
 </tr>
 <tr class="odd">
-<td>8</td>
-<td><strong>Core Exam (Thursday, October 16)</strong></td>
-<td></td>
-<td></td>
+<td>D</td>
+<td>1.000</td>
+<td>60 – 69.99</td>
 </tr>
 <tr class="even">
-<td>9</td>
-<td><a href="./assignments/assign10.html">Workflow &amp; Data Retrieval</a></td>
-<td>tidycensus; APIs; database/SQL overview</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td><a href="./assignments/assign11.html">Social Networks &amp; Network Data</a></td>
-<td>iGraph; statnet</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td><a href="./assignments/assign12.html">Cartography</a></td>
-<td>tidyverse mapping; color scales; projection</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>12</td>
-<td><a href="./assignments/assign13.html">Geographic Data</a></td>
-<td>sf; tigris; mapgl; mapbox; osm</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>13</td>
-<td><a href="./assignments/assign14.html">GIS Day, Catch Up, and Project Work</a></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>14</td>
-<td><a href="./assignments/assign15.html">Statistics &amp; Flow Control</a></td>
-<td>Loops, ttest(), lm(), glm()</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>15</td>
-<td><a href="./assignments/assign16.html">Project Presentations</a></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>F</td>
-<td><strong>Finals Week (Project Due)</strong></td>
-<td></td>
-<td></td>
+<td>0</td>
+<td>59.99 or less</td>
 </tr>
 </tbody>
 </table>
-<hr>
-<section id="advanced-topics-if-we-have-time" class="level3">
-<h3 class="anchored" data-anchor-id="advanced-topics-if-we-have-time">Advanced Topics <em>(if we have time)</em></h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 10%">
-<col style="width: 55%">
-<col style="width: 18%">
-<col style="width: 15%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Week</th>
-<th><strong>Topic</strong></th>
-<th><strong>Tools</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td>Text Data &amp; Data Scraping</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Statistical Models</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Missing Data</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Web Apps &amp; Visualization</td>
-<td>quarto, shiny</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>AI Pair Programming &amp; “Vibe Coding”</td>
-<td>github copilot</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Local LLMs</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
 </section>
 </section>
 <section id="campus-academic-resources-policies" class="level1">
 <h1>Campus Academic Resources &amp; Policies</h1>
-<p>The following reflects the approved campus-wide academic policies of Syracuse University. For more information and detail, please consult the full documentation of University policies <a href="https://policies.syr.edu">here</a>.</p>
-<section id="academic-drop-deadline" class="level2">
-<h2 class="anchored" data-anchor-id="academic-drop-deadline">⚠️ Academic Drop Deadline</h2>
-<p>As part of our efforts to track satisfactory academic progress, the Academic Drop Deadline and the Financial Drop deadline will both occur on September 15, 2025, for the fall semester and February 2, 2026, for the spring semester. Students may still withdraw from courses after these deadlines; this would place a ‘WD’ grade on their transcripts. Students enrolled in “flex” classes (Flexibly formatted classes) have different deadlines and will need to check MySlice for the Academic and Financial Drop deadlines that pertains to their class.</p>
-</section>
+<p>The following reflects the approved campus-wide academic policies of Syracuse University. For more information and detail, please consult the full documentation of University policies at <a href="https://policies.syr.edu" class="uri">https://policies.syr.edu</a>.</p>
 <section id="academic-integrity" class="level2">
 <h2 class="anchored" data-anchor-id="academic-integrity">📖 Academic Integrity</h2>
-<p>As a pre-eminent and inclusive student-focused research institution, Syracuse University considers academic integrity at the forefront of learning, serving as a core value and guiding pillar of education. Syracuse University’s Academic Integrity Policy provides students with the necessary guidelines to complete academic work with integrity throughout their studies. Students are required to uphold both course-specific and university-wide academic integrity expectations such as crediting your sources, doing your own work, communicating honestly, and supporting academic integrity. The full <a href="https://policies.syr.edu/policies/academic-rules-student-responsibilities-and-services/academic-integrity-policy/">Syracuse University Academic Integrity Policy</a> can be viewed by visiting the <a href="https://policies.syr.edu/">Syracuse University Policies</a> website.</p>
-<p>Upholding Academic Integrity includes the protection of faculty’s intellectual property. Students should not upload, distribute, or share instructors’ course materials, including presentations, assignments, exams, or other evaluative materials without permission. Using websites that charge fees or require uploading of course material (e.g., Chegg, Course Hero) to obtain exam solutions or assignments completed by others, which are then presented as your own violates academic integrity expectations in this course and may be classified as a Level 3 violation. All academic integrity expectations that apply to in-person assignments, quizzes, and exams also apply online.</p>
-<p>Students found in violation of the policy are subject to grade sanctions determined by the course instructor and non-grade sanctions determined by the School or College where the course is offered. Students may not drop or withdraw from courses in which they face a suspected violation. Any established violation in this course may result in course failure regardless of violation level.</p>
+<p>As a preeminent and inclusive student-focused research institution, Syracuse University places academic integrity at the forefront of learning and considers it a core value and guiding pillar of education. The University’s <a href="https://policies.syr.edu/policies/academic-rules-student-responsibilities-and-services/academic-integrity-policy/">Academic Integrity Policy</a> provides guidelines for completing academic work with integrity. Students are required to meet both course-specific and University-wide academic integrity expectations, such as crediting your sources, doing your own work, communicating honestly, and supporting academic integrity.</p>
+<p>Upholding academic integrity includes the protection of faculty intellectual property. Students should not upload, distribute, or share an instructor’s course materials — including presentations, assignments, exams, or other evaluative materials — without permission. Using websites that charge fees or require uploading of course material (e.g., Chegg, Course Hero) to obtain exam solutions or assignments completed by others and presenting them as your own violates academic integrity expectations in this course and may be classified as a Level 3 violation. All academic integrity expectations that apply to in-person assignments, quizzes, and exams also apply online.</p>
+<p>Students found in violation of the policy are subject to grade sanctions determined by the course instructor and non-grade sanctions determined by the school or college offering the course. Students may not drop or withdraw from courses in which they face a suspected violation. Any established violation in this course may result in course failure regardless of violation level.</p>
 </section>
 <section id="artificial-intelligence" class="level2">
 <h2 class="anchored" data-anchor-id="artificial-intelligence">🤖 Artificial Intelligence</h2>
-<p>Based on the specific learning outcomes and assignments in this course, artificial intelligence is permitted on the following: all weekly assignments. Artificial intelligence is <em>not</em> permitted in tests and practicums. See each assignment, quiz, or exam instructions for more information about what artificial intelligence tools are permitted and to what extent, as well as citation requirements. If no instructions are provided for a specific assignment, then no use of any artificial intelligence tool is permitted. Any AI use beyond that which is detailed in course assignments is explicitly prohibited except when documented permission is granted.</p>
-<p>Please also see Syracuse University’s <a href="https://its.syr.edu/artificialintelligence/aiguidelines/">general campus AI policies here</a>.</p>
+<p>Based on the specific learning outcomes and assignments in this course, artificial intelligence is permitted on the following: <strong>spelling and grammar checking</strong>. See each assignment, quiz, or exam instructions for more information about which artificial intelligence tools are permitted and to what extent, as well as citation requirements. If no instructions are provided for a specific assignment, then no use of any artificial intelligence tool is permitted. Any AI use beyond what is detailed in course assignments is explicitly prohibited except when documented permission is granted.</p>
+<p>I, as the instructor, may use generative AI tools to help develop and check course materials. When I do, I take full responsibility for reviewing and verifying all AI-generated content to ensure it is accurate, appropriate, and aligned with our learning objectives. All course materials were originally written by my (or a UCA’s) hand and final materials represent my professional judgment about what will best support your learning.</p>
 </section>
-<section id="academic-integrity-online" class="level2">
-<h2 class="anchored" data-anchor-id="academic-integrity-online">💻 Academic Integrity Online</h2>
-<p>All academic integrity expectations that apply to in-person quizzes and exams also apply to online quizzes and exams. In this course, all work submitted for quizzes and exams must be yours alone. Discussing quiz or exam questions with anyone during the quiz or exam period violates academic integrity expectations for this course.</p>
-<p>Using websites that charge fees or require uploading of course material (e.g., Chegg, Course Hero) to obtain exam solutions or assignments completed by others and present the work as your own violates academic integrity expectations in this course and may be classified as a Level 3 violation, resulting in suspension or expulsion from Syracuse University.</p>
+<section id="disability-statement" class="level2">
+<h2 class="anchored" data-anchor-id="disability-statement">🤝 Disability Statement</h2>
+<p>Syracuse University values diversity and inclusion and is committed to a climate of mutual respect and full participation. There may be aspects of the instruction or design of this course that result in barriers to your inclusion and full participation. I invite students to meet with me to discuss strategies and/or accommodations (academic adjustments) that may be essential to your success, in collaboration with the <strong>Center for Disability Resources (CDR)</strong>.</p>
+<p>To discuss disability accommodations or register with CDR, visit <a href="https://disabilityresources.syr.edu" class="uri">https://disabilityresources.syr.edu</a>, or contact the center at 315.443.4498 or <a href="mailto:disabilityresources@syr.edu" class="email">disabilityresources@syr.edu</a> for more detailed information. CDR is responsible for coordinating disability-related academic accommodations and will work with you to develop an access plan. Since accommodations may require early planning and generally are not provided retroactively, please contact CDR as soon as possible.</p>
 </section>
-<section id="attendance-policy" class="level2">
-<h2 class="anchored" data-anchor-id="attendance-policy">👤 Attendance Policy</h2>
-<p>Attendance in classes is expected in all courses at Syracuse University. It is a federal requirement that faculty promptly notify the university of students who do not attend or cease to attend any class. Faculty will use Early-Semester Progress Reports and Mid-Semester Progress Reports in Orange SUccess to alert the Registrar and Financial Aid Office on non-attendance. For more information visit:</p>
-<p><a href="http://registrar.syr.edu/faculty-staff/non-attendance/">Faculty: Information for Faculty: Non-attendance or Stopped Attending</a> <a href="http://registrar.syr.edu/students/non-attendance/">Students: Information for Students: Non-attendance or Stopped Attending</a></p>
-<p>If a student is unable to participate in-person or virtually for an extended period of time (48 hours or more), the student may request an absence notification from their home school/college Dean’s Office or through Student Outreach and Support office. Instructors will be notified via the “Absence Notification” flag in Orange SUccess.</p>
-<p>Barnes Center at the Arch (Health, Counseling, etc.) staff will not provide medical excuse notes for students. When Barnes Center staff determine it is medically necessary to remove a student from classes, they will coordinate with Student Outreach and Support case management staff to provide appropriate notification to faculty through Orange Success. For absences lasting less than 48 hours, students are encouraged to discuss academic arrangements directly with their faculty.</p>
-<p>Additional information may be found at <a href="https://experience.syracuse.edu/student-outreach/student-support/absence-notifications/">Student Outreach and Support: Absence Notifications</a>.</p>
+<section id="discrimination-or-harassment" class="level2">
+<h2 class="anchored" data-anchor-id="discrimination-or-harassment">🚫 Discrimination or Harassment</h2>
+<p>Syracuse University does not discriminate and prohibits harassment or discrimination related to any protected category including creed, ethnicity, citizenship status, reproductive health decisions, national origin, sex, gender, pregnancy, disability, marital status, age, race, color, veteran status, military status, religion, sexual orientation, domestic violence status, genetic information, gender identity and/or gender expression, shared common ancestry, or any other status protected by applicable law.</p>
+<p>Any complaint of discrimination or harassment related to any of these protected bases should be reported to Sheila Johnson-Willis, associate vice president and chief equal opportunity and Title IX officer in the Office of Equal Opportunity, Inclusion, and Resolution Services (621 Skytop Road, Suite 1001, Syracuse, NY 13244; <a href="mailto:equalopp@syr.edu" class="email">equalopp@syr.edu</a>; 315.443.4018). She is responsible for coordinating compliance efforts under various laws including Titles VI, VII, IX and Section 504 of the Rehabilitation Act.</p>
+</section>
+<section id="faith-tradition-observances" class="level2">
+<h2 class="anchored" data-anchor-id="faith-tradition-observances">🌐 Faith Tradition Observances</h2>
+<p><a href="https://policies.syr.edu/policies/university-governance-ethics-integrity-and-legal-compliance/religious-observances-policy/">Syracuse University’s Religious Observances Policy</a> recognizes the diversity of faiths represented in the campus community and protects the rights of students, faculty, and staff to observe religious holy days according to their traditions. Under the policy, students are given an opportunity to make up any examination, study, or work requirements that may be missed due to a religious observance, provided they notify their instructors no later than the academic drop deadline. For any observances occurring before the academic drop deadline, students must notify faculty at least two academic days in advance. Students register their observances using MySlice.</p>
+</section>
+<section id="health-wellness-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="health-wellness-considerations">🩺 Health &amp; Wellness Considerations</h2>
+<p>All of us need a support system, and many students benefit from the use of counseling services. Your well-being and mental health are important to me, to your academic success, and to your ability to thrive at Syracuse University.</p>
+<p>The Barnes Center at the Arch, located at 150 Sims Drive on the South End of campus near the JMA Wireless Dome, works with students to identify and address issues related to personal growth, self-confidence, anxiety, depression, eating disorders, academic difficulties, and career indecision. Visit <a href="https://ese.syr.edu/bewell" class="uri">https://ese.syr.edu/bewell</a> to see the range of available resources. Syracuse University provides counseling services to students at no cost, available 24/7, 365 days, by calling 315.443.8000.</p>
 </section>
 <section id="blackboard" class="level2">
 <h2 class="anchored" data-anchor-id="blackboard">🖼 Blackboard</h2>
-<p>This class will use the Blackboard Learning Management to house the syllabus, course content, links to external course materials, assignments, quizzes, exams, feedback, and grades. Due dates and times in Blackboard are stored in Coordinated Universal Time (UTC) and displayed for each user based on the time zone setting of their computer and data from their internet browser. The system will always display the time zone being used. If an instructor sets a due date of 11pm Eastern time, a student in the Pacific time zone will see a due date of 8pm.”</p>
-<p>Information about Blackboard is available on <a href="https://su-jsm.atlassian.net/wiki/x/zcUzCQ">Answers Blackboard</a>; alternatively, you can contact Information Technology Services by sending an email to <a href="mailto:help@syr.edu" class="email">help@syr.edu</a>, calling 315.443.2677, or in-person at the ITS Service Center, located at 1-227 CST in the Life Sciences Complex. Business hours for the Service Center can be found on the <a href="http://its.syr.edu/its_service_center">ITS website</a>.</p>
-</section>
-<section id="discrimination-and-harassment" class="level2">
-<h2 class="anchored" data-anchor-id="discrimination-and-harassment">🚫 Discrimination and Harassment</h2>
-<p>The University does not discriminate and prohibits harassment or discrimination related to any protected category including creed, ethnicity, citizenship, sexual orientation, national origin, sex, gender, pregnancy, reproductive health decisions, disability, marital status, political or social affiliation, age, race, color, veteran status, military status, religion, sexual orientation, domestic violence status, genetic information, gender identity, gender expression or perceived gender.</p>
-<p>Any complaint of discrimination or harassment related to any of these protected bases should be reported to Sheila Johnson-Willis, the University’s Chief Equal Opportunity &amp; Title IX Officer for Faculty and Staff. She is responsible for coordinating compliance efforts under the various laws including Titles VI, VII, IX and Section 504 of the Rehabilitation Act. She can be contacted at Equal Opportunity, Inclusion, and Resolution Services, 621 Skytop Road, Suite 1001, Syracuse University, Syracuse, NY 13244-1120; or by email: <a href="mailto:equalopp@syr.edu" class="email">equalopp@syr.edu</a>; or by telephone: 315-443-4018.</p>
-</section>
-<section id="diversity" class="level2">
-<h2 class="anchored" data-anchor-id="diversity">🌍 Diversity</h2>
-<p>It is the intent of this course for students from all diverse backgrounds and perspectives to be well served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength, and benefit. It is also critical to present materials and activities that are respectful of diversity: gender, sexuality, disability, age, socioeconomic status, ethnicity, race, and culture. Your suggestions are encouraged and appreciated. Please let your instructor know ways to improve the effectiveness of the course for you personally or for other students or student groups.</p>
-</section>
-<section id="inclusion" class="level2">
-<h2 class="anchored" data-anchor-id="inclusion">🤝 Inclusion</h2>
-<p>Syracuse University values diversity and inclusion; we are committed to a climate of mutual respect and full participation. There may be aspects of the instruction or design of this course that result in barriers to your inclusion and full participation in this course. I invite any student to contact me to discuss strategies and/or accommodations (academic adjustments) that may be essential to your success and to collaborate with the <strong>Center for Disability Resources (CDR)</strong> in this process.</p>
-<p>If you would like to discuss disability accommodations or register with CDR, please visit the Center for Disability Resources. Call (315) 443-4498 or email <a href="mailto:disabilityresources@syr.edu" class="email">disabilityresources@syr.edu</a> for more information.</p>
-<p>The CDR is responsible for coordinating disability-related academic accommodations and will work with the student to develop an access plan. Since academic accommodations may require early planning and generally are not provided retroactively, please contact CDR as soon as possible.</p>
-</section>
-<section id="faith-and-religious-accommodations" class="level2">
-<h2 class="anchored" data-anchor-id="faith-and-religious-accommodations">🌐 Faith and Religious Accommodations</h2>
-<p><a href="https://policies.syr.edu/policies/university-governance-ethics-integrity-and-legal-compliance/religious-observances-policy/">Syracuse University’s Religious Observances Policy</a> recognizes the diversity of faiths represented in the campus community and protects the rights of students, faculty, and staff to observe religious holy days according to their traditions. Under the policy, students are given an opportunity to make up any examination, study, or work requirements that may be missed due to a religious observance, provided they notify their instructors no later than the academic drop deadline. For observances occurring before the drop deadline, notification is required at least two academic days in advance. Students may enter their observances in MySlice under Student Services/Enrollment/My Religious Observances/Add a Notification.</p>
-</section>
-<section id="health-and-wellness" class="level2">
-<h2 class="anchored" data-anchor-id="health-and-wellness">🩺 Health and Wellness</h2>
-<p>Well-being and mental health are significant predictors of academic success. It is critical to take care of yourself physically and emotionally and to effectively navigate stress, anxiety, and depression. Please familiarize yourself with the range of resources the Barnes Center provides <a href="https://ese.syr.edu/bewell/" class="uri">https://ese.syr.edu/bewell/</a> and seek out support for mental health concerns as needed. Counseling services are available 24/7, 365 days, at 315-443-8000.</p>
+<p>This course uses the Blackboard Learning Management System. You can access Blackboard at <a href="https://blackboard.syr.edu" class="uri">https://blackboard.syr.edu</a>. Use your NetID and password to log in. Through Blackboard, you will be able to:</p>
+<ul>
+<li>Access course materials, assignments, and resources</li>
+<li>Submit assignments</li>
+<li>View grades and feedback</li>
+<li>Participate in course discussions</li>
+<li>Communicate with your instructor and classmates</li>
+</ul>
+<p>For technical assistance with Blackboard, contact the ITS Service Center at 315.443.2677 or <a href="mailto:help@syr.edu" class="email">help@syr.edu</a>.</p>
 
 
 </section>
@@ -629,9 +761,11 @@ Note
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>In addition to formal office hours, I have an open door policy - feel free to stop by if you see the door open. In particular, I’ll be around for the half an hour after class each Tuesday and Thursday until 4, and my office is right next door to the classroom. Feel free to stay after and meet with me. I’ll also be around after office hours until at least 12:30 each Tuesday and Thursday according to student need.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>While regular weekly assignments are evaluated on an effort based, check/no-check system, on the practicum, you’ll receive a certain number of points out of the total, like a test.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Again: usually I’m much faster! But if you don’t hear from me by this baseline, feel free to bump a reminder.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>The Formatted Report Shell includes a revised Executive Summary, your spreadsheet, and your codebook.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>A “group project” in this context is a project with a single deliverable authored by multiple students. A group project does <em>not</em> include a client who offers several related projects that have separate deliverables.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Groups must use this opportunity to clearly delineate roles and responsibilities for the project. Unless otherwise requested by the client, one individual should have primary responsibility for contacting the client after the first meeting. Your UCA and/or Professor will assist you in structuring your group roles.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Groups must create task timelines for each individual in the group.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Individuals in groups must indicate what elements of the final deliverable were completed by each group member.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -685,13 +819,14 @@ Note
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -706,7 +841,7 @@ Note
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jacklreilly\.github\.io\/dwv_f25\/");
+        var filterRegex = new RegExp("https:\/\/jacklreilly\.github\.io\/pst315_f26\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1037,7 +1172,7 @@ Note
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Jack Reilly<br> <a href="mailto:jlreilly@syr.edu">Contact</a></p>
+<p>© 2026 Jack Reilly<br> <a href="mailto:jlreilly@syr.edu">Contact</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

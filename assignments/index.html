@@ -2,18 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Prof.&nbsp;Jack Reilly">
 
-<title>📚 Content – Data Wrangling and Visualization</title>
+<title>📝 Assignments – PST 315</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -37,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-960cc9eac5395d1658253b679c30d018.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d194d948db04b1ef1d5ad9c23ca2fa27.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title"><strong>Data Wrangling and Visualization</strong></span>
+    <span class="navbar-title"><strong>PST 315</strong></span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -89,30 +95,26 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../overview.html"> 
 <span class="menu-text">🏠 Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../schedule.html"> 
-<span class="menu-text">📅 Schedule</span></a>
+    <a class="nav-link" href="../logistics.html"> 
+<span class="menu-text">📅 Logistics</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../assignments/index.html" aria-current="page"> 
-<span class="menu-text">📚 Content</span></a>
+<span class="menu-text">📝 Assignments</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../problemsets/index.html"> 
-<span class="menu-text">📝 Assignments</span></a>
+    <a class="nav-link" href="../guidelines/index.html"> 
+<span class="menu-text">📗 Guidelines</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../policies.html"> 
 <span class="menu-text">🏫 Policies</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../ai.html"> 
-<span class="menu-text">🤖 AI &amp; LLMs</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -125,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignments/index.html">Weekly Content</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignments/index.html">All Assignments</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -137,10 +139,16 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assignments/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">All Assignments</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../assignments/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Weekly Content</span></a>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Getting Started</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -148,98 +156,148 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/assign1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preliminaries</span></a>
+  <a href="../assignments/01-project-application.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project Application</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/assign2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 1: Introduction</span></a>
+  <a href="../assignments/02-client-email.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Client Email</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/assign3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 2: Your Computer</span></a>
+  <a href="../assignments/03-first-client-meeting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">First Client Meeting</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/assign4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 3: File Management</span></a>
+  <a href="../assignments/04-contract-timeline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Finalized Contract &amp; Timeline</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/assign5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 4: Data, A Field Guide</span></a>
+  <a href="../assignments/05-second-client-meeting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Second Client Meeting</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Project Organization</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assignments/06-organizational-assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Organizational Assessment</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/assign6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 5: Data Manipulation</span></a>
+  <a href="../assignments/07-weekly-task-plan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Weekly Task Plan</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/assign7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 6: Data Visualization I</span></a>
+  <a href="../assignments/08-draft-executive-summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Draft Executive Summary</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/assign8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 7: Data Visualization II</span></a>
+  <a href="../assignments/09-excel-coding-workshop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Excel Coding Workshop</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/assign9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 8: Core Exam</span></a>
+  <a href="../assignments/10-excel-graphing-workshop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Excel Graphing Workshop</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Practice Report</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assignments/11-practice-report.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Practice Report</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Report &amp; Presentation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assignments/12-formatted-report-shell.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Formatted Report Shell</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/assign10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 9: Data Retrieval</span></a>
+  <a href="../assignments/13-rough-draft.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rough Draft</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/assign11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 10: Social Networks</span></a>
+  <a href="../assignments/14-final-report.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Final Report</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/assign12.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 11: Cartography</span></a>
+  <a href="../assignments/15-final-presentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Final Presentation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Wrap-Up</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assignments/16-professional-materials.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Professional Materials</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/assign13.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 12: Geographic Data</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../assignments/assign14.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 13: Catch Up</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../assignments/assign15.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 14: Statistics</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../assignments/assign16.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 15: Projects</span></a>
+  <a href="../assignments/17-final-reflection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Final Reflection</span></a>
   </div>
 </li>
       </ul>
@@ -249,16 +307,26 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link active" data-scroll-target="#getting-started">Getting Started</a></li>
+  <li><a href="#project-development-organization" id="toc-project-development-organization" class="nav-link" data-scroll-target="#project-development-organization">Project Development &amp; Organization</a></li>
+  <li><a href="#practice-report" id="toc-practice-report" class="nav-link" data-scroll-target="#practice-report">Practice Report</a></li>
+  <li><a href="#report-presentation" id="toc-report-presentation" class="nav-link" data-scroll-target="#report-presentation">Report &amp; Presentation</a></li>
+  <li><a href="#wrap-up" id="toc-wrap-up" class="nav-link" data-scroll-target="#wrap-up">Wrap-Up</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">📚 Content</h1>
-<p class="subtitle lead">Data Wrangling and Visualization</p>
+<h1 class="title">📝 Assignments</h1>
+<p class="subtitle lead">PST 315: Methods of Policy Analysis and Presentation</p>
 </div>
 
 
@@ -275,7 +343,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">F2025</p>
+      <p class="date">F2026</p>
     </div>
   </div>
   
@@ -287,10 +355,206 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hello and welcome to the content page for our course. Readings, guides, and assignments are posted here by week.</p>
-<p>Note that, while you can find assignments here, submission of assignments themselves goes through GitHub or the <a href="https://blackboard.syr.edu">course blackboard</a>, depending on the assignment.</p>
+<p>Hello and welcome to the assignments page for our course. All assignments are posted here, and each one is due <strong>Friday</strong> of the week listed.</p>
+<p>Note that, while you can find assignments here, submission itself goes through the <a href="https://blackboard.syr.edu">course Blackboard</a> — with one exception, the Project Application, which is submitted through a Qualtrics link.</p>
+<p>For how assignments are weighted, how group projects are handled, and the late policy, see <a href="../logistics.html">Logistics</a>.</p>
+<p>Each assignment page carries its instructions, any templates you need to download, and the <strong>Guidelines</strong> that apply to it. Guidelines appear under the assignment where they are first needed; later assignments link back to them.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Still to come">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Still to come
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The Project Application and the two Excel workshops will be posted closer to their due dates.</p>
+</div>
+</div>
+<section id="getting-started" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 62%">
+<col style="width: 19%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Assignment</th>
+<th>Due</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="../assignments/01-project-application.html">Project Application</a></td>
+<td>Week 1 (Aug 28)</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td><a href="../assignments/02-client-email.html">Client Email</a></td>
+<td>Week 2 (Sep 4)</td>
+<td>*</td>
+</tr>
+<tr class="odd">
+<td><a href="../assignments/03-first-client-meeting.html">First Client Meeting</a></td>
+<td>Week 3 (Sep 11)</td>
+<td>*</td>
+</tr>
+<tr class="even">
+<td><a href="../assignments/04-contract-timeline.html">Finalized Contract &amp; Timeline</a></td>
+<td>Week 4 (Sep 18)</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td><a href="../assignments/05-second-client-meeting.html">Second Client Meeting</a></td>
+<td>Week 4 (Sep 18)</td>
+<td>*</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="project-development-organization" class="level2">
+<h2 class="anchored" data-anchor-id="project-development-organization">Project Development &amp; Organization</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 62%">
+<col style="width: 19%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Assignment</th>
+<th>Due</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="../assignments/06-organizational-assessment.html">Organizational Assessment</a></td>
+<td>Week 5 (Sep 25)</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td><a href="../assignments/07-weekly-task-plan.html">Weekly Task Plan</a></td>
+<td>Week 5 (Sep 25)</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td><a href="../assignments/08-draft-executive-summary.html">Draft Executive Summary</a></td>
+<td>Week 6 (Oct 2)</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td><a href="../assignments/09-excel-coding-workshop.html">Excel Coding Workshop</a></td>
+<td>Week 6 (Oct 2)</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td><a href="../assignments/10-excel-graphing-workshop.html">Excel Graphing Workshop</a></td>
+<td>Week 7 (Oct 9)</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="practice-report" class="level2">
+<h2 class="anchored" data-anchor-id="practice-report">Practice Report</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 62%">
+<col style="width: 19%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Assignment</th>
+<th>Due</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="../assignments/11-practice-report.html">Practice Report</a></td>
+<td>Week 8 (Oct 16)</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="report-presentation" class="level2">
+<h2 class="anchored" data-anchor-id="report-presentation">Report &amp; Presentation</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 62%">
+<col style="width: 19%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Assignment</th>
+<th>Due</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="../assignments/12-formatted-report-shell.html">Formatted Report Shell</a></td>
+<td>Week 9 (Oct 23)</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td><a href="../assignments/13-rough-draft.html">Rough Draft</a></td>
+<td>Week 11 (Nov 6)</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td><a href="../assignments/14-final-report.html">Final Report</a></td>
+<td>Week 13 (Nov 20)</td>
+<td>45</td>
+</tr>
+<tr class="even">
+<td><a href="../assignments/15-final-presentation.html">Final Presentation</a></td>
+<td>Week 14 (Nov 30)</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="wrap-up" class="level2">
+<h2 class="anchored" data-anchor-id="wrap-up">Wrap-Up</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 62%">
+<col style="width: 19%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Assignment</th>
+<th>Due</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="../assignments/16-professional-materials.html">Professional Materials</a></td>
+<td>Week 15 (Dec 11)</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td><a href="../assignments/17-final-reflection.html">Final Reflection</a></td>
+<td>Week 15 (Dec 11)</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p>*Items marked “—” are not separately graded; they count toward your professionalism points.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -344,13 +608,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -365,7 +630,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jacklreilly\.github\.io\/dwv_f25\/");
+        var filterRegex = new RegExp("https:\/\/jacklreilly\.github\.io\/pst315_f26\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -696,7 +961,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Jack Reilly<br> <a href="mailto:jlreilly@syr.edu">Contact</a></p>
+<p>© 2026 Jack Reilly<br> <a href="mailto:jlreilly@syr.edu">Contact</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

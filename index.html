@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>&lt;strong&gt;Data Wrangling and Visualization&lt;/strong&gt;</title>
+<title>&lt;strong&gt;PST 315&lt;/strong&gt;</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -36,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-960cc9eac5395d1658253b679c30d018.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d194d948db04b1ef1d5ad9c23ca2fa27.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><strong>Data Wrangling and Visualization</strong></span>
+    <span class="navbar-title"><strong>PST 315</strong></span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -88,30 +94,26 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./overview.html"> 
 <span class="menu-text">🏠 Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html"> 
-<span class="menu-text">📅 Schedule</span></a>
+    <a class="nav-link" href="./logistics.html"> 
+<span class="menu-text">📅 Logistics</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./assignments/index.html"> 
-<span class="menu-text">📚 Content</span></a>
+<span class="menu-text">📝 Assignments</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./problemsets/index.html"> 
-<span class="menu-text">📝 Assignments</span></a>
+    <a class="nav-link" href="./guidelines/index.html"> 
+<span class="menu-text">📗 Guidelines</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./policies.html"> 
 <span class="menu-text">🏫 Policies</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ai.html"> 
-<span class="menu-text">🤖 AI &amp; LLMs</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -128,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="display-5 fw-bold mb-3 title display-7">Data Wrangling and Visualization</h1></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="display-5 fw-bold mb-3 title display-7">Methods of Policy Analysis and Presentation</h1></header>
 
 
 
@@ -140,11 +142,14 @@ ul.task-list li input[type="checkbox"] {
     
 
     <p class="lead text-secondary mb-3">
-      Learn how to use quantitative data to inform decisions in public administration, public policy, and international affairs.
+      An experiential-learning methods course: you will work as a research consultant
+for a real client, and write the kind of professional report a nonprofit,
+academic, or government agency would actually use.
     </p>
 
     <div class="text-secondary">
-      <div><strong>PAI 400/600</strong> • Fall 2025</div>
+      <div><strong>PST 315</strong> • Fall 2026</div>
+      <div>Policy Studies Program</div>
       <div>Maxwell School of Citizenship &amp; Public Affairs</div>
       <div>Syracuse University</div>
     </div>
@@ -160,14 +165,15 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Instructor
+<span class="screen-reader-only">Note</span>Instructor
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <ul>
 <li>👤 <a href="https://jacklreilly.github.io">Dr.&nbsp;Jack Reilly</a></li>
-<li>🏛️ Eggers Hall 225</li>
+<li>🏛️ Eggers Hall 225F</li>
 <li>✉️ <a href="mailto:jlreilly@syr.edu">jlreilly@syr.edu</a></li>
+<li>🕐 Office hours: Friday, 1:00 – 3:00 PM, or <a href="https://jacklreilly.github.io/appointments.html">by appointment</a></li>
 </ul>
 </div>
 </div>
@@ -178,20 +184,21 @@ Instructor
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Course details
+<span class="screen-reader-only">Note</span>Course details
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>📅 Tuesdays &amp; Thursdays</li>
-<li>🕒 2:00 – 3:20 PM</li>
-<li>📍 Eggers Hall 225B</li>
+<li>📅 Tuesdays</li>
+<li>🕒 3:30 – 6:15 PM</li>
+<li>📍 HB Crouse Hall, Kittredge Auditorium</li>
+<li>📎 Prerequisites: PST 101, MAX 201, Policy Studies major</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
-<p>Please browse the course pages for <a href="./overview.html">course overview</a>, <a href="./schedule.html">schedule</a>, <a href="./assignments/index.html">course content</a>, <a href="./problemsets/index.html">problem sets</a>, course and campus <a href="./policies.html">policies</a>, and <a href="./ai.html">guidelines</a> for initially thinking about use of AI in this class. If you would prefer to have the syllabus as a single page, <a href="./syllabus.html">go here</a>. And note you can download any page on the website you like as a pdf or formatted document.</p>
+<p>Please browse the course pages for the <a href="./overview.html">course overview</a>, course <a href="./logistics.html">logistics</a> — schedule, assignments, and evaluation — the <a href="./assignments/index.html">assignments</a> themselves, the <a href="./guidelines/index.html">guidelines</a> that show you how to do the work, and campus <a href="./policies.html">policies</a>. If you would prefer the syllabus as a single page, <a href="./syllabus.html">go here</a>. Note that you can download any page on this website as a PDF or formatted document.</p>
 <p>I look forward to seeing you in class.</p>
 
 
@@ -248,13 +255,14 @@ Course details
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -269,7 +277,7 @@ Course details
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jacklreilly\.github\.io\/dwv_f25\/");
+        var filterRegex = new RegExp("https:\/\/jacklreilly\.github\.io\/pst315_f26\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -600,7 +608,7 @@ Course details
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Jack Reilly<br> <a href="mailto:jlreilly@syr.edu">Contact</a></p>
+<p>© 2026 Jack Reilly<br> <a href="mailto:jlreilly@syr.edu">Contact</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

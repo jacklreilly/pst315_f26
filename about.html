@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Data Wrangling and Visualization</title>
+<title>About – PST 315</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -36,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-960cc9eac5395d1658253b679c30d018.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d194d948db04b1ef1d5ad9c23ca2fa27.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><strong>Data Wrangling and Visualization</strong></span>
+    <span class="navbar-title"><strong>PST 315</strong></span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -88,30 +94,26 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./overview.html"> 
 <span class="menu-text">🏠 Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html"> 
-<span class="menu-text">📅 Schedule</span></a>
+    <a class="nav-link" href="./logistics.html"> 
+<span class="menu-text">📅 Logistics</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./assignments/index.html"> 
-<span class="menu-text">📚 Content</span></a>
+<span class="menu-text">📝 Assignments</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./problemsets/index.html"> 
-<span class="menu-text">📝 Assignments</span></a>
+    <a class="nav-link" href="./guidelines/index.html"> 
+<span class="menu-text">📗 Guidelines</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./policies.html"> 
 <span class="menu-text">🏫 Policies</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ai.html"> 
-<span class="menu-text">🤖 AI &amp; LLMs</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -131,7 +133,6 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a></li>
   <li><a href="#technical-details" id="toc-technical-details" class="nav-link" data-scroll-target="#technical-details">Technical Details</a></li>
-  <li><a href="#credits-and-acknowledgements" id="toc-credits-and-acknowledgements" class="nav-link" data-scroll-target="#credits-and-acknowledgements">Credits and Acknowledgements</a></li>
   </ul>
 </nav>
     </div>
@@ -162,21 +163,13 @@ ul.task-list li input[type="checkbox"] {
 <div style="text-align:left;">
 <p><img src="images/jlr_headshot_syr.jpg" class="img-fluid" width="100"></p>
 </div>
-<p>Hello and welcome to the course website for PAI 400/600, “Data Wrangling and Visualization.” I am your instructor, <a href="https://www.maxwell.syr.edu/directory/jack-reilly">Professor Jack Reilly</a>. You can find more about me on my <a href="https://jacklreilly.github.io">website</a>, but in short:</p>
-<ul>
-<li><p>Data analysis and statistics is honestly one of my favorite things to teach. I’ve been teaching them for over 15 years now, at <a href="https://www.ucdavis.edu">multiple</a> <a href="https://www.ncf.edu">different</a> <a href="https://www.syracuse.edu/">institutions</a>, and I’m very much looking forward to doing so again this semester with you all.</p></li>
-<li><p>I also research and write papers on <a href="https://jacklreilly.github.io/research">American politics and quantitative methods</a> and was born and raised right here in beautiful <a href="https://discoverupstateny.com">Upstate New York</a>.</p></li>
-</ul>
-<p>Please take a minute to browse this website, where you’ll find the course <a href="./overview.html">overview</a>, topic <a href="./schedule.html">schedule</a>, course <a href="./assignments/index.html">content</a>, class and university academic <a href="./policies.html">policies</a>, and <a href="./ai.html">more</a>.</p>
-<p>Finally, if you’d like this website and syllabus in an alternate format, please note you can download .pdfs or .docxs of any page on the site simply by clicking the link on the page. You can also download a full copy of the main syllabus <a href="./syllabus.html">here</a>.</p>
+<p>Hello and welcome to the course website for PST 315, “Methods of Policy Analysis and Presentation.” I am your instructor, <a href="https://www.maxwell.syr.edu/directory/jack-reilly">Professor Jack Reilly</a>. You can find more about me on my <a href="https://jacklreilly.github.io">website</a>, if you are so inclined.</p>
+<p>Please take a minute to browse this website, where you will find the course <a href="./overview.html">overview</a>, course <a href="./logistics.html">logistics</a>, <a href="./assignments/index.html">assignments</a>, the <a href="./guidelines/index.html">guidelines</a> that show you how to do the work, and campus academic <a href="./policies.html">policies</a>.</p>
+<p>Finally, if you would like this website and syllabus in an alternate format, please note that you can download .pdfs or .docxs of any page on the site simply by clicking the link on the page. You can also download a full copy of the main syllabus <a href="./syllabus.html">here</a>.</p>
 </section>
 <section id="technical-details" class="level2">
 <h2 class="anchored" data-anchor-id="technical-details">Technical Details</h2>
-<p>The site was built in <a href="https://quarto.org">Quarto</a> in <a href="https://positron.posit.co">Postitron</a>, and hosted on <a href="https://docs.github.com/en/pages">GitHub Pages</a>. Course content (obviously) makes heavy use of <a href="https://www.r-project.org">R</a> and <a href="https://posit.co/download/rstudio-desktop/">RStudio</a>. Slides are built with Apple Keynote and exported to PDFs.</p>
-</section>
-<section id="credits-and-acknowledgements" class="level2">
-<h2 class="anchored" data-anchor-id="credits-and-acknowledgements">Credits and Acknowledgements</h2>
-<p>This course page was inspired, in spirit if not in all technical details, by related courses from <a href="https://datavizf25.classes.andrewheiss.com">Andrew Heiss</a> and <a href="https://mptc.io">Kieran Healy</a>. Other acknowledgements for particular content can be found in content pages and course slides.</p>
+<p>This site was built in <a href="https://quarto.org">Quarto</a> using <a href="https://positron.posit.co">Positron</a>, and is hosted on <a href="https://docs.github.com/en/pages">GitHub Pages</a>.</p>
 
 
 </section>
@@ -233,13 +226,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -254,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jacklreilly\.github\.io\/dwv_f25\/");
+        var filterRegex = new RegExp("https:\/\/jacklreilly\.github\.io\/pst315_f26\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -585,7 +579,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Jack Reilly<br> <a href="mailto:jlreilly@syr.edu">Contact</a></p>
+<p>© 2026 Jack Reilly<br> <a href="mailto:jlreilly@syr.edu">Contact</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
