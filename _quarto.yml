@@ -6,10 +6,11 @@ project:
     - pst315_schedule.ics
 
 website:
-  title: "**PST 315**"
+  title: "PST 315"
   site-url: https://jacklreilly.github.io/pst315_f26/
   repo-url: https://github.com/jacklreilly/pst315_f26
   navbar:
+    title: "**PST 315**"
     background: "#1A5490"
     foreground: "#FFFFFF"
     right:
