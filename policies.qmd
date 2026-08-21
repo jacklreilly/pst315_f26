@@ -43,8 +43,7 @@ this course may result in course failure regardless of violation level.
 ## 🤖 Artificial Intelligence
 
 Based on the specific learning outcomes and assignments in this course,
-artificial intelligence is permitted on the following: **spelling and grammar
-checking**. See each assignment, quiz, or exam instructions for more information
+artificial intelligence is permitted on the following: brainstorming, exploring or explaining concepts, troubleshooting, editing, spelling and grammar checks.  AI may not be used to generate original prose text for your assignments or conduct analysis. See each assignment, quiz, or exam instructions for more information
 about which artificial intelligence tools are permitted and to what extent, as
 well as citation requirements. If no instructions are provided for a specific
 assignment, then no use of any artificial intelligence tool is permitted. Any AI

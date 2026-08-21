@@ -31,3 +31,27 @@ Prior Assignments/
 
 # Python bytecode from the tools/ generator scripts
 __pycache__/
+
+# Rendered output that lands next to the source .qmd files. Quarto normally
+# moves these into _site/, but an interrupted or failed render leaves them
+# behind. The real build is _site/; nothing here should ever be committed.
+#
+# NOTE: the .pdf/.docx/.rtf patterns are deliberately scoped to the directories
+# that hold .qmd files. assignments/files/ holds the templates students
+# download and must NOT be caught by them.
+*.html
+*.tex
+*.aux
+*.log
+
+/*.pdf
+/*.docx
+/*.rtf
+
+/assignments/*.pdf
+/assignments/*.docx
+/assignments/*.rtf
+
+/guidelines/*.pdf
+/guidelines/*.docx
+/guidelines/*.rtf
