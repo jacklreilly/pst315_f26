@@ -102,7 +102,7 @@
     "href": "syllabus.html#artificial-intelligence",
     "title": "PST 315: Methods of Policy Analysis and Presentation",
     "section": "🤖 Artificial Intelligence",
-    "text": "🤖 Artificial Intelligence\nBased on the specific learning outcomes and assignments in this course, artificial intelligence is permitted on the following: spelling and grammar checking. See each assignment, quiz, or exam instructions for more information about which artificial intelligence tools are permitted and to what extent, as well as citation requirements. If no instructions are provided for a specific assignment, then no use of any artificial intelligence tool is permitted. Any AI use beyond what is detailed in course assignments is explicitly prohibited except when documented permission is granted.\nI, as the instructor, may use generative AI tools to help develop and check course materials. When I do, I take full responsibility for reviewing and verifying all AI-generated content to ensure it is accurate, appropriate, and aligned with our learning objectives. All course materials were originally written by my (or a UCA’s) hand and final materials represent my professional judgment about what will best support your learning."
+    "text": "🤖 Artificial Intelligence\nBased on the specific learning outcomes and assignments in this course, artificial intelligence is permitted on the following: brainstorming, exploring or explaining concepts, troubleshooting, editing, spelling and grammar checks. AI may not be used to generate original prose text for your assignments or conduct analysis. See each assignment, quiz, or exam instructions for more information about which artificial intelligence tools are permitted and to what extent, as well as citation requirements. If no instructions are provided for a specific assignment, then no use of any artificial intelligence tool is permitted. Any AI use beyond what is detailed in course assignments is explicitly prohibited except when documented permission is granted.\nI, as the instructor, may use generative AI tools to help develop and check course materials. When I do, I take full responsibility for reviewing and verifying all AI-generated content to ensure it is accurate, appropriate, and aligned with our learning objectives. All course materials were originally written by my (or a UCA’s) hand and final materials represent my professional judgment about what will best support your learning."
   },
   {
     "objectID": "syllabus.html#disability-statement",
@@ -579,152 +579,485 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "TODO.html",
+    "href": "TODO.html",
+    "title": "TODO",
     "section": "",
-    "text": "Hello and welcome to the course website for PST 315, “Methods of Policy Analysis and Presentation.” I am your instructor, Professor Jack Reilly. You can find more about me on my website, if you are so inclined.\nPlease take a minute to browse this website, where you will find the course overview, course logistics, assignments, the guidelines that show you how to do the work, and campus academic policies.\nFinally, if you would like this website and syllabus in an alternate format, please note that you can download .pdfs or .docxs of any page on the site simply by clicking the link on the page. You can also download a full copy of the main syllabus here."
+    "text": "Push. The course URL currently serves the old DWV site — that stale content is public right now, and the first push replaces it.\nWatch the first GitHub Action run. Every render so far used the local toolchain (Quarto 1.4.555 + TeX Live); CI uses newer Quarto + TinyTeX. A PDF failure fails the whole publish.\nOnce live: click 📡 Subscribe on a phone (webcal only works against the real URL), download one .docx and check Properties says “PST 315”, spot-check a guideline page for images.\n\n\n\n\n\nProject Application page is an empty stub and it’s due Fri Aug 28. Needs its instructions and the Qualtrics link.\nSet up the Qualtrics form for the Project Application.\nPost to Blackboard the things the site now points at: - [ ] Practice report data (Excel) — deliberately not on the public site - [ ] UCA example reports — referenced from Practice Report and Rough Draft - [ ] Submission portals for each assignment\n\n\n\n\n\nExcel Coding Workshop (Wk 6) and Excel Graphing Workshop (Wk 7) are placeholders — “Coming later”. Their guidelines are already written.\nAdd the UCA roster to overview.qmd once UCAs consent to being listed on a public site. The section heading and intro are there; the table is not.\n\n\n\n\n\nMove bare-essentials.pdf to Blackboard instead of the public site?\nSample Contract & Timeline still runs on a Spring 2023 timeline (Jan 25 – May 1). Updating means reworking the internal dates, not just swapping them.\nPractice Report still names the three real partner sites (ITC, PLSA@Fowler, Syracuse Police Cadets) and the real 432/457 attendance figures. Genericize, or leave as study metadata?\nKeep Prior Assignments/ local-only forever, or archive it somewhere private but backed up? It is currently gitignored and exists nowhere else.\n\n\n\n\n\nDue dates live in both the assignment pages and tools/build_calendar.py with nothing syncing them. Change one, and subscribed students silently get the wrong date. Best fix: have the script read dates from the .qmd files, plus a check that fails on mismatch.\nHeadshot is 5552×5536 / 3.7 MB and displays at 100px.\nformatted-report-shell.docx footer placeholder says “April 2026” — intentionally left for students to overwrite, but it is a spring month on a fall course.\n\n\n\n\n\nRoll every date forward: tools/build_calendar.py, the Due lines in all 17 assignment pages, assignments/index.qmd tables, the three Fall-2026-stamped templates in assignments/files/.\nRe-check that Fall Break and Thanksgiving still fall where the 15-week structure assumes."
   },
   {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "About",
+    "objectID": "TODO.html#before-the-site-goes-live",
+    "href": "TODO.html#before-the-site-goes-live",
+    "title": "TODO",
     "section": "",
-    "text": "Hello and welcome to the course website for PST 315, “Methods of Policy Analysis and Presentation.” I am your instructor, Professor Jack Reilly. You can find more about me on my website, if you are so inclined.\nPlease take a minute to browse this website, where you will find the course overview, course logistics, assignments, the guidelines that show you how to do the work, and campus academic policies.\nFinally, if you would like this website and syllabus in an alternate format, please note that you can download .pdfs or .docxs of any page on the site simply by clicking the link on the page. You can also download a full copy of the main syllabus here."
+    "text": "Push. The course URL currently serves the old DWV site — that stale content is public right now, and the first push replaces it.\nWatch the first GitHub Action run. Every render so far used the local toolchain (Quarto 1.4.555 + TeX Live); CI uses newer Quarto + TinyTeX. A PDF failure fails the whole publish.\nOnce live: click 📡 Subscribe on a phone (webcal only works against the real URL), download one .docx and check Properties says “PST 315”, spot-check a guideline page for images."
   },
   {
-    "objectID": "about.html#technical-details",
-    "href": "about.html#technical-details",
-    "title": "About",
-    "section": "Technical Details",
-    "text": "Technical Details\nThis site was built in Quarto using Positron, and is hosted on GitHub Pages."
+    "objectID": "TODO.html#before-week-1-class-tue-aug-25-first-deadline-fri-aug-28",
+    "href": "TODO.html#before-week-1-class-tue-aug-25-first-deadline-fri-aug-28",
+    "title": "TODO",
+    "section": "",
+    "text": "Project Application page is an empty stub and it’s due Fri Aug 28. Needs its instructions and the Qualtrics link.\nSet up the Qualtrics form for the Project Application.\nPost to Blackboard the things the site now points at: - [ ] Practice report data (Excel) — deliberately not on the public site - [ ] UCA example reports — referenced from Practice Report and Rough Draft - [ ] Submission portals for each assignment"
   },
   {
-    "objectID": "guidelines/second-client-meeting.html",
-    "href": "guidelines/second-client-meeting.html",
-    "title": "Second Client Meeting Guide",
+    "objectID": "TODO.html#during-the-semester",
+    "href": "TODO.html#during-the-semester",
+    "title": "TODO",
     "section": "",
-    "text": "Congratulations! You have completed your first client meeting and your contract and timeline. At this point, you should have a second meeting scheduled with your client to go over questions for the Organizational Assessment, as well as gain further clarity on any questions you have about your project.\nBefore your second client meeting, make sure to spend some time thinking about your project and making a list of any questions that come up. These questions might be about the scope of your project, details on the survey or data, or their expectations for the final report. It is best to ask any questions as soon as they arise – this is how you prevent issues from popping up down the line!\nAlso, before your second meeting, you should review the Organizational Assessment. This assignment’s purpose is for you to better understand your client’s organization. By having a better understanding of their organization’s goals, you can better tailor your report to their needs (and it will help you create your introduction and executive summary sections of your report!). Prepare questions ahead of time to guide the conversation surrounding the Organizational Assessment.\nIn your meeting, you have a few things you should cover.\n\nAsk your client if they have a list of research questions that your report should help answer. If they don’t already have these, you should work together to create a list.\n\nTip: Ideally you should have a minimum of seven research questions to equate to the minimum of seven findings in your report. More than seven is absolutely acceptable.\nTip: Sometimes the client will have some ideas but will need help refining their research questions – work through this with them in your meeting to ensure everyone is happy and understands what will be answered in the report!\n\nDiscuss the questions for the Organizational Assessment you prepared.\n\nTip: Questions 1, 3, and 4 on the assignment will need to be discussed with your client.\n\nAsk your client if they have any questions or changes since your last meeting.\n\nTip: Keeping an open dialogue and asking your client if they have questions or changes throughout the semester will ensure a happy client and a happy consultant on the same page!\n\n\nIf you have any questions, please do not hesitate to reach out to your UCA.",
+    "text": "Excel Coding Workshop (Wk 6) and Excel Graphing Workshop (Wk 7) are placeholders — “Coming later”. Their guidelines are already written.\nAdd the UCA roster to overview.qmd once UCAs consent to being listed on a public site. The section heading and intro are there; the table is not."
+  },
+  {
+    "objectID": "TODO.html#decisions-still-open",
+    "href": "TODO.html#decisions-still-open",
+    "title": "TODO",
+    "section": "",
+    "text": "Move bare-essentials.pdf to Blackboard instead of the public site?\nSample Contract & Timeline still runs on a Spring 2023 timeline (Jan 25 – May 1). Updating means reworking the internal dates, not just swapping them.\nPractice Report still names the three real partner sites (ITC, PLSA@Fowler, Syracuse Police Cadets) and the real 432/457 attendance figures. Genericize, or leave as study metadata?\nKeep Prior Assignments/ local-only forever, or archive it somewhere private but backed up? It is currently gitignored and exists nowhere else."
+  },
+  {
+    "objectID": "TODO.html#worth-fixing-when-theres-time",
+    "href": "TODO.html#worth-fixing-when-theres-time",
+    "title": "TODO",
+    "section": "",
+    "text": "Due dates live in both the assignment pages and tools/build_calendar.py with nothing syncing them. Change one, and subscribed students silently get the wrong date. Best fix: have the script read dates from the .qmd files, plus a check that fails on mismatch.\nHeadshot is 5552×5536 / 3.7 MB and displays at 100px.\nformatted-report-shell.docx footer placeholder says “April 2026” — intentionally left for students to overwrite, but it is a spring month on a fall course."
+  },
+  {
+    "objectID": "TODO.html#next-year",
+    "href": "TODO.html#next-year",
+    "title": "TODO",
+    "section": "",
+    "text": "Roll every date forward: tools/build_calendar.py, the Due lines in all 17 assignment pages, assignments/index.qmd tables, the three Fall-2026-stamped templates in assignments/files/.\nRe-check that Fall Break and Thanksgiving still fall where the 15-week structure assumes."
+  },
+  {
+    "objectID": "policies.html",
+    "href": "policies.html",
+    "title": "Campus Policies",
+    "section": "",
+    "text": "The following reflects the approved campus-wide academic policies of Syracuse University. For more information and detail, please consult the full documentation of University policies at https://policies.syr.edu.\n\n\nAs a preeminent and inclusive student-focused research institution, Syracuse University places academic integrity at the forefront of learning and considers it a core value and guiding pillar of education. The University’s Academic Integrity Policy provides guidelines for completing academic work with integrity. Students are required to meet both course-specific and University-wide academic integrity expectations, such as crediting your sources, doing your own work, communicating honestly, and supporting academic integrity.\nUpholding academic integrity includes the protection of faculty intellectual property. Students should not upload, distribute, or share an instructor’s course materials — including presentations, assignments, exams, or other evaluative materials — without permission. Using websites that charge fees or require uploading of course material (e.g., Chegg, Course Hero) to obtain exam solutions or assignments completed by others and presenting them as your own violates academic integrity expectations in this course and may be classified as a Level 3 violation. All academic integrity expectations that apply to in-person assignments, quizzes, and exams also apply online.\nStudents found in violation of the policy are subject to grade sanctions determined by the course instructor and non-grade sanctions determined by the school or college offering the course. Students may not drop or withdraw from courses in which they face a suspected violation. Any established violation in this course may result in course failure regardless of violation level.\n\n\n\nBased on the specific learning outcomes and assignments in this course, artificial intelligence is permitted on the following: brainstorming, exploring or explaining concepts, troubleshooting, editing, spelling and grammar checks. AI may not be used to generate original prose text for your assignments or conduct analysis. See each assignment, quiz, or exam instructions for more information about which artificial intelligence tools are permitted and to what extent, as well as citation requirements. If no instructions are provided for a specific assignment, then no use of any artificial intelligence tool is permitted. Any AI use beyond what is detailed in course assignments is explicitly prohibited except when documented permission is granted.\nI, as the instructor, may use generative AI tools to help develop and check course materials. When I do, I take full responsibility for reviewing and verifying all AI-generated content to ensure it is accurate, appropriate, and aligned with our learning objectives. All course materials were originally written by my (or a UCA’s) hand and final materials represent my professional judgment about what will best support your learning.\n\n\n\nSyracuse University values diversity and inclusion and is committed to a climate of mutual respect and full participation. There may be aspects of the instruction or design of this course that result in barriers to your inclusion and full participation. I invite students to meet with me to discuss strategies and/or accommodations (academic adjustments) that may be essential to your success, in collaboration with the Center for Disability Resources (CDR).\nTo discuss disability accommodations or register with CDR, visit https://disabilityresources.syr.edu, or contact the center at 315.443.4498 or disabilityresources@syr.edu for more detailed information. CDR is responsible for coordinating disability-related academic accommodations and will work with you to develop an access plan. Since accommodations may require early planning and generally are not provided retroactively, please contact CDR as soon as possible.\n\n\n\nSyracuse University does not discriminate and prohibits harassment or discrimination related to any protected category including creed, ethnicity, citizenship status, reproductive health decisions, national origin, sex, gender, pregnancy, disability, marital status, age, race, color, veteran status, military status, religion, sexual orientation, domestic violence status, genetic information, gender identity and/or gender expression, shared common ancestry, or any other status protected by applicable law.\nAny complaint of discrimination or harassment related to any of these protected bases should be reported to Sheila Johnson-Willis, associate vice president and chief equal opportunity and Title IX officer in the Office of Equal Opportunity, Inclusion, and Resolution Services (621 Skytop Road, Suite 1001, Syracuse, NY 13244; equalopp@syr.edu; 315.443.4018). She is responsible for coordinating compliance efforts under various laws including Titles VI, VII, IX and Section 504 of the Rehabilitation Act.\n\n\n\nSyracuse University’s Religious Observances Policy recognizes the diversity of faiths represented in the campus community and protects the rights of students, faculty, and staff to observe religious holy days according to their traditions. Under the policy, students are given an opportunity to make up any examination, study, or work requirements that may be missed due to a religious observance, provided they notify their instructors no later than the academic drop deadline. For any observances occurring before the academic drop deadline, students must notify faculty at least two academic days in advance. Students register their observances using MySlice.\n\n\n\nAll of us need a support system, and many students benefit from the use of counseling services. Your well-being and mental health are important to me, to your academic success, and to your ability to thrive at Syracuse University.\nThe Barnes Center at the Arch, located at 150 Sims Drive on the South End of campus near the JMA Wireless Dome, works with students to identify and address issues related to personal growth, self-confidence, anxiety, depression, eating disorders, academic difficulties, and career indecision. Visit https://ese.syr.edu/bewell to see the range of available resources. Syracuse University provides counseling services to students at no cost, available 24/7, 365 days, by calling 315.443.8000.\n\n\n\nThis course uses the Blackboard Learning Management System. You can access Blackboard at https://blackboard.syr.edu. Use your NetID and password to log in. Through Blackboard, you will be able to:\n\nAccess course materials, assignments, and resources\nSubmit assignments\nView grades and feedback\nParticipate in course discussions\nCommunicate with your instructor and classmates\n\nFor technical assistance with Blackboard, contact the ITS Service Center at 315.443.2677 or help@syr.edu."
+  },
+  {
+    "objectID": "policies.html#academic-integrity",
+    "href": "policies.html#academic-integrity",
+    "title": "Campus Policies",
+    "section": "",
+    "text": "As a preeminent and inclusive student-focused research institution, Syracuse University places academic integrity at the forefront of learning and considers it a core value and guiding pillar of education. The University’s Academic Integrity Policy provides guidelines for completing academic work with integrity. Students are required to meet both course-specific and University-wide academic integrity expectations, such as crediting your sources, doing your own work, communicating honestly, and supporting academic integrity.\nUpholding academic integrity includes the protection of faculty intellectual property. Students should not upload, distribute, or share an instructor’s course materials — including presentations, assignments, exams, or other evaluative materials — without permission. Using websites that charge fees or require uploading of course material (e.g., Chegg, Course Hero) to obtain exam solutions or assignments completed by others and presenting them as your own violates academic integrity expectations in this course and may be classified as a Level 3 violation. All academic integrity expectations that apply to in-person assignments, quizzes, and exams also apply online.\nStudents found in violation of the policy are subject to grade sanctions determined by the course instructor and non-grade sanctions determined by the school or college offering the course. Students may not drop or withdraw from courses in which they face a suspected violation. Any established violation in this course may result in course failure regardless of violation level."
+  },
+  {
+    "objectID": "policies.html#artificial-intelligence",
+    "href": "policies.html#artificial-intelligence",
+    "title": "Campus Policies",
+    "section": "",
+    "text": "Based on the specific learning outcomes and assignments in this course, artificial intelligence is permitted on the following: brainstorming, exploring or explaining concepts, troubleshooting, editing, spelling and grammar checks. AI may not be used to generate original prose text for your assignments or conduct analysis. See each assignment, quiz, or exam instructions for more information about which artificial intelligence tools are permitted and to what extent, as well as citation requirements. If no instructions are provided for a specific assignment, then no use of any artificial intelligence tool is permitted. Any AI use beyond what is detailed in course assignments is explicitly prohibited except when documented permission is granted.\nI, as the instructor, may use generative AI tools to help develop and check course materials. When I do, I take full responsibility for reviewing and verifying all AI-generated content to ensure it is accurate, appropriate, and aligned with our learning objectives. All course materials were originally written by my (or a UCA’s) hand and final materials represent my professional judgment about what will best support your learning."
+  },
+  {
+    "objectID": "policies.html#disability-statement",
+    "href": "policies.html#disability-statement",
+    "title": "Campus Policies",
+    "section": "",
+    "text": "Syracuse University values diversity and inclusion and is committed to a climate of mutual respect and full participation. There may be aspects of the instruction or design of this course that result in barriers to your inclusion and full participation. I invite students to meet with me to discuss strategies and/or accommodations (academic adjustments) that may be essential to your success, in collaboration with the Center for Disability Resources (CDR).\nTo discuss disability accommodations or register with CDR, visit https://disabilityresources.syr.edu, or contact the center at 315.443.4498 or disabilityresources@syr.edu for more detailed information. CDR is responsible for coordinating disability-related academic accommodations and will work with you to develop an access plan. Since accommodations may require early planning and generally are not provided retroactively, please contact CDR as soon as possible."
+  },
+  {
+    "objectID": "policies.html#discrimination-or-harassment",
+    "href": "policies.html#discrimination-or-harassment",
+    "title": "Campus Policies",
+    "section": "",
+    "text": "Syracuse University does not discriminate and prohibits harassment or discrimination related to any protected category including creed, ethnicity, citizenship status, reproductive health decisions, national origin, sex, gender, pregnancy, disability, marital status, age, race, color, veteran status, military status, religion, sexual orientation, domestic violence status, genetic information, gender identity and/or gender expression, shared common ancestry, or any other status protected by applicable law.\nAny complaint of discrimination or harassment related to any of these protected bases should be reported to Sheila Johnson-Willis, associate vice president and chief equal opportunity and Title IX officer in the Office of Equal Opportunity, Inclusion, and Resolution Services (621 Skytop Road, Suite 1001, Syracuse, NY 13244; equalopp@syr.edu; 315.443.4018). She is responsible for coordinating compliance efforts under various laws including Titles VI, VII, IX and Section 504 of the Rehabilitation Act."
+  },
+  {
+    "objectID": "policies.html#faith-tradition-observances",
+    "href": "policies.html#faith-tradition-observances",
+    "title": "Campus Policies",
+    "section": "",
+    "text": "Syracuse University’s Religious Observances Policy recognizes the diversity of faiths represented in the campus community and protects the rights of students, faculty, and staff to observe religious holy days according to their traditions. Under the policy, students are given an opportunity to make up any examination, study, or work requirements that may be missed due to a religious observance, provided they notify their instructors no later than the academic drop deadline. For any observances occurring before the academic drop deadline, students must notify faculty at least two academic days in advance. Students register their observances using MySlice."
+  },
+  {
+    "objectID": "policies.html#health-wellness-considerations",
+    "href": "policies.html#health-wellness-considerations",
+    "title": "Campus Policies",
+    "section": "",
+    "text": "All of us need a support system, and many students benefit from the use of counseling services. Your well-being and mental health are important to me, to your academic success, and to your ability to thrive at Syracuse University.\nThe Barnes Center at the Arch, located at 150 Sims Drive on the South End of campus near the JMA Wireless Dome, works with students to identify and address issues related to personal growth, self-confidence, anxiety, depression, eating disorders, academic difficulties, and career indecision. Visit https://ese.syr.edu/bewell to see the range of available resources. Syracuse University provides counseling services to students at no cost, available 24/7, 365 days, by calling 315.443.8000."
+  },
+  {
+    "objectID": "policies.html#blackboard",
+    "href": "policies.html#blackboard",
+    "title": "Campus Policies",
+    "section": "",
+    "text": "This course uses the Blackboard Learning Management System. You can access Blackboard at https://blackboard.syr.edu. Use your NetID and password to log in. Through Blackboard, you will be able to:\n\nAccess course materials, assignments, and resources\nSubmit assignments\nView grades and feedback\nParticipate in course discussions\nCommunicate with your instructor and classmates\n\nFor technical assistance with Blackboard, contact the ITS Service Center at 315.443.2677 or help@syr.edu."
+  },
+  {
+    "objectID": "guidelines/initial-client-meeting.html",
+    "href": "guidelines/initial-client-meeting.html",
+    "title": "Initial Client Meeting Guide",
+    "section": "",
+    "text": "After sending your client an email and setting up a meeting time, you need to send a Zoom link at the time you have set up. If you have questions on how to set up a Zoom meeting and share it with your client, please ask your UCA.\nBefore your client meeting, it is important you prepare and come ready with a plan to make the meeting efficient. Your client is likely very busy and you don’t want to waste any time. You should prepare by reading the project description you were given by your UCA and brainstorming questions to ask your client. You should also look over the Contract and Timeline document and brainstorm your thoughts on how to fill it out. These thoughts can be shared with your client to start the conversation but ultimately should be filled in with your client’s preferences.\nIn your meeting, you have a few things you should cover.",
     "crumbs": [
       "🏠 Overview",
       "Working With Your Client",
-      "Second Client Meeting Guide"
+      "Initial Client Meeting Guide"
     ]
   },
   {
-    "objectID": "guidelines/client-email.html",
-    "href": "guidelines/client-email.html",
-    "title": "Client Email Guide",
-    "section": "",
-    "text": "Welcome to PST 315! Throughout the first few weeks of the class, you will focus on getting to know your client, fostering the start of a positive relationship, and creating a mutual understanding of expectations for the report you will be making for them.\nIn class, your UCA will provide you with your client’s name, contact information, and some details the client shared with us about their expectations for the project. Please note, these details may be vague and that is okay. You will be meeting with your client to ask additional questions and ensure you are on the same page.\nYour first step will be to send an introductory email to your client. Your email should include a personal introduction and request to meet with your client. You can also express your excitement to work on the project. Finally, you should include a brief overview of what you want to discuss in the meeting, which is to further clarify expectations and create a contract and timeline for the project.\n\n\n\n\n\n\nImportant\n\n\n\nOn this email, and ALL emails with your client going forward, you must CC your UCA. This is very important throughout the semester so your UCA can monitor your emails and help with any problems that may arise. Failing to CC your UCA on email communications with your client could result in losing a professionalism point.\n\n\nPlease note that clients will know the project you are working on as the Community Link Project, not PST 315. Most are aware that you are completing this for class credit, but when referring to this project to your client, do not refer to it as PST 315 – just call it the Community Link Project.\nWhen sending any emails to your client, please make sure to practice professionalism. You want to foster a positive client relationship, and this starts with presenting yourself professionally. A professional email should include a concise subject, a salutation, straightforward and concise body paragraphs, and a sign-off/signature. If you have any questions about this, please talk to your UCA and they will be more than happy to help!\n\n\n\n\n\n\nTipExample introductory client email\n\n\n\nTO: Your client’s email (primary and secondary if you have one) FROM: Your Syracuse email CC: Your UCA’s Syracuse email SUBJECT: Community Link Project Introduction and Meeting\nDear Mr./Ms./Mrs. ______:\nI hope this email finds you well. My name is Jordan Alvarez, and I have the pleasure of being the student assigned to your Community Links Project for this semester. I am very excited to work with you over the next few months to create a meaningful report for your organization and learn more about what your goals and achievements in the community are.\nI was hoping we could meet in the next week or so to discuss more details about your expectations for the report, as well as fill in a contract and timeline to ensure your organization receives a report that is meaningful and timely. In the proposal you filled out, you indicated that you are able to meet at the default time on Monday, February 31st at 2:15 PM. However, if that has changed, I would be more than happy to find another time that works better with your schedule. Please just let me know and we can figure out the best time.\nThank you so much for trusting me with this Community Link Project and I look forward to getting to know you throughout this semester. Please don’t hesitate to reach out with any questions.\nRegards, Jordan Alvarez",
+    "objectID": "guidelines/initial-client-meeting.html#zoom-etiquette",
+    "href": "guidelines/initial-client-meeting.html#zoom-etiquette",
+    "title": "Initial Client Meeting Guide",
+    "section": "Zoom etiquette",
+    "text": "Zoom etiquette\nSome of you will have your meeting over Zoom and others in person. For those who have your meeting on Zoom, here are some reminders about etiquette:\n\nBe sure to be in a quiet environment with a minimally distracting background.\nKeep in mind that while your client sees you, they are also seeing whatever is behind you, so be sure your background is minimal and appropriate.\nIf you cannot ensure a minimal/appropriate background, it is all right to use a virtual background.\nTo optimize your professional appearance, make sure you are well lit and not using low angles.\nBe on the call at least 5 minutes early.\nMost importantly – be attentive and responsive.\n\nRegardless of the setting of your meeting, you should be in business casual dress. Business casual generally means a collared shirt, blouse, or sweater with slacks, chinos, or a skirt, and closed shoes – no t-shirts, athletic wear, ripped jeans, or flip-flops.\n\n\n\nBasic business casual dress. Illustration by Nicoli Maege, CC BY-SA 3.0, via Wikimedia Commons; converted to PNG.\n\n\nIf you have any questions about business casual dress, please do not hesitate to reach out to your UCA.",
     "crumbs": [
       "🏠 Overview",
       "Working With Your Client",
-      "Client Email Guide"
+      "Initial Client Meeting Guide"
     ]
   },
   {
-    "objectID": "guidelines/index.html",
-    "href": "guidelines/index.html",
-    "title": "📗 Guidelines",
+    "objectID": "guidelines/qualitative-coding.html",
+    "href": "guidelines/qualitative-coding.html",
+    "title": "Qualitative (Open-Ended) Coding Guide",
     "section": "",
-    "text": "The guidelines are the course’s how-to references. Each one covers a single piece of the work – writing a client email, coding open-ended responses, formatting a graph – and each is linked from the assignment where you first need it.\nUnlike assignments, guidelines are not due on any date. Come back to them whenever you need them; several apply to more than one assignment, and most apply again to the Final Report.",
+    "text": "NoteAbout these examples\n\n\n\nThe examples below use sample data. Skills Win Coaching Organization is a real Syracuse University program, but the responses and numbers shown here are invented for teaching purposes and are not actual SWCO results.\n\n\nNote: There are three types of open-ended survey responses: categorical (single category), attitudinal (single category), and check-all-that-apply (multiple categories).\nStep 1: List open-ended actual responses.\nCopy the responses out of your spreadsheet exactly as they were written – do not fix spelling or grammar.\n\nWhat could be improved at your site sessions?\n\n\n\n\nRespondent ID\nResponse\n\n\n\n\n1\nMore hands on activities would be good.\n\n\n2\nadd more group activities\n\n\n3\nMore activities like the resume one.\n\n\n4\ni liked the practice interviews, do more of those\n\n\n5\nMore team exercises.\n\n\n6\nmore activities\n\n\n7\nDo more of the role playing exercises.\n\n\n8\nMore things to actually practice.\n\n\n9\nThe sessions felt rushed at the end.\n\n\n10\nmore time for each activity\n\n\n11\nLonger sessions.\n\n\n12\nWe needed more time to finish.\n\n\n\nStep 2: Aggregate responses into categories. The number of categories will depend on the variety of responses you have received, but aim to create the fewest number of categories possible while ensuring every response fits into one.\nStep 3: Take the number of responses for each category and then divide each raw number by the total number of responses (times 100) to get a percentage.\n\n\n\nCategory\nResponses\nPercentage\n\n\n\n\nMore activities\n8\n35%\n\n\nMore time\n6\n26%\n\n\nSmaller groups\n4\n17%\n\n\nBetter materials\n3\n13%\n\n\nNothing\n2\n9%\n\n\n\nStep 4: Graph the percentage data according to the PST 315 graphing guidelines.\n\nStep 5: Include the category name with actual responses listed below in the appendix. See the Appendices Guide.\nMore activities (n=8)\n\nMore hands on activities would be good.\nadd more group activities\nMore activities like the resume one.\ni liked the practice interviews, do more of those\n\nMore time (n=6)\n\nThe sessions felt rushed at the end.\nmore time for each activity\nLonger sessions.\nWe needed more time to finish.\n\nSmaller groups (n=4)\n\nThe groups were too big.\nsmaller groups so everyone can talk\nToo many people at my table.\nSmaller groups would help.\n\nBetter materials (n=3)\n\nThe handouts were hard to read.\nbetter worksheets\nThe packet had typos in it.\n\nNothing (n=2)\n\nNothing, it was great.\nnothing",
     "crumbs": [
       "🏠 Overview",
-      "All Guidelines"
+      "Working With Your Data",
+      "Qualitative (Open-Ended) Coding Guide"
     ]
   },
   {
-    "objectID": "guidelines/index.html#working-with-your-client",
-    "href": "guidelines/index.html#working-with-your-client",
-    "title": "📗 Guidelines",
-    "section": "Working with your client",
-    "text": "Working with your client\n\n\n\n\n\n\n\nGuideline\nWhat it covers\n\n\n\n\nClient Email\nWriting your first email to your client\n\n\nInitial Client Meeting\nPreparing for and running your first meeting\n\n\nContract and Timeline\nFilling out the contract and timeline together\n\n\nSecond Client Meeting\nSetting your research questions",
-    "crumbs": [
-      "🏠 Overview",
-      "All Guidelines"
-    ]
-  },
-  {
-    "objectID": "guidelines/index.html#working-with-your-data",
-    "href": "guidelines/index.html#working-with-your-data",
-    "title": "📗 Guidelines",
-    "section": "Working with your data",
-    "text": "Working with your data\n\n\n\n\n\n\n\nGuideline\nWhat it covers\n\n\n\n\nCodebook and Spreadsheet\nBuilding a codebook and coding your data in Excel\n\n\nQualitative Coding\nCategorizing open-ended survey responses\n\n\nGraphing Guidelines\nThe formatting rules every graph must follow",
-    "crumbs": [
-      "🏠 Overview",
-      "All Guidelines"
-    ]
-  },
-  {
-    "objectID": "guidelines/index.html#writing-the-report",
-    "href": "guidelines/index.html#writing-the-report",
-    "title": "📗 Guidelines",
-    "section": "Writing the report",
-    "text": "Writing the report\n\n\n\n\n\n\n\nGuideline\nWhat it covers\n\n\n\n\nExecutive Summary\nWriting and formatting the executive summary\n\n\nIntroduction and Methods\nWriting the introduction and methods sections\n\n\nFindings\nLaying out a findings page\n\n\nAppendices\nWhat belongs in each of the five appendices\n\n\nFooters and Section Breaks\nEditing footers and fixing section breaks in Word",
-    "crumbs": [
-      "🏠 Overview",
-      "All Guidelines"
-    ]
-  },
-  {
-    "objectID": "guidelines/introduction-and-methods.html",
-    "href": "guidelines/introduction-and-methods.html",
-    "title": "Introduction and Methods Guide",
+    "objectID": "guidelines/graphing.html",
+    "href": "guidelines/graphing.html",
+    "title": "Graphing Guidelines",
     "section": "",
-    "text": "Your Introduction is where you will provide more details about your client’s organization and how your report will support their agency and mission. The first sentence in your Introduction section should be identical to the first sentence in your Executive Summary.\nWithin your Introduction section, you should include information about your client’s organization from the Organizational Assessment. This can include the agency mission, services they provide in the community, or any other relevant information about who they are as an organization. Then you should explain in a few sentences what your report will be used for.\nYour Methods section will be made up of two main parts: how data were collected, and quality of the data. Within each part, there will be subsections covering different topics important for your client and reader to understand about the data.",
+    "text": "Every graph in your report must follow these guidelines.\nGraph type\nColor\nText\nAxes and data labels",
     "crumbs": [
       "🏠 Overview",
-      "Writing the Report",
-      "Introduction and Methods Guide"
+      "Working With Your Data",
+      "Graphing Guidelines"
     ]
   },
   {
-    "objectID": "guidelines/introduction-and-methods.html#how-data-were-collected",
-    "href": "guidelines/introduction-and-methods.html#how-data-were-collected",
-    "title": "Introduction and Methods Guide",
-    "section": "How data were collected",
-    "text": "How data were collected\nInstrument design. This section is where you will explain how the survey or data was created. In this section, you will include details of who helped in the creation of the survey or data as well as any platforms used to facilitate the survey or data (for example, Google Forms).\nData collection method. This section provides information about timing of the survey (open date, close date, any reminders), who sent out the survey, and how and who recorded results. For data projects, this section will provide information about how your client collected this data, when the data was collected, and how you recorded the data.\nTarget population and sample. This section will include exact numbers (if possible) for your target population, sampling frame, and sample. Additionally, if applicable, record a response rate here.",
+    "objectID": "guidelines/graphing.html#example-of-a-graph-that-follows-the-guidelines",
+    "href": "guidelines/graphing.html#example-of-a-graph-that-follows-the-guidelines",
+    "title": "Graphing Guidelines",
+    "section": "Example of a graph that follows the guidelines",
+    "text": "Example of a graph that follows the guidelines\n\n\n\n\n\n\nNoteAbout this example\n\n\n\nThis example uses sample data. Skills Win Coaching Organization is a real Syracuse University program, but the numbers shown are invented for teaching purposes and are not actual SWCO results.\n\n\n\nCheck it against the list above: bar graph, three bars so arranged vertically, solid black bars and axis lines, Times New Roman 12pt throughout, bold title and bold axis titles, y-axis starting at 0, outside-end data labels showing percentages, “n=” under the title, major outside tick marks, and no border.",
     "crumbs": [
       "🏠 Overview",
-      "Writing the Report",
-      "Introduction and Methods Guide"
+      "Working With Your Data",
+      "Graphing Guidelines"
     ]
   },
   {
-    "objectID": "guidelines/introduction-and-methods.html#quality-of-the-data",
-    "href": "guidelines/introduction-and-methods.html#quality-of-the-data",
-    "title": "Introduction and Methods Guide",
-    "section": "Quality of the data",
-    "text": "Quality of the data\nRepresentativeness. This section will explain any threats your project experienced with representativeness. As a reminder, when thinking about representativeness, ask yourself: “How well does the sample reflect the target population?” Some (but not all) potential threats to representativeness could be a small sample, selection bias, or non-random selection.\nAccuracy. This section will describe any potential accuracy threats your project experienced. As a reminder, when thinking about accuracy, ask yourself: “Does the data reflect reality?” You can never be certain your data is 100% accurate. Some potential accuracy threats to survey projects are respondents having motivated bias, respondents not understanding questions or unclear questions, or mistakes in transferring and recording data. Some potential accuracy threats to data projects are mistakes in recording, incomplete or messy records, and biased record keepers.\n\n\n\n\n\n\nNoteAbout these examples\n\n\n\nThe example pages below use sample data. Skills Win Coaching Organization is a real Syracuse University program, but the project, author, and numbers shown are invented for teaching purposes and are not actual SWCO results.",
+    "objectID": "guidelines/footers-and-section-breaks.html",
+    "href": "guidelines/footers-and-section-breaks.html",
+    "title": "Footers and Section Breaks Guide",
+    "section": "",
+    "text": "This guide covers editing footers, aligning page numbers, and deleting section breaks.",
     "crumbs": [
       "🏠 Overview",
       "Writing the Report",
-      "Introduction and Methods Guide"
+      "Footers and Section Breaks Guide"
     ]
   },
   {
-    "objectID": "guidelines/introduction-and-methods.html#example-introduction-page",
-    "href": "guidelines/introduction-and-methods.html#example-introduction-page",
-    "title": "Introduction and Methods Guide",
-    "section": "Example introduction page",
-    "text": "Example introduction page",
+    "objectID": "guidelines/footers-and-section-breaks.html#editing-the-footer-and-aligning-page-numbers",
+    "href": "guidelines/footers-and-section-breaks.html#editing-the-footer-and-aligning-page-numbers",
+    "title": "Footers and Section Breaks Guide",
+    "section": "Editing the footer and aligning page numbers",
+    "text": "Editing the footer and aligning page numbers\nThe footer in the report shell will look like this:\n\nDouble click in the footer area, and then you should be able to edit the project title. Change “Title of Project” to the actual title of your project.\n\nDrag the page number box to align with the end of the footer.\n\nAll done!",
     "crumbs": [
       "🏠 Overview",
       "Writing the Report",
-      "Introduction and Methods Guide"
+      "Footers and Section Breaks Guide"
     ]
   },
   {
-    "objectID": "guidelines/introduction-and-methods.html#example-methods-page",
-    "href": "guidelines/introduction-and-methods.html#example-methods-page",
-    "title": "Introduction and Methods Guide",
-    "section": "Example methods page",
-    "text": "Example methods page",
+    "objectID": "guidelines/footers-and-section-breaks.html#deleting-section-breaks",
+    "href": "guidelines/footers-and-section-breaks.html#deleting-section-breaks",
+    "title": "Footers and Section Breaks Guide",
+    "section": "Deleting section breaks",
+    "text": "Deleting section breaks\nClick on the paragraph button (find it on the Home menu, see the image below) to show formatting marks on your report.\n\nOnce you click this you will see formatting marks appear in blue, and text in black that shows section breaks and page breaks. Find the section break you want to delete.\n\nClick and press Command on your keyboard to select the section break. This will highlight it.\n\nPress Command + X. This will cut the section break out of the report.\n\nIt should be gone. If not, try a few times – it can be finicky!",
     "crumbs": [
       "🏠 Overview",
       "Writing the Report",
-      "Introduction and Methods Guide"
+      "Footers and Section Breaks Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines/executive-summary.html",
+    "href": "guidelines/executive-summary.html",
+    "title": "Executive Summary Guide",
+    "section": "",
+    "text": "NoteAbout these examples\n\n\n\nThe examples below use sample data. Skills Win Coaching Organization is a real Syracuse University program, but the project, author, numbers, and responses shown here are invented for teaching purposes and are not actual SWCO results.\nStep 1: Open a Word document. Create a header following the guidelines below.\nNote: The name of your project should describe in a few words the purpose of your project.\nStep 2: Create the introduction by using information from your Organizational Assessment. The first sentences must be: “This study reports __________. The study will be presented to _________.”\nThe first sentence of the introduction in your executive summary should be identical to the first sentence in the introduction section of your report.\nStep 3: Create the methods portion of your executive summary. Methods should overview how data were collected and define the target population, sample, and sampling frame, if applicable. Also in this section, note any MAJOR data collection and accuracy issues.\nQuestions to answer in Methods:\nStep 4: Create the findings portion of your executive summary. Each of your findings in this section should EXACTLY match the findings at the top of each of your Findings pages throughout your report – this means word for word. Be sure every research question corresponds with a finding.\nReminders about findings:",
+    "crumbs": [
+      "🏠 Overview",
+      "Writing the Report",
+      "Executive Summary Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines/executive-summary.html#example-executive-summary",
+    "href": "guidelines/executive-summary.html#example-executive-summary",
+    "title": "Executive Summary Guide",
+    "section": "Example executive summary",
+    "text": "Example executive summary",
+    "crumbs": [
+      "🏠 Overview",
+      "Writing the Report",
+      "Executive Summary Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines/codebook-and-spreadsheet.html",
+    "href": "guidelines/codebook-and-spreadsheet.html",
+    "title": "Codebook and Spreadsheet Guide",
+    "section": "",
+    "text": "NoteAbout these examples\n\n\n\nThe examples below use sample data. Skills Win Coaching Organization is a real Syracuse University program, but the survey, variables, and responses shown here are invented for teaching purposes and are not actual SWCO results.",
+    "crumbs": [
+      "🏠 Overview",
+      "Working With Your Data",
+      "Codebook and Spreadsheet Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines/codebook-and-spreadsheet.html#creating-your-codebook",
+    "href": "guidelines/codebook-and-spreadsheet.html#creating-your-codebook",
+    "title": "Codebook and Spreadsheet Guide",
+    "section": "Creating your codebook",
+    "text": "Creating your codebook\nStep 1: In Word, create a table with four columns: Column, Field Name, Definition, and Code.\n\n\n\nColumn\nField Name\nDefinition\nCode\n\n\n\n\n\n\n\n\n\n\n\nThe number of rows depends on the number of questions you have on your survey or how many research questions you have. As a general rule:\n\nNumber of questions + 2 = Number of rows in your codebook table\n\nThe +2 rows account for the header row and the respondent ID row.\nStep 2: Create a list of variables from your questions. These will be your Field Name and Definition columns.\n\nYour field name should be a short word or a few letters describing the variable. (Example: grade level = GRADE, or engagement = ENGAGE.)\nYour definition should be the original question or a description of the variable. (Example: “What grade are you in?” or “Code is identical to the respondent’s ID number.”)\n\n\n\n\n\n\n\n\n\n\nColumn\nField Name\nDefinition\nCode\n\n\n\n\nA\nID\nRespondent’s unique identification number\nCode is identical to identification number\n\n\nB\nSITE\nWhich site session did you attend?\n\n\n\nC\nGRADE\nWhat grade are you in?\n\n\n\n\nNote: each field name (variable) aligns with a column of your spreadsheet according to your codebook.\nStep 3: Repeat step 2 for all of your questions.\n\n\n\n\n\n\n\n\n\nColumn\nField Name\nDefinition\nCode\n\n\n\n\nA\nID\nRespondent’s unique identification number\nCode is identical to identification number\n\n\nB\nSITE\nWhich site session did you attend?\n\n\n\nC\nGRADE\nWhat grade are you in?\n\n\n\nD\nCOACH\nThe coaches were helpful.\n\n\n\nE\nENGAGE\nThe exercises were engaging.\n\n\n\nF\nIMPROVE\nWhat could be improved at your site sessions?\n\n\n\n\nStep 4: Assign a code to each possible answer for each question. Your variable type will make a difference here.\nNote: for open-ended responses, you should create up to 5 or 6 categories to place the open-ended responses into. See the Qualitative Coding Guide.\nStep 5: In your spreadsheet, you will use your codebook to code your raw data.",
+    "crumbs": [
+      "🏠 Overview",
+      "Working With Your Data",
+      "Codebook and Spreadsheet Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines/codebook-and-spreadsheet.html#codebook-example",
+    "href": "guidelines/codebook-and-spreadsheet.html#codebook-example",
+    "title": "Codebook and Spreadsheet Guide",
+    "section": "Codebook example",
+    "text": "Codebook example\n\n\n\n\n\n\n\n\n\nColumn\nField Name\nDefinition\nCode\n\n\n\n\nA\nID\nRespondent’s unique identification number\nCode is identical to identification number\n\n\nB\nSITE\nWhich site session did you attend?\n1 = Site A2 = Site B3 = Site C99 = No response\n\n\nC\nGRADE\nWhat grade are you in?\n1 = 9th2 = 10th3 = 11th4 = 12th99 = No response\n\n\nD\nCOACH\nThe coaches were helpful.\n1 = Strongly disagree2 = Disagree3 = Neutral4 = Agree5 = Strongly agree99 = No response\n\n\nE\nENGAGE\nThe exercises were engaging.\n1 = Strongly disagree2 = Disagree3 = Neutral4 = Agree5 = Strongly agree99 = No response\n\n\nF\nIMPROVE\nWhat could be improved at your site sessions?\nOpen ended response:1 = More activities2 = More time3 = Smaller groups4 = Better materials5 = Nothing99 = No response",
+    "crumbs": [
+      "🏠 Overview",
+      "Working With Your Data",
+      "Codebook and Spreadsheet Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines/codebook-and-spreadsheet.html#creating-your-spreadsheet",
+    "href": "guidelines/codebook-and-spreadsheet.html#creating-your-spreadsheet",
+    "title": "Codebook and Spreadsheet Guide",
+    "section": "Creating your spreadsheet",
+    "text": "Creating your spreadsheet\nStep 6: Once you have created your codebook, it is time to code your data in Excel using the codes you just created above.\nWhy do we do this? By coding your data, it will make your data far easier to comprehend and to analyze.\nStep 7: Open a new Excel spreadsheet. Begin by typing the field names for each of your variables from your codebook into the first row of the sheet.\n\n\n\nID\nSITE\nGRADE\nCOACH\nENGAGE\nIMPROVE\n\n\n\n\n\n\n\n\n\n\n\n\n\nStep 8: Save this Excel spreadsheet and turn it in along with your Codebook document and Revised Executive Summary for your assignment.",
+    "crumbs": [
+      "🏠 Overview",
+      "Working With Your Data",
+      "Codebook and Spreadsheet Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines/codebook-and-spreadsheet.html#once-you-have-your-data",
+    "href": "guidelines/codebook-and-spreadsheet.html#once-you-have-your-data",
+    "title": "Codebook and Spreadsheet Guide",
+    "section": "Once you have your data",
+    "text": "Once you have your data\nStep 9: Copy your data into your spreadsheet and create a copy of your responses. You want to save an original version of your data along with the coded data. You can create a copy by right-clicking on the spreadsheet tab, selecting “Move or Copy,” and selecting to copy. This will create a new tab with the same data – name these tabs “Original Responses” and “Coded Responses” to ensure these don’t get mixed up.\n\n\n\n\n\n\nRight-click the sheet tab and choose Move or Copy.\n\n\n\n\n\n\n\nTick “Create a copy” before clicking OK.\n\n\n\n\n\nStep 10: Once you have a copy of your responses to edit, you should start coding all of the responses based on your codebook. Coding will look different depending on your types of variables. Ask your UCA any questions about specific variables.\nCoded data looks like this – every answer replaced by its code from the codebook:\n\n\n\nID\nSITE\nGRADE\nCOACH\nENGAGE\nIMPROVE\n\n\n\n\n1\n1\n3\n5\n4\n1\n\n\n2\n2\n4\n4\n5\n2\n\n\n3\n1\n2\n3\n3\n1\n\n\n4\n3\n4\n5\n2\n3\n\n\n5\n2\n3\n4\n5\n5\n\n\n6\n1\n1\n2\n3\n2\n\n\n7\n3\n2\n5\n4\n99\n\n\n\nHint: use the Find and Replace feature in Excel to quickly code multiple-choice variables.",
+    "crumbs": [
+      "🏠 Overview",
+      "Working With Your Data",
+      "Codebook and Spreadsheet Guide"
+    ]
+  },
+  {
+    "objectID": "overview.html",
+    "href": "overview.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Time: Tuesdays, 3:30 PM – 6:15 PM\nLocation: HB Crouse Hall, Kittredge Auditorium\n\n\n\nProfessor Jack Reilly\nOffice: Eggers 225F (in the Policy Studies suite)\nOffice Hours: Friday, 1:00 – 3:00 PM, and by appointment\ne-mail: jlreilly@syr.edu\n\n\n\nYour Undergraduate Course Assistant (UCA) is your supervisor for the semester and your first point of contact for questions about the course and your project."
+  },
+  {
+    "objectID": "overview.html#class",
+    "href": "overview.html#class",
+    "title": "Overview",
+    "section": "",
+    "text": "Time: Tuesdays, 3:30 PM – 6:15 PM\nLocation: HB Crouse Hall, Kittredge Auditorium"
+  },
+  {
+    "objectID": "overview.html#instructor",
+    "href": "overview.html#instructor",
+    "title": "Overview",
+    "section": "",
+    "text": "Professor Jack Reilly\nOffice: Eggers 225F (in the Policy Studies suite)\nOffice Hours: Friday, 1:00 – 3:00 PM, and by appointment\ne-mail: jlreilly@syr.edu"
+  },
+  {
+    "objectID": "overview.html#undergraduate-course-assistants",
+    "href": "overview.html#undergraduate-course-assistants",
+    "title": "Overview",
+    "section": "",
+    "text": "Your Undergraduate Course Assistant (UCA) is your supervisor for the semester and your first point of contact for questions about the course and your project."
+  },
+  {
+    "objectID": "overview.html#prerequisites",
+    "href": "overview.html#prerequisites",
+    "title": "Overview",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nPST 101, MAX 201, and admittance to the Policy Studies major."
+  },
+  {
+    "objectID": "overview.html#learning-objectives",
+    "href": "overview.html#learning-objectives",
+    "title": "Overview",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nFrame a research question and define a research scope\nGather information and data from a variety of sources\nJudge sources’ credibility, authority, relevance, bias, and accuracy\nCalculate results, support arguments, and draw conclusions\nDemonstrate software and technology proficiency\nPresent conclusions or data visually, clearly, and succinctly"
+  },
+  {
+    "objectID": "overview.html#microsoft-office",
+    "href": "overview.html#microsoft-office",
+    "title": "Overview",
+    "section": "Microsoft Office",
+    "text": "Microsoft Office\nAs a current student, you can use your SU student electronic account to download and install Office 365 applications (including Word, Excel, and PowerPoint) on up to five computers (PC and Mac) and five mobile devices (iPhone, iPad, Android). Students should download Microsoft Word, Excel, and PowerPoint in the first week of class.\nWhile you can technically use Office on mobile devices, you should use a full computer (Mac or PC) for data analysis in the class. The mobile versions of the applications are not feature complete."
+  },
+  {
+    "objectID": "overview.html#online-course-resources",
+    "href": "overview.html#online-course-resources",
+    "title": "Overview",
+    "section": "Online Course Resources",
+    "text": "Online Course Resources\nBlackboard is our internet-based course platform: https://blackboard.syr.edu. Log in with your NetID and password. Nearly all assignments are submitted through Blackboard; the Project Application is submitted through a Qualtrics link instead.\nThis website holds the course syllabus, schedule, and assignment descriptions. Please note that class attendance is the primary source of course-related announcements and material."
+  },
+  {
+    "objectID": "NOTES.html",
+    "href": "NOTES.html",
+    "title": "Working notes",
+    "section": "",
+    "text": "Background on how this site is put together and why. README.md covers layout and building; TODO.md tracks what’s still open. This file is the reasoning.\nBuilt August 2026 by adapting the DWV (Data Wrangling & Visualization) course site as a template, then replacing all its content with PST 315 material drawn from the syllabus PDF and the Word/PowerPoint files in Prior Assignments/.\n\n\n\nThe GitHub repo is public. github.com/jacklreilly/pst315_f26 returns HTTP 200 anonymously. That means committing a file publishes it, whether or not the site links to it.\nPrior Assignments/ is gitignored for exactly this reason. It contains the original course documents, and those hold real client data. None of this was ever committed. Keep it that way. If the folder needs to move or be renamed, update .gitignore in the same commit.\n\n\n\nEvery example image on the site is regenerated with fabricated data, not redacted. The originals were deleted. Source of truth is tools/swco_data.py; build_pages.py typesets report pages with xelatex, build_graphs.py draws graphs to the PST 315 graphing rules, and build_annotated.py rebuilds the annotated executive-summary header by reading text positions back out of the PDF.\nSWCO (Skills Win Coaching Organization) is a real Syracuse program — it is fine to name, but its data must not appear publicly. Every generated example therefore carries a visible callout saying the numbers are invented. If you edit swco_data.py, keep that true.\nTwo exceptions kept as real screenshots, both cleaned by tools/redact_ui.py: codebook-7.png (cropped to the Excel context menu — it had respondent-level gender/race columns behind it, plus the author’s device name) and codebook-8.png (real workbook filename painted over).\nAlso removed: three business-casual infographics from Reader’s Digest and The Balance — third-party copyrighted images with visible branding, fine on Blackboard but not on an open site. Replaced with a CC BY-SA 3.0 illustration from Wikimedia, attributed in the caption on the Initial Client Meeting guide.\nbare-essentials.pdf summarizes Coplin & Dwyer, Does Your Government Measure Up? chapter by chapter. Coplin is a colleague, collaborator and rights holder, so this is a decided non-issue — noted only so it isn’t rediscovered as alarming.\n\n\n\nEvery file in assignments/files/ originally carried real names in docProps/core.xml and app.xml — invisible in the document, one click away in Word’s Properties pane. Ten people’s names in total. clean_office_metadata.py scrubs them.\nGotcha that cost a pass: Word writes these tags with or without a namespace prefix depending on which version saved the file (&lt;lastModifiedBy&gt; vs &lt;cp:lastModifiedBy&gt;). The scrubber is now prefix-agnostic. Any new matcher should be too.\nScrubbing only touches docProps/. Verified on the report shell: 34 of 35 zip parts stay byte-identical, including document.xml, headers, footers and the embedded logo. Files do get smaller after scrubbing — that is recompression, not lost content.\n\n\n\nGuidelines are a top-level section, not sub-sections of assignments. They started embedded under the assignment where each was first applicable, then were pulled out to guidelines/ with their own navbar entry and docked sidebar. Each assignment links to the guidelines it needs under a ## Guidelines heading, and guidelines/index.qmd lists all twelve. Guide images moved to guidelines/images/ and the tools/ scripts point there.\nPlacement of each guide (which assignment it belongs to) was decided deliberately — see the mapping table on guidelines/index.qmd. Do not shuffle without a reason.\nDownloads are only things students fill in or build from. Anything that was just prose duplicating a webpage was deleted, since Quarto already offers PDF/Word/RTF of every page. Nine files remain. The Organizational Assessment worksheet and grade sheet are generated by build_org_assessment.py (the original was 4.6 MB of embedded fonts; these are 36 KB).\nOne shared formatted-report-shell.docx serves both the Practice Report and the Formatted Report Shell assignments — the two originals differed only in a placeholder month in the footer.\nTerminology: “UCA” everywhere (the source guides said “TA”). Submission is “By Project” / “By Individual”. American spellings.\n\n\n\nFirst day of classes Mon Aug 24. Fall Break Oct 12–13 lands inside Week 8; Thanksgiving Nov 22–29 is not a course week, so Week 14 is the week after it. That makes the 15 weeks land exactly on the Dec 8 last day of classes.\nWeek n Friday deadlines: Aug 28, Sep 4, 11, 18, 25, Oct 2, 9, 16, 23, 30, Nov 6, 13, 20, then Dec 4, Dec 11. The Final Presentation is the one exception — submitted Monday Nov 30, presented in class Tuesday Dec 1.\nDue dates are duplicated in each assignment page and in tools/build_calendar.py, with nothing keeping them in sync. This is the main known fragility. Options discussed: a Quarto pre-render hook, having the script parse dates out of the .qmd files, or a check that fails on mismatch. Recommended combination is the last two.\n\n\n\n\nLink/anchor checker over rendered _site/ — caught every dead link after the guidelines restructure\niCalendar parser on the .ics rather than eyeballing it — confirmed all timed events land Tuesday 15:30–18:15\nRendering before and after a whitespace-only change and diffing the HTML to prove nothing moved\nComputed-style contrast measurement in a browser, not by inspecting CSS\nDeep scan of every XML part inside every .docx, not just the visible text\n\nThe browser preview pane intermittently returns blank screenshots. Programmatic measurement via javascript_tool is reliable; fall back to that.\nDo not run two renders at once. Quarto writes each page next to its source and then moves it into _site/; a second concurrent render moves files out from under the first, which dies with a confusing NotFound ... rename error and leaves a scatter of .html/.pdf/.docx/.rtf beside the .qmd files. .gitignore now catches those in the root, assignments/ and guidelines/, scoped so assignments/files/ is untouched. A clean re-render tidies them up.\n\n\n\n\nThe navbar blue #1A5490 needs the overrides in styles.css. Bootstrap’s default translucent navbar text measures 4.28:1 against it, under the 4.5:1 AA floor; forcing solid white gives 7.74:1.\nassignments/index.qmd emits unused .pdf/.docx/.rtf. Quarto rejects pdf: false, and format: html merges with _metadata.yml rather than replacing it. Harmless; format-links: false hides them.\nSVG in a page that also renders to PDF needs rsvg-convert, which is not installed locally or in CI. Use PNG.\n% in interpolated strings breaks xelatex (it is a comment character) — build_pages.py has a pct() helper for this."
+  },
+  {
+    "objectID": "NOTES.html#the-rule-that-matters-most",
+    "href": "NOTES.html#the-rule-that-matters-most",
+    "title": "Working notes",
+    "section": "",
+    "text": "The GitHub repo is public. github.com/jacklreilly/pst315_f26 returns HTTP 200 anonymously. That means committing a file publishes it, whether or not the site links to it.\nPrior Assignments/ is gitignored for exactly this reason. It contains the original course documents, and those hold real client data. None of this was ever committed. Keep it that way. If the folder needs to move or be renamed, update .gitignore in the same commit."
+  },
+  {
+    "objectID": "NOTES.html#anonymization-of-the-worked-examples",
+    "href": "NOTES.html#anonymization-of-the-worked-examples",
+    "title": "Working notes",
+    "section": "",
+    "text": "Every example image on the site is regenerated with fabricated data, not redacted. The originals were deleted. Source of truth is tools/swco_data.py; build_pages.py typesets report pages with xelatex, build_graphs.py draws graphs to the PST 315 graphing rules, and build_annotated.py rebuilds the annotated executive-summary header by reading text positions back out of the PDF.\nSWCO (Skills Win Coaching Organization) is a real Syracuse program — it is fine to name, but its data must not appear publicly. Every generated example therefore carries a visible callout saying the numbers are invented. If you edit swco_data.py, keep that true.\nTwo exceptions kept as real screenshots, both cleaned by tools/redact_ui.py: codebook-7.png (cropped to the Excel context menu — it had respondent-level gender/race columns behind it, plus the author’s device name) and codebook-8.png (real workbook filename painted over).\nAlso removed: three business-casual infographics from Reader’s Digest and The Balance — third-party copyrighted images with visible branding, fine on Blackboard but not on an open site. Replaced with a CC BY-SA 3.0 illustration from Wikimedia, attributed in the caption on the Initial Client Meeting guide.\nbare-essentials.pdf summarizes Coplin & Dwyer, Does Your Government Measure Up? chapter by chapter. Coplin is a colleague, collaborator and rights holder, so this is a decided non-issue — noted only so it isn’t rediscovered as alarming."
+  },
+  {
+    "objectID": "NOTES.html#document-metadata",
+    "href": "NOTES.html#document-metadata",
+    "title": "Working notes",
+    "section": "",
+    "text": "Every file in assignments/files/ originally carried real names in docProps/core.xml and app.xml — invisible in the document, one click away in Word’s Properties pane. Ten people’s names in total. clean_office_metadata.py scrubs them.\nGotcha that cost a pass: Word writes these tags with or without a namespace prefix depending on which version saved the file (&lt;lastModifiedBy&gt; vs &lt;cp:lastModifiedBy&gt;). The scrubber is now prefix-agnostic. Any new matcher should be too.\nScrubbing only touches docProps/. Verified on the report shell: 34 of 35 zip parts stay byte-identical, including document.xml, headers, footers and the embedded logo. Files do get smaller after scrubbing — that is recompression, not lost content."
+  },
+  {
+    "objectID": "NOTES.html#structure-decisions",
+    "href": "NOTES.html#structure-decisions",
+    "title": "Working notes",
+    "section": "",
+    "text": "Guidelines are a top-level section, not sub-sections of assignments. They started embedded under the assignment where each was first applicable, then were pulled out to guidelines/ with their own navbar entry and docked sidebar. Each assignment links to the guidelines it needs under a ## Guidelines heading, and guidelines/index.qmd lists all twelve. Guide images moved to guidelines/images/ and the tools/ scripts point there.\nPlacement of each guide (which assignment it belongs to) was decided deliberately — see the mapping table on guidelines/index.qmd. Do not shuffle without a reason.\nDownloads are only things students fill in or build from. Anything that was just prose duplicating a webpage was deleted, since Quarto already offers PDF/Word/RTF of every page. Nine files remain. The Organizational Assessment worksheet and grade sheet are generated by build_org_assessment.py (the original was 4.6 MB of embedded fonts; these are 36 KB).\nOne shared formatted-report-shell.docx serves both the Practice Report and the Formatted Report Shell assignments — the two originals differed only in a placeholder month in the footer.\nTerminology: “UCA” everywhere (the source guides said “TA”). Submission is “By Project” / “By Individual”. American spellings."
+  },
+  {
+    "objectID": "NOTES.html#the-fall-2026-calendar",
+    "href": "NOTES.html#the-fall-2026-calendar",
+    "title": "Working notes",
+    "section": "",
+    "text": "First day of classes Mon Aug 24. Fall Break Oct 12–13 lands inside Week 8; Thanksgiving Nov 22–29 is not a course week, so Week 14 is the week after it. That makes the 15 weeks land exactly on the Dec 8 last day of classes.\nWeek n Friday deadlines: Aug 28, Sep 4, 11, 18, 25, Oct 2, 9, 16, 23, 30, Nov 6, 13, 20, then Dec 4, Dec 11. The Final Presentation is the one exception — submitted Monday Nov 30, presented in class Tuesday Dec 1.\nDue dates are duplicated in each assignment page and in tools/build_calendar.py, with nothing keeping them in sync. This is the main known fragility. Options discussed: a Quarto pre-render hook, having the script parse dates out of the .qmd files, or a check that fails on mismatch. Recommended combination is the last two."
+  },
+  {
+    "objectID": "NOTES.html#verification-habits-that-caught-real-bugs",
+    "href": "NOTES.html#verification-habits-that-caught-real-bugs",
+    "title": "Working notes",
+    "section": "",
+    "text": "Link/anchor checker over rendered _site/ — caught every dead link after the guidelines restructure\niCalendar parser on the .ics rather than eyeballing it — confirmed all timed events land Tuesday 15:30–18:15\nRendering before and after a whitespace-only change and diffing the HTML to prove nothing moved\nComputed-style contrast measurement in a browser, not by inspecting CSS\nDeep scan of every XML part inside every .docx, not just the visible text\n\nThe browser preview pane intermittently returns blank screenshots. Programmatic measurement via javascript_tool is reliable; fall back to that.\nDo not run two renders at once. Quarto writes each page next to its source and then moves it into _site/; a second concurrent render moves files out from under the first, which dies with a confusing NotFound ... rename error and leaves a scatter of .html/.pdf/.docx/.rtf beside the .qmd files. .gitignore now catches those in the root, assignments/ and guidelines/, scoped so assignments/files/ is untouched. A clean re-render tidies them up."
+  },
+  {
+    "objectID": "NOTES.html#small-things-easily-rediscovered-as-bugs",
+    "href": "NOTES.html#small-things-easily-rediscovered-as-bugs",
+    "title": "Working notes",
+    "section": "",
+    "text": "The navbar blue #1A5490 needs the overrides in styles.css. Bootstrap’s default translucent navbar text measures 4.28:1 against it, under the 4.5:1 AA floor; forcing solid white gives 7.74:1.\nassignments/index.qmd emits unused .pdf/.docx/.rtf. Quarto rejects pdf: false, and format: html merges with _metadata.yml rather than replacing it. Harmless; format-links: false hides them.\nSVG in a page that also renders to PDF needs rsvg-convert, which is not installed locally or in CI. Use PNG.\n% in interpolated strings breaks xelatex (it is a comment character) — build_pages.py has a pct() helper for this."
+  },
+  {
+    "objectID": "logistics.html",
+    "href": "logistics.html",
+    "title": "Logistics",
+    "section": "",
+    "text": "Class meets Tuesdays. Assignments and responsibilities are due Friday of the week listed, with one exception: the Final Presentation is submitted by Monday night of Week 14 and presented in class the next day.\n\n\n\nWeek\nMain Topic\nDue\n\n\n\n\n1\nCourse Intro\nProject Application\n\n\n2\nWorking With Clients\nClient Email\n\n\n3\nClient Meeting (No Class)\nFirst Client Meeting\n\n\n4\nIndividual Meetings\nFinalized Contract/Timeline, Second Client Meeting\n\n\n5\nData & Surveys\nOrganizational Assessment, Weekly Task Plan\n\n\n6\nExcel & Coding\nDraft Executive Summary, Excel Coding Workshop\n\n\n7\nGraphing & Methods\nExcel Graphing Workshop\n\n\n8\nFall Break\nPractice Report\n\n\n9\nIndividual Meetings\nFormatted Report Shell1\n\n\n10\nWork Time\n\n\n\n11\nProfessional Materials\nRough Draft\n\n\n12\nIndividual Meetings\n\n\n\n13\nPresenting Your Work\nFinal Report\n\n\n14\nStudent Presentations\nFinal Presentation\n\n\n15\nWrap-Up\nProfessional Materials, Final Reflection\n\n\n\n\n\n\n\n\n\nNoteSubscribe to the Class Calendar\n\n\n\nYou can subscribe to the class schedule in your calendar software of your choice:\n📡 Subscribe 💾 Download .ics\nClass sessions appear on Tuesdays during class time; assignment deadlines appear as all-day events on the day they are due."
+  },
+  {
+    "objectID": "logistics.html#major-assignment-overview",
+    "href": "logistics.html#major-assignment-overview",
+    "title": "Logistics",
+    "section": "Major Assignment Overview",
+    "text": "Major Assignment Overview\nOrganizational Assessment: An assignment to help each student learn about their agency and project.\nPractice Report: This assignment gives students the opportunity to practice and receive performance feedback on the skills necessary for the final Client Report, including calculations, scaling numbers, qualitative coding, making graphs, and more.\nFinal Report and Presentation: A report created for each student’s client that has a breakdown of the data collected (through a survey or data files) by the student or organization. The report includes an introduction, methods section, findings, and appendices; the presentation is a distilled slide deck and presentation from the report itself.\nProfessional Materials: A Cover Letter, Resume, LinkedIn Profile, and draft Reference Letter, intended to prepare students to apply for jobs. Students are required to meet with an A&S advisor for review of professional materials.\nFinal Reflection: A reflection that ties together the various components of the course and experiential learning experience. You will take findings from your Final Report and consider how they could potentially inform policy-making and organizational change for your client."
+  },
+  {
+    "objectID": "logistics.html#group-projects",
+    "href": "logistics.html#group-projects",
+    "title": "Logistics",
+    "section": "Group Projects",
+    "text": "Group Projects\nThe substantial majority of projects in PST 315 are individual projects. However, occasionally a client may request a group project that two or more students will complete together.2\nGroup projects have a single deliverable and final project, but group projects are broader, deeper, and more complex, requiring more hours than an individual project. Those hours get spread across numerous individuals, who must coordinate to shape the final deliverable together.\nIndividuals in a group must complete their own individual work for the course (workshops and individual assignments), while groups are collectively responsible for production of the final project and deliverable. The table below describes this on a per-assignment basis.\n\n\n\n\n\n\nImportant\n\n\n\nAll students in a group must submit all assignments to Blackboard, even when those assignments are identical.\n\n\n\n\n\nAssignment\nSubmission\n\n\n\n\nProject Application\nBy Individual\n\n\nFinalized Contract/Timeline\nBy Project3\n\n\nOrganizational Assessment\nBy Project\n\n\nWeekly Task Plan\nBy Project4\n\n\nDraft Executive Summary\nBy Project\n\n\nExcel Coding Workshop\nBy Individual\n\n\nExcel Graphing Workshop\nBy Individual\n\n\nPractice Report\nBy Individual\n\n\nFormatted Report Shell\nBy Project\n\n\nRough Draft\nBy Project\n\n\nFinal Report\nBy Project\n\n\nFinal Presentation\nBy Project\n\n\nProfessional Materials\nBy Individual\n\n\nFinal Reflection\nBy Individual5\n\n\nProfessionalism\nBy Project and/or By Individual"
+  },
+  {
+    "objectID": "logistics.html#professionalism",
+    "href": "logistics.html#professionalism",
+    "title": "Logistics",
+    "section": "Professionalism",
+    "text": "Professionalism\nProfessionalism points can be earned throughout the semester for demonstrating exceptional professionalism to your client, UCA, or Professor Reilly. Taking initiative to go above and beyond basic course requirements is strongly encouraged and will be rewarded. Professionalism points may also be subtracted for actions that are unprofessional (failure to send client emails on time, absence from class, etc.).\n\n\n\n\n\n\nImportantCaps\n\n\n\nThere is a cap of +5 points and -10 points toward your final grade.\n\n\n\nHow to Gain and Lose Professionalism Points\n\nAttendance\n\nTo be considered excused, you must email your UCA before class. Upon approval, your absence may be excused. Students may have one unexcused absence without penalty. Additional unexcused absences will result in the loss of a professionalism point per absence. Repeated lateness will incur point loss.\n\nClass Work Time\n\nClass is primarily a period for work time on your projects. You may not leave class early unless you have completed work on all assignments for the week and there is no more work you could feasibly do on your project. If you have done so, you may ask your UCA for an early exit.\n\nEmails to Client\n\nCC your UCA on all emails with your client, or you will lose one professionalism point per email. Only CC Professor Reilly if your UCA has instructed you to do so. UCAs reserve the right to deduct points for slapdash language or intent in emails to clients.\n\nEmails to UCAs and Professor\n\nExercise professionalism when emailing UCAs and Professor Reilly. UCAs reserve the right to deduct points for slapdash language or intent in emails to Professor Reilly and/or UCAs.\n\nDeadlines and Meetings\n\nFailure to attend any scheduled meeting — including meetings with your client, your UCA, Professor Reilly, or an A&S advisor — will result in a loss of 3 points per meeting.\n\nClient Presentation\n\nSome clients ask for a presentation of their own. Students who give a presentation to their client earn an extra professionalism point. See the Final Presentation assignment.\n\nClient Evaluation\n\nIf a client reaches out with a valid and reasonable complaint about your performance or professionalism, this will result in a loss of up to 10 points, at the discretion of your UCA and Professor Reilly.\n\nOther\n\nOther exceptional or unprofessional conduct not listed here can result in a gain or loss of professionalism points accordingly, at Professor Reilly’s and the UCAs’ discretion."
+  },
+  {
+    "objectID": "logistics.html#late-assignment-policy",
+    "href": "logistics.html#late-assignment-policy",
+    "title": "Logistics",
+    "section": "Late Assignment Policy",
+    "text": "Late Assignment Policy\nAll assignments must be turned in on time unless otherwise noted or approved. Each day late will be subject to a per-day penalty unless a prior arrangement for an extension is given. Assignments more than 7 days late will not be accepted unless an exception is granted by the Professor.\nBlackboard’s assignment portal indicates whether an assignment is late; UCAs will notify you of points lost when an assignment is submitted late. Late penalties only accrue on business days (Monday through Friday). The late penalty for all assignments is one point per late day, with a maximum of half of the assignment’s points off.\n\n\n\n\n\n\nNote\n\n\n\nExtensions may only be granted by Professor Reilly."
+  },
+  {
+    "objectID": "logistics.html#grading-scale",
+    "href": "logistics.html#grading-scale",
+    "title": "Logistics",
+    "section": "Grading Scale",
+    "text": "Grading Scale\n\n\n\nGrade\nGrade Point/Credit\nClass Points\n\n\n\n\nA\n4.000\n94 – 100\n\n\nA-\n3.667\n90 – 93.99\n\n\nB+\n3.333\n87 – 89.99\n\n\nB\n3.000\n83 – 86.99\n\n\nB-\n2.667\n80 – 82.99\n\n\nC+\n2.333\n77 – 79.99\n\n\nC\n2.000\n73 – 76.99\n\n\nC-\n1.667\n70 – 72.99\n\n\nD\n1.000\n60 – 69.99\n\n\nF\n0\n59.99 or less"
+  },
+  {
+    "objectID": "logistics.html#footnotes",
+    "href": "logistics.html#footnotes",
+    "title": "Logistics",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe Formatted Report Shell includes a revised Executive Summary, your spreadsheet, and your codebook.↩︎\nA “group project” in this context is a project with a single deliverable authored by multiple students. A group project does not include a client who offers several related projects that have separate deliverables.↩︎\nGroups must use this opportunity to clearly delineate roles and responsibilities for the project. Unless otherwise requested by the client, one individual should have primary responsibility for contacting the client after the first meeting. Your UCA and/or Professor will assist you in structuring your group roles.↩︎\nGroups must create task timelines for each individual in the group.↩︎\nIndividuals in groups must indicate what elements of the final deliverable were completed by each group member.↩︎"
+  },
+  {
+    "objectID": "guidelines/contract-and-timeline.html",
+    "href": "guidelines/contract-and-timeline.html",
+    "title": "Contract and Timeline Guide",
+    "section": "",
+    "text": "The purpose of the Contract and Timeline task is to ensure you have had a successful conversation with your client about expectations for the project, including timing and deadlines, communication, and the final report. Try to be as specific as possible when filling this out with your client. Specificity will ensure you have an easier time starting and working on your report and ensure your client is pleased with the final result.\nWhen you are in your initial meeting, you should either share your screen (if on Zoom) or show your client on your laptop (if in-person) to complete the task together. Facilitate an open discussion with your client to fill out the template, while asking any questions that may arise about the scope and the expectations of the final report.\n\n\n\n\n\n\nImportant\n\n\n\nThe rough draft and final report deadlines are hard deadlines. If your client requests to change these later, please reach out to your UCA to discuss.\n\n\nAll the other tasks on the timeline template are flexible dates which you and your client can set together based on the specific needs of your client and the project. Please note that this template is very general – not all projects will have tasks that are relevant. Use your discretion if any task is irrelevant to your project and you may delete it or replace it with another task that is not listed but relevant for you.\nBelow is a list of project and relationship specifics you should discuss with your client while filling out the template. This is not an exhaustive list, just some ideas of questions to ask to get more clarity:\n\nFrequency and method of communication. For example: “The contractor (the student) will email an update to the client every week on Fridays to update the progress made that week on the report and ask any necessary questions.”\nData and research necessary for the report. Do you need to create and send out a survey? Will the client provide you with data to analyze?\nTimeline of collecting or receiving data.\nDetail the client wants in the final report.\nDoes your client want to receive the rough draft? Does your client want a final presentation?\n\nAfter you and your client are both happy with the completed contract and timeline, you will sign and date it. Send it to your client and have them return it with their signature and date. You can sign by using a cursive font in Word or using an external signature site. When you receive the document back signed, submit it to Blackboard to receive credit.",
+    "crumbs": [
+      "🏠 Overview",
+      "Working With Your Client",
+      "Contract and Timeline Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines/findings.html",
+    "href": "guidelines/findings.html",
+    "title": "Findings Guide",
+    "section": "",
+    "text": "Each finding and the accompanying graph, source, and comment will have its own page in the report.\nGeneral layout of a findings page\nFinding statement\nGraph\nSource\nBelow your graph you will type the source of your graph directly into the Word document. The source should read something along the lines of: “Data collected by John Doe and analyzed by Jane Doe for XYZ Organization, Community Link Project, November 2025.”\nComment\nSome graphs will require a comment typed into Word below the source. This includes aggregated graphs, open-ended response graphs, graphs where the percentages do not add up to 100%, and graphs where you group multiple responses into one category (including “other” categories).\nPage break\nTo insert a new page, add a page break. Do not add a section break. Use Insert → Page Break, and begin your next finding at the start of the next page.",
+    "crumbs": [
+      "🏠 Overview",
+      "Writing the Report",
+      "Findings Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines/findings.html#example-findings-page",
+    "href": "guidelines/findings.html#example-findings-page",
+    "title": "Findings Guide",
+    "section": "Example findings page",
+    "text": "Example findings page\n\n\n\n\n\n\nNoteAbout this example\n\n\n\nThis example uses sample data. Skills Win Coaching Organization is a real Syracuse University program, but the numbers shown are invented for teaching purposes and are not actual SWCO results.\n\n\nThe whole page – statement, graph, source, and comment – looks like this:\n\n\n34% of respondents said more activities would improve the site sessions.\n\n\n\nSource: Sample data collected and analyzed by Jordan Alvarez for the Skills Win Coaching Organization, Community Link Project, November 2026.\nComment: Respondents could give only one answer, so percentages total 100%. Responses that named a specific activity were grouped into “More activities.”",
+    "crumbs": [
+      "🏠 Overview",
+      "Writing the Report",
+      "Findings Guide"
     ]
   },
   {
@@ -800,381 +1133,153 @@
     ]
   },
   {
-    "objectID": "guidelines/findings.html",
-    "href": "guidelines/findings.html",
-    "title": "Findings Guide",
+    "objectID": "guidelines/introduction-and-methods.html",
+    "href": "guidelines/introduction-and-methods.html",
+    "title": "Introduction and Methods Guide",
     "section": "",
-    "text": "Each finding and the accompanying graph, source, and comment will have its own page in the report.\nGeneral layout of a findings page\nFinding statement\nGraph\nSource\nBelow your graph you will type the source of your graph directly into the Word document. The source should read something along the lines of: “Data collected by John Doe and analyzed by Jane Doe for XYZ Organization, Community Link Project, November 2025.”\nComment\nSome graphs will require a comment typed into Word below the source. This includes aggregated graphs, open-ended response graphs, graphs where the percentages do not add up to 100%, and graphs where you group multiple responses into one category (including “other” categories).\nPage break\nTo insert a new page, add a page break. Do not add a section break. Use Insert → Page Break, and begin your next finding at the start of the next page.",
+    "text": "Your Introduction is where you will provide more details about your client’s organization and how your report will support their agency and mission. The first sentence in your Introduction section should be identical to the first sentence in your Executive Summary.\nWithin your Introduction section, you should include information about your client’s organization from the Organizational Assessment. This can include the agency mission, services they provide in the community, or any other relevant information about who they are as an organization. Then you should explain in a few sentences what your report will be used for.\nYour Methods section will be made up of two main parts: how data were collected, and quality of the data. Within each part, there will be subsections covering different topics important for your client and reader to understand about the data.",
     "crumbs": [
       "🏠 Overview",
       "Writing the Report",
-      "Findings Guide"
+      "Introduction and Methods Guide"
     ]
   },
   {
-    "objectID": "guidelines/findings.html#example-findings-page",
-    "href": "guidelines/findings.html#example-findings-page",
-    "title": "Findings Guide",
-    "section": "Example findings page",
-    "text": "Example findings page\n\n\n\n\n\n\nNoteAbout this example\n\n\n\nThis example uses sample data. Skills Win Coaching Organization is a real Syracuse University program, but the numbers shown are invented for teaching purposes and are not actual SWCO results.\n\n\nThe whole page – statement, graph, source, and comment – looks like this:\n\n\n34% of respondents said more activities would improve the site sessions.\n\n\n\nSource: Sample data collected and analyzed by Jordan Alvarez for the Skills Win Coaching Organization, Community Link Project, November 2026.\nComment: Respondents could give only one answer, so percentages total 100%. Responses that named a specific activity were grouped into “More activities.”",
+    "objectID": "guidelines/introduction-and-methods.html#how-data-were-collected",
+    "href": "guidelines/introduction-and-methods.html#how-data-were-collected",
+    "title": "Introduction and Methods Guide",
+    "section": "How data were collected",
+    "text": "How data were collected\nInstrument design. This section is where you will explain how the survey or data was created. In this section, you will include details of who helped in the creation of the survey or data as well as any platforms used to facilitate the survey or data (for example, Google Forms).\nData collection method. This section provides information about timing of the survey (open date, close date, any reminders), who sent out the survey, and how and who recorded results. For data projects, this section will provide information about how your client collected this data, when the data was collected, and how you recorded the data.\nTarget population and sample. This section will include exact numbers (if possible) for your target population, sampling frame, and sample. Additionally, if applicable, record a response rate here.",
     "crumbs": [
       "🏠 Overview",
       "Writing the Report",
-      "Findings Guide"
+      "Introduction and Methods Guide"
     ]
   },
   {
-    "objectID": "guidelines/contract-and-timeline.html",
-    "href": "guidelines/contract-and-timeline.html",
-    "title": "Contract and Timeline Guide",
+    "objectID": "guidelines/introduction-and-methods.html#quality-of-the-data",
+    "href": "guidelines/introduction-and-methods.html#quality-of-the-data",
+    "title": "Introduction and Methods Guide",
+    "section": "Quality of the data",
+    "text": "Quality of the data\nRepresentativeness. This section will explain any threats your project experienced with representativeness. As a reminder, when thinking about representativeness, ask yourself: “How well does the sample reflect the target population?” Some (but not all) potential threats to representativeness could be a small sample, selection bias, or non-random selection.\nAccuracy. This section will describe any potential accuracy threats your project experienced. As a reminder, when thinking about accuracy, ask yourself: “Does the data reflect reality?” You can never be certain your data is 100% accurate. Some potential accuracy threats to survey projects are respondents having motivated bias, respondents not understanding questions or unclear questions, or mistakes in transferring and recording data. Some potential accuracy threats to data projects are mistakes in recording, incomplete or messy records, and biased record keepers.\n\n\n\n\n\n\nNoteAbout these examples\n\n\n\nThe example pages below use sample data. Skills Win Coaching Organization is a real Syracuse University program, but the project, author, and numbers shown are invented for teaching purposes and are not actual SWCO results.",
+    "crumbs": [
+      "🏠 Overview",
+      "Writing the Report",
+      "Introduction and Methods Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines/introduction-and-methods.html#example-introduction-page",
+    "href": "guidelines/introduction-and-methods.html#example-introduction-page",
+    "title": "Introduction and Methods Guide",
+    "section": "Example introduction page",
+    "text": "Example introduction page",
+    "crumbs": [
+      "🏠 Overview",
+      "Writing the Report",
+      "Introduction and Methods Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines/introduction-and-methods.html#example-methods-page",
+    "href": "guidelines/introduction-and-methods.html#example-methods-page",
+    "title": "Introduction and Methods Guide",
+    "section": "Example methods page",
+    "text": "Example methods page",
+    "crumbs": [
+      "🏠 Overview",
+      "Writing the Report",
+      "Introduction and Methods Guide"
+    ]
+  },
+  {
+    "objectID": "guidelines/index.html",
+    "href": "guidelines/index.html",
+    "title": "📗 Guidelines",
     "section": "",
-    "text": "The purpose of the Contract and Timeline task is to ensure you have had a successful conversation with your client about expectations for the project, including timing and deadlines, communication, and the final report. Try to be as specific as possible when filling this out with your client. Specificity will ensure you have an easier time starting and working on your report and ensure your client is pleased with the final result.\nWhen you are in your initial meeting, you should either share your screen (if on Zoom) or show your client on your laptop (if in-person) to complete the task together. Facilitate an open discussion with your client to fill out the template, while asking any questions that may arise about the scope and the expectations of the final report.\n\n\n\n\n\n\nImportant\n\n\n\nThe rough draft and final report deadlines are hard deadlines. If your client requests to change these later, please reach out to your UCA to discuss.\n\n\nAll the other tasks on the timeline template are flexible dates which you and your client can set together based on the specific needs of your client and the project. Please note that this template is very general – not all projects will have tasks that are relevant. Use your discretion if any task is irrelevant to your project and you may delete it or replace it with another task that is not listed but relevant for you.\nBelow is a list of project and relationship specifics you should discuss with your client while filling out the template. This is not an exhaustive list, just some ideas of questions to ask to get more clarity:\n\nFrequency and method of communication. For example: “The contractor (the student) will email an update to the client every week on Fridays to update the progress made that week on the report and ask any necessary questions.”\nData and research necessary for the report. Do you need to create and send out a survey? Will the client provide you with data to analyze?\nTimeline of collecting or receiving data.\nDetail the client wants in the final report.\nDoes your client want to receive the rough draft? Does your client want a final presentation?\n\nAfter you and your client are both happy with the completed contract and timeline, you will sign and date it. Send it to your client and have them return it with their signature and date. You can sign by using a cursive font in Word or using an external signature site. When you receive the document back signed, submit it to Blackboard to receive credit.",
+    "text": "The guidelines are the course’s how-to references. Each one covers a single piece of the work – writing a client email, coding open-ended responses, formatting a graph – and each is linked from the assignment where you first need it.\nUnlike assignments, guidelines are not due on any date. Come back to them whenever you need them; several apply to more than one assignment, and most apply again to the Final Report.",
+    "crumbs": [
+      "🏠 Overview",
+      "All Guidelines"
+    ]
+  },
+  {
+    "objectID": "guidelines/index.html#working-with-your-client",
+    "href": "guidelines/index.html#working-with-your-client",
+    "title": "📗 Guidelines",
+    "section": "Working with your client",
+    "text": "Working with your client\n\n\n\n\n\n\n\nGuideline\nWhat it covers\n\n\n\n\nClient Email\nWriting your first email to your client\n\n\nInitial Client Meeting\nPreparing for and running your first meeting\n\n\nContract and Timeline\nFilling out the contract and timeline together\n\n\nSecond Client Meeting\nSetting your research questions",
+    "crumbs": [
+      "🏠 Overview",
+      "All Guidelines"
+    ]
+  },
+  {
+    "objectID": "guidelines/index.html#working-with-your-data",
+    "href": "guidelines/index.html#working-with-your-data",
+    "title": "📗 Guidelines",
+    "section": "Working with your data",
+    "text": "Working with your data\n\n\n\n\n\n\n\nGuideline\nWhat it covers\n\n\n\n\nCodebook and Spreadsheet\nBuilding a codebook and coding your data in Excel\n\n\nQualitative Coding\nCategorizing open-ended survey responses\n\n\nGraphing Guidelines\nThe formatting rules every graph must follow",
+    "crumbs": [
+      "🏠 Overview",
+      "All Guidelines"
+    ]
+  },
+  {
+    "objectID": "guidelines/index.html#writing-the-report",
+    "href": "guidelines/index.html#writing-the-report",
+    "title": "📗 Guidelines",
+    "section": "Writing the report",
+    "text": "Writing the report\n\n\n\n\n\n\n\nGuideline\nWhat it covers\n\n\n\n\nExecutive Summary\nWriting and formatting the executive summary\n\n\nIntroduction and Methods\nWriting the introduction and methods sections\n\n\nFindings\nLaying out a findings page\n\n\nAppendices\nWhat belongs in each of the five appendices\n\n\nFooters and Section Breaks\nEditing footers and fixing section breaks in Word",
+    "crumbs": [
+      "🏠 Overview",
+      "All Guidelines"
+    ]
+  },
+  {
+    "objectID": "guidelines/client-email.html",
+    "href": "guidelines/client-email.html",
+    "title": "Client Email Guide",
+    "section": "",
+    "text": "Welcome to PST 315! Throughout the first few weeks of the class, you will focus on getting to know your client, fostering the start of a positive relationship, and creating a mutual understanding of expectations for the report you will be making for them.\nIn class, your UCA will provide you with your client’s name, contact information, and some details the client shared with us about their expectations for the project. Please note, these details may be vague and that is okay. You will be meeting with your client to ask additional questions and ensure you are on the same page.\nYour first step will be to send an introductory email to your client. Your email should include a personal introduction and request to meet with your client. You can also express your excitement to work on the project. Finally, you should include a brief overview of what you want to discuss in the meeting, which is to further clarify expectations and create a contract and timeline for the project.\n\n\n\n\n\n\nImportant\n\n\n\nOn this email, and ALL emails with your client going forward, you must CC your UCA. This is very important throughout the semester so your UCA can monitor your emails and help with any problems that may arise. Failing to CC your UCA on email communications with your client could result in losing a professionalism point.\n\n\nPlease note that clients will know the project you are working on as the Community Link Project, not PST 315. Most are aware that you are completing this for class credit, but when referring to this project to your client, do not refer to it as PST 315 – just call it the Community Link Project.\nWhen sending any emails to your client, please make sure to practice professionalism. You want to foster a positive client relationship, and this starts with presenting yourself professionally. A professional email should include a concise subject, a salutation, straightforward and concise body paragraphs, and a sign-off/signature. If you have any questions about this, please talk to your UCA and they will be more than happy to help!\n\n\n\n\n\n\nTipExample introductory client email\n\n\n\nTO: Your client’s email (primary and secondary if you have one) FROM: Your Syracuse email CC: Your UCA’s Syracuse email SUBJECT: Community Link Project Introduction and Meeting\nDear Mr./Ms./Mrs. ______:\nI hope this email finds you well. My name is Jordan Alvarez, and I have the pleasure of being the student assigned to your Community Links Project for this semester. I am very excited to work with you over the next few months to create a meaningful report for your organization and learn more about what your goals and achievements in the community are.\nI was hoping we could meet in the next week or so to discuss more details about your expectations for the report, as well as fill in a contract and timeline to ensure your organization receives a report that is meaningful and timely. In the proposal you filled out, you indicated that you are able to meet at the default time on Monday, February 31st at 2:15 PM. However, if that has changed, I would be more than happy to find another time that works better with your schedule. Please just let me know and we can figure out the best time.\nThank you so much for trusting me with this Community Link Project and I look forward to getting to know you throughout this semester. Please don’t hesitate to reach out with any questions.\nRegards, Jordan Alvarez",
     "crumbs": [
       "🏠 Overview",
       "Working With Your Client",
-      "Contract and Timeline Guide"
+      "Client Email Guide"
     ]
   },
   {
-    "objectID": "logistics.html",
-    "href": "logistics.html",
-    "title": "Logistics",
+    "objectID": "guidelines/second-client-meeting.html",
+    "href": "guidelines/second-client-meeting.html",
+    "title": "Second Client Meeting Guide",
     "section": "",
-    "text": "Class meets Tuesdays. Assignments and responsibilities are due Friday of the week listed, with one exception: the Final Presentation is submitted by Monday night of Week 14 and presented in class the next day.\n\n\n\nWeek\nMain Topic\nDue\n\n\n\n\n1\nCourse Intro\nProject Application\n\n\n2\nWorking With Clients\nClient Email\n\n\n3\nClient Meeting (No Class)\nFirst Client Meeting\n\n\n4\nIndividual Meetings\nFinalized Contract/Timeline, Second Client Meeting\n\n\n5\nData & Surveys\nOrganizational Assessment, Weekly Task Plan\n\n\n6\nExcel & Coding\nDraft Executive Summary, Excel Coding Workshop\n\n\n7\nGraphing & Methods\nExcel Graphing Workshop\n\n\n8\nFall Break\nPractice Report\n\n\n9\nIndividual Meetings\nFormatted Report Shell1\n\n\n10\nWork Time\n\n\n\n11\nProfessional Materials\nRough Draft\n\n\n12\nIndividual Meetings\n\n\n\n13\nPresenting Your Work\nFinal Report\n\n\n14\nStudent Presentations\nFinal Presentation\n\n\n15\nWrap-Up\nProfessional Materials, Final Reflection\n\n\n\n\n\n\n\n\n\nNoteSubscribe to the Class Calendar\n\n\n\nYou can subscribe to the class schedule in your calendar software of your choice:\n📡 Subscribe 💾 Download .ics\nClass sessions appear on Tuesdays during class time; assignment deadlines appear as all-day events on the day they are due."
-  },
-  {
-    "objectID": "logistics.html#major-assignment-overview",
-    "href": "logistics.html#major-assignment-overview",
-    "title": "Logistics",
-    "section": "Major Assignment Overview",
-    "text": "Major Assignment Overview\nOrganizational Assessment: An assignment to help each student learn about their agency and project.\nPractice Report: This assignment gives students the opportunity to practice and receive performance feedback on the skills necessary for the final Client Report, including calculations, scaling numbers, qualitative coding, making graphs, and more.\nFinal Report and Presentation: A report created for each student’s client that has a breakdown of the data collected (through a survey or data files) by the student or organization. The report includes an introduction, methods section, findings, and appendices; the presentation is a distilled slide deck and presentation from the report itself.\nProfessional Materials: A Cover Letter, Resume, LinkedIn Profile, and draft Reference Letter, intended to prepare students to apply for jobs. Students are required to meet with an A&S advisor for review of professional materials.\nFinal Reflection: A reflection that ties together the various components of the course and experiential learning experience. You will take findings from your Final Report and consider how they could potentially inform policy-making and organizational change for your client."
-  },
-  {
-    "objectID": "logistics.html#group-projects",
-    "href": "logistics.html#group-projects",
-    "title": "Logistics",
-    "section": "Group Projects",
-    "text": "Group Projects\nThe substantial majority of projects in PST 315 are individual projects. However, occasionally a client may request a group project that two or more students will complete together.2\nGroup projects have a single deliverable and final project, but group projects are broader, deeper, and more complex, requiring more hours than an individual project. Those hours get spread across numerous individuals, who must coordinate to shape the final deliverable together.\nIndividuals in a group must complete their own individual work for the course (workshops and individual assignments), while groups are collectively responsible for production of the final project and deliverable. The table below describes this on a per-assignment basis.\n\n\n\n\n\n\nImportant\n\n\n\nAll students in a group must submit all assignments to Blackboard, even when those assignments are identical.\n\n\n\n\n\nAssignment\nSubmission\n\n\n\n\nProject Application\nBy Individual\n\n\nFinalized Contract/Timeline\nBy Project3\n\n\nOrganizational Assessment\nBy Project\n\n\nWeekly Task Plan\nBy Project4\n\n\nDraft Executive Summary\nBy Project\n\n\nExcel Coding Workshop\nBy Individual\n\n\nExcel Graphing Workshop\nBy Individual\n\n\nPractice Report\nBy Individual\n\n\nFormatted Report Shell\nBy Project\n\n\nRough Draft\nBy Project\n\n\nFinal Report\nBy Project\n\n\nFinal Presentation\nBy Project\n\n\nProfessional Materials\nBy Individual\n\n\nFinal Reflection\nBy Individual5\n\n\nProfessionalism\nBy Project and/or By Individual"
-  },
-  {
-    "objectID": "logistics.html#professionalism",
-    "href": "logistics.html#professionalism",
-    "title": "Logistics",
-    "section": "Professionalism",
-    "text": "Professionalism\nProfessionalism points can be earned throughout the semester for demonstrating exceptional professionalism to your client, UCA, or Professor Reilly. Taking initiative to go above and beyond basic course requirements is strongly encouraged and will be rewarded. Professionalism points may also be subtracted for actions that are unprofessional (failure to send client emails on time, absence from class, etc.).\n\n\n\n\n\n\nImportantCaps\n\n\n\nThere is a cap of +5 points and -10 points toward your final grade.\n\n\n\nHow to Gain and Lose Professionalism Points\n\nAttendance\n\nTo be considered excused, you must email your UCA before class. Upon approval, your absence may be excused. Students may have one unexcused absence without penalty. Additional unexcused absences will result in the loss of a professionalism point per absence. Repeated lateness will incur point loss.\n\nClass Work Time\n\nClass is primarily a period for work time on your projects. You may not leave class early unless you have completed work on all assignments for the week and there is no more work you could feasibly do on your project. If you have done so, you may ask your UCA for an early exit.\n\nEmails to Client\n\nCC your UCA on all emails with your client, or you will lose one professionalism point per email. Only CC Professor Reilly if your UCA has instructed you to do so. UCAs reserve the right to deduct points for slapdash language or intent in emails to clients.\n\nEmails to UCAs and Professor\n\nExercise professionalism when emailing UCAs and Professor Reilly. UCAs reserve the right to deduct points for slapdash language or intent in emails to Professor Reilly and/or UCAs.\n\nDeadlines and Meetings\n\nFailure to attend any scheduled meeting — including meetings with your client, your UCA, Professor Reilly, or an A&S advisor — will result in a loss of 3 points per meeting.\n\nClient Presentation\n\nSome clients ask for a presentation of their own. Students who give a presentation to their client earn an extra professionalism point. See the Final Presentation assignment.\n\nClient Evaluation\n\nIf a client reaches out with a valid and reasonable complaint about your performance or professionalism, this will result in a loss of up to 10 points, at the discretion of your UCA and Professor Reilly.\n\nOther\n\nOther exceptional or unprofessional conduct not listed here can result in a gain or loss of professionalism points accordingly, at Professor Reilly’s and the UCAs’ discretion."
-  },
-  {
-    "objectID": "logistics.html#late-assignment-policy",
-    "href": "logistics.html#late-assignment-policy",
-    "title": "Logistics",
-    "section": "Late Assignment Policy",
-    "text": "Late Assignment Policy\nAll assignments must be turned in on time unless otherwise noted or approved. Each day late will be subject to a per-day penalty unless a prior arrangement for an extension is given. Assignments more than 7 days late will not be accepted unless an exception is granted by the Professor.\nBlackboard’s assignment portal indicates whether an assignment is late; UCAs will notify you of points lost when an assignment is submitted late. Late penalties only accrue on business days (Monday through Friday). The late penalty for all assignments is one point per late day, with a maximum of half of the assignment’s points off.\n\n\n\n\n\n\nNote\n\n\n\nExtensions may only be granted by Professor Reilly."
-  },
-  {
-    "objectID": "logistics.html#grading-scale",
-    "href": "logistics.html#grading-scale",
-    "title": "Logistics",
-    "section": "Grading Scale",
-    "text": "Grading Scale\n\n\n\nGrade\nGrade Point/Credit\nClass Points\n\n\n\n\nA\n4.000\n94 – 100\n\n\nA-\n3.667\n90 – 93.99\n\n\nB+\n3.333\n87 – 89.99\n\n\nB\n3.000\n83 – 86.99\n\n\nB-\n2.667\n80 – 82.99\n\n\nC+\n2.333\n77 – 79.99\n\n\nC\n2.000\n73 – 76.99\n\n\nC-\n1.667\n70 – 72.99\n\n\nD\n1.000\n60 – 69.99\n\n\nF\n0\n59.99 or less"
-  },
-  {
-    "objectID": "logistics.html#footnotes",
-    "href": "logistics.html#footnotes",
-    "title": "Logistics",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nThe Formatted Report Shell includes a revised Executive Summary, your spreadsheet, and your codebook.↩︎\nA “group project” in this context is a project with a single deliverable authored by multiple students. A group project does not include a client who offers several related projects that have separate deliverables.↩︎\nGroups must use this opportunity to clearly delineate roles and responsibilities for the project. Unless otherwise requested by the client, one individual should have primary responsibility for contacting the client after the first meeting. Your UCA and/or Professor will assist you in structuring your group roles.↩︎\nGroups must create task timelines for each individual in the group.↩︎\nIndividuals in groups must indicate what elements of the final deliverable were completed by each group member.↩︎"
-  },
-  {
-    "objectID": "overview.html",
-    "href": "overview.html",
-    "title": "Overview",
-    "section": "",
-    "text": "Time: Tuesdays, 3:30 PM – 6:15 PM\nLocation: HB Crouse Hall, Kittredge Auditorium\n\n\n\nProfessor Jack Reilly\nOffice: Eggers 225F (in the Policy Studies suite)\nOffice Hours: Friday, 1:00 – 3:00 PM, and by appointment\ne-mail: jlreilly@syr.edu\n\n\n\nYour Undergraduate Course Assistant (UCA) is your supervisor for the semester and your first point of contact for questions about the course and your project."
-  },
-  {
-    "objectID": "overview.html#class",
-    "href": "overview.html#class",
-    "title": "Overview",
-    "section": "",
-    "text": "Time: Tuesdays, 3:30 PM – 6:15 PM\nLocation: HB Crouse Hall, Kittredge Auditorium"
-  },
-  {
-    "objectID": "overview.html#instructor",
-    "href": "overview.html#instructor",
-    "title": "Overview",
-    "section": "",
-    "text": "Professor Jack Reilly\nOffice: Eggers 225F (in the Policy Studies suite)\nOffice Hours: Friday, 1:00 – 3:00 PM, and by appointment\ne-mail: jlreilly@syr.edu"
-  },
-  {
-    "objectID": "overview.html#undergraduate-course-assistants",
-    "href": "overview.html#undergraduate-course-assistants",
-    "title": "Overview",
-    "section": "",
-    "text": "Your Undergraduate Course Assistant (UCA) is your supervisor for the semester and your first point of contact for questions about the course and your project."
-  },
-  {
-    "objectID": "overview.html#prerequisites",
-    "href": "overview.html#prerequisites",
-    "title": "Overview",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nPST 101, MAX 201, and admittance to the Policy Studies major."
-  },
-  {
-    "objectID": "overview.html#learning-objectives",
-    "href": "overview.html#learning-objectives",
-    "title": "Overview",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\n\nFrame a research question and define a research scope\nGather information and data from a variety of sources\nJudge sources’ credibility, authority, relevance, bias, and accuracy\nCalculate results, support arguments, and draw conclusions\nDemonstrate software and technology proficiency\nPresent conclusions or data visually, clearly, and succinctly"
-  },
-  {
-    "objectID": "overview.html#microsoft-office",
-    "href": "overview.html#microsoft-office",
-    "title": "Overview",
-    "section": "Microsoft Office",
-    "text": "Microsoft Office\nAs a current student, you can use your SU student electronic account to download and install Office 365 applications (including Word, Excel, and PowerPoint) on up to five computers (PC and Mac) and five mobile devices (iPhone, iPad, Android). Students should download Microsoft Word, Excel, and PowerPoint in the first week of class.\nWhile you can technically use Office on mobile devices, you should use a full computer (Mac or PC) for data analysis in the class. The mobile versions of the applications are not feature complete."
-  },
-  {
-    "objectID": "overview.html#online-course-resources",
-    "href": "overview.html#online-course-resources",
-    "title": "Overview",
-    "section": "Online Course Resources",
-    "text": "Online Course Resources\nBlackboard is our internet-based course platform: https://blackboard.syr.edu. Log in with your NetID and password. Nearly all assignments are submitted through Blackboard; the Project Application is submitted through a Qualtrics link instead.\nThis website holds the course syllabus, schedule, and assignment descriptions. Please note that class attendance is the primary source of course-related announcements and material."
-  },
-  {
-    "objectID": "guidelines/codebook-and-spreadsheet.html",
-    "href": "guidelines/codebook-and-spreadsheet.html",
-    "title": "Codebook and Spreadsheet Guide",
-    "section": "",
-    "text": "NoteAbout these examples\n\n\n\nThe examples below use sample data. Skills Win Coaching Organization is a real Syracuse University program, but the survey, variables, and responses shown here are invented for teaching purposes and are not actual SWCO results.",
-    "crumbs": [
-      "🏠 Overview",
-      "Working With Your Data",
-      "Codebook and Spreadsheet Guide"
-    ]
-  },
-  {
-    "objectID": "guidelines/codebook-and-spreadsheet.html#creating-your-codebook",
-    "href": "guidelines/codebook-and-spreadsheet.html#creating-your-codebook",
-    "title": "Codebook and Spreadsheet Guide",
-    "section": "Creating your codebook",
-    "text": "Creating your codebook\nStep 1: In Word, create a table with four columns: Column, Field Name, Definition, and Code.\n\n\n\nColumn\nField Name\nDefinition\nCode\n\n\n\n\n\n\n\n\n\n\n\nThe number of rows depends on the number of questions you have on your survey or how many research questions you have. As a general rule:\n\nNumber of questions + 2 = Number of rows in your codebook table\n\nThe +2 rows account for the header row and the respondent ID row.\nStep 2: Create a list of variables from your questions. These will be your Field Name and Definition columns.\n\nYour field name should be a short word or a few letters describing the variable. (Example: grade level = GRADE, or engagement = ENGAGE.)\nYour definition should be the original question or a description of the variable. (Example: “What grade are you in?” or “Code is identical to the respondent’s ID number.”)\n\n\n\n\n\n\n\n\n\n\nColumn\nField Name\nDefinition\nCode\n\n\n\n\nA\nID\nRespondent’s unique identification number\nCode is identical to identification number\n\n\nB\nSITE\nWhich site session did you attend?\n\n\n\nC\nGRADE\nWhat grade are you in?\n\n\n\n\nNote: each field name (variable) aligns with a column of your spreadsheet according to your codebook.\nStep 3: Repeat step 2 for all of your questions.\n\n\n\n\n\n\n\n\n\nColumn\nField Name\nDefinition\nCode\n\n\n\n\nA\nID\nRespondent’s unique identification number\nCode is identical to identification number\n\n\nB\nSITE\nWhich site session did you attend?\n\n\n\nC\nGRADE\nWhat grade are you in?\n\n\n\nD\nCOACH\nThe coaches were helpful.\n\n\n\nE\nENGAGE\nThe exercises were engaging.\n\n\n\nF\nIMPROVE\nWhat could be improved at your site sessions?\n\n\n\n\nStep 4: Assign a code to each possible answer for each question. Your variable type will make a difference here.\nNote: for open-ended responses, you should create up to 5 or 6 categories to place the open-ended responses into. See the Qualitative Coding Guide.\nStep 5: In your spreadsheet, you will use your codebook to code your raw data.",
-    "crumbs": [
-      "🏠 Overview",
-      "Working With Your Data",
-      "Codebook and Spreadsheet Guide"
-    ]
-  },
-  {
-    "objectID": "guidelines/codebook-and-spreadsheet.html#codebook-example",
-    "href": "guidelines/codebook-and-spreadsheet.html#codebook-example",
-    "title": "Codebook and Spreadsheet Guide",
-    "section": "Codebook example",
-    "text": "Codebook example\n\n\n\n\n\n\n\n\n\nColumn\nField Name\nDefinition\nCode\n\n\n\n\nA\nID\nRespondent’s unique identification number\nCode is identical to identification number\n\n\nB\nSITE\nWhich site session did you attend?\n1 = Site A2 = Site B3 = Site C99 = No response\n\n\nC\nGRADE\nWhat grade are you in?\n1 = 9th2 = 10th3 = 11th4 = 12th99 = No response\n\n\nD\nCOACH\nThe coaches were helpful.\n1 = Strongly disagree2 = Disagree3 = Neutral4 = Agree5 = Strongly agree99 = No response\n\n\nE\nENGAGE\nThe exercises were engaging.\n1 = Strongly disagree2 = Disagree3 = Neutral4 = Agree5 = Strongly agree99 = No response\n\n\nF\nIMPROVE\nWhat could be improved at your site sessions?\nOpen ended response:1 = More activities2 = More time3 = Smaller groups4 = Better materials5 = Nothing99 = No response",
-    "crumbs": [
-      "🏠 Overview",
-      "Working With Your Data",
-      "Codebook and Spreadsheet Guide"
-    ]
-  },
-  {
-    "objectID": "guidelines/codebook-and-spreadsheet.html#creating-your-spreadsheet",
-    "href": "guidelines/codebook-and-spreadsheet.html#creating-your-spreadsheet",
-    "title": "Codebook and Spreadsheet Guide",
-    "section": "Creating your spreadsheet",
-    "text": "Creating your spreadsheet\nStep 6: Once you have created your codebook, it is time to code your data in Excel using the codes you just created above.\nWhy do we do this? By coding your data, it will make your data far easier to comprehend and to analyze.\nStep 7: Open a new Excel spreadsheet. Begin by typing the field names for each of your variables from your codebook into the first row of the sheet.\n\n\n\nID\nSITE\nGRADE\nCOACH\nENGAGE\nIMPROVE\n\n\n\n\n\n\n\n\n\n\n\n\n\nStep 8: Save this Excel spreadsheet and turn it in along with your Codebook document and Revised Executive Summary for your assignment.",
-    "crumbs": [
-      "🏠 Overview",
-      "Working With Your Data",
-      "Codebook and Spreadsheet Guide"
-    ]
-  },
-  {
-    "objectID": "guidelines/codebook-and-spreadsheet.html#once-you-have-your-data",
-    "href": "guidelines/codebook-and-spreadsheet.html#once-you-have-your-data",
-    "title": "Codebook and Spreadsheet Guide",
-    "section": "Once you have your data",
-    "text": "Once you have your data\nStep 9: Copy your data into your spreadsheet and create a copy of your responses. You want to save an original version of your data along with the coded data. You can create a copy by right-clicking on the spreadsheet tab, selecting “Move or Copy,” and selecting to copy. This will create a new tab with the same data – name these tabs “Original Responses” and “Coded Responses” to ensure these don’t get mixed up.\n\n\n\n\n\n\nRight-click the sheet tab and choose Move or Copy.\n\n\n\n\n\n\n\nTick “Create a copy” before clicking OK.\n\n\n\n\n\nStep 10: Once you have a copy of your responses to edit, you should start coding all of the responses based on your codebook. Coding will look different depending on your types of variables. Ask your UCA any questions about specific variables.\nCoded data looks like this – every answer replaced by its code from the codebook:\n\n\n\nID\nSITE\nGRADE\nCOACH\nENGAGE\nIMPROVE\n\n\n\n\n1\n1\n3\n5\n4\n1\n\n\n2\n2\n4\n4\n5\n2\n\n\n3\n1\n2\n3\n3\n1\n\n\n4\n3\n4\n5\n2\n3\n\n\n5\n2\n3\n4\n5\n5\n\n\n6\n1\n1\n2\n3\n2\n\n\n7\n3\n2\n5\n4\n99\n\n\n\nHint: use the Find and Replace feature in Excel to quickly code multiple-choice variables.",
-    "crumbs": [
-      "🏠 Overview",
-      "Working With Your Data",
-      "Codebook and Spreadsheet Guide"
-    ]
-  },
-  {
-    "objectID": "guidelines/executive-summary.html",
-    "href": "guidelines/executive-summary.html",
-    "title": "Executive Summary Guide",
-    "section": "",
-    "text": "NoteAbout these examples\n\n\n\nThe examples below use sample data. Skills Win Coaching Organization is a real Syracuse University program, but the project, author, numbers, and responses shown here are invented for teaching purposes and are not actual SWCO results.\nStep 1: Open a Word document. Create a header following the guidelines below.\nNote: The name of your project should describe in a few words the purpose of your project.\nStep 2: Create the introduction by using information from your Organizational Assessment. The first sentences must be: “This study reports __________. The study will be presented to _________.”\nThe first sentence of the introduction in your executive summary should be identical to the first sentence in the introduction section of your report.\nStep 3: Create the methods portion of your executive summary. Methods should overview how data were collected and define the target population, sample, and sampling frame, if applicable. Also in this section, note any MAJOR data collection and accuracy issues.\nQuestions to answer in Methods:\nStep 4: Create the findings portion of your executive summary. Each of your findings in this section should EXACTLY match the findings at the top of each of your Findings pages throughout your report – this means word for word. Be sure every research question corresponds with a finding.\nReminders about findings:",
-    "crumbs": [
-      "🏠 Overview",
-      "Writing the Report",
-      "Executive Summary Guide"
-    ]
-  },
-  {
-    "objectID": "guidelines/executive-summary.html#example-executive-summary",
-    "href": "guidelines/executive-summary.html#example-executive-summary",
-    "title": "Executive Summary Guide",
-    "section": "Example executive summary",
-    "text": "Example executive summary",
-    "crumbs": [
-      "🏠 Overview",
-      "Writing the Report",
-      "Executive Summary Guide"
-    ]
-  },
-  {
-    "objectID": "guidelines/footers-and-section-breaks.html",
-    "href": "guidelines/footers-and-section-breaks.html",
-    "title": "Footers and Section Breaks Guide",
-    "section": "",
-    "text": "This guide covers editing footers, aligning page numbers, and deleting section breaks.",
-    "crumbs": [
-      "🏠 Overview",
-      "Writing the Report",
-      "Footers and Section Breaks Guide"
-    ]
-  },
-  {
-    "objectID": "guidelines/footers-and-section-breaks.html#editing-the-footer-and-aligning-page-numbers",
-    "href": "guidelines/footers-and-section-breaks.html#editing-the-footer-and-aligning-page-numbers",
-    "title": "Footers and Section Breaks Guide",
-    "section": "Editing the footer and aligning page numbers",
-    "text": "Editing the footer and aligning page numbers\nThe footer in the report shell will look like this:\n\nDouble click in the footer area, and then you should be able to edit the project title. Change “Title of Project” to the actual title of your project.\n\nDrag the page number box to align with the end of the footer.\n\nAll done!",
-    "crumbs": [
-      "🏠 Overview",
-      "Writing the Report",
-      "Footers and Section Breaks Guide"
-    ]
-  },
-  {
-    "objectID": "guidelines/footers-and-section-breaks.html#deleting-section-breaks",
-    "href": "guidelines/footers-and-section-breaks.html#deleting-section-breaks",
-    "title": "Footers and Section Breaks Guide",
-    "section": "Deleting section breaks",
-    "text": "Deleting section breaks\nClick on the paragraph button (find it on the Home menu, see the image below) to show formatting marks on your report.\n\nOnce you click this you will see formatting marks appear in blue, and text in black that shows section breaks and page breaks. Find the section break you want to delete.\n\nClick and press Command on your keyboard to select the section break. This will highlight it.\n\nPress Command + X. This will cut the section break out of the report.\n\nIt should be gone. If not, try a few times – it can be finicky!",
-    "crumbs": [
-      "🏠 Overview",
-      "Writing the Report",
-      "Footers and Section Breaks Guide"
-    ]
-  },
-  {
-    "objectID": "guidelines/graphing.html",
-    "href": "guidelines/graphing.html",
-    "title": "Graphing Guidelines",
-    "section": "",
-    "text": "Every graph in your report must follow these guidelines.\nGraph type\nColor\nText\nAxes and data labels",
-    "crumbs": [
-      "🏠 Overview",
-      "Working With Your Data",
-      "Graphing Guidelines"
-    ]
-  },
-  {
-    "objectID": "guidelines/graphing.html#example-of-a-graph-that-follows-the-guidelines",
-    "href": "guidelines/graphing.html#example-of-a-graph-that-follows-the-guidelines",
-    "title": "Graphing Guidelines",
-    "section": "Example of a graph that follows the guidelines",
-    "text": "Example of a graph that follows the guidelines\n\n\n\n\n\n\nNoteAbout this example\n\n\n\nThis example uses sample data. Skills Win Coaching Organization is a real Syracuse University program, but the numbers shown are invented for teaching purposes and are not actual SWCO results.\n\n\n\nCheck it against the list above: bar graph, three bars so arranged vertically, solid black bars and axis lines, Times New Roman 12pt throughout, bold title and bold axis titles, y-axis starting at 0, outside-end data labels showing percentages, “n=” under the title, major outside tick marks, and no border.",
-    "crumbs": [
-      "🏠 Overview",
-      "Working With Your Data",
-      "Graphing Guidelines"
-    ]
-  },
-  {
-    "objectID": "guidelines/qualitative-coding.html",
-    "href": "guidelines/qualitative-coding.html",
-    "title": "Qualitative (Open-Ended) Coding Guide",
-    "section": "",
-    "text": "NoteAbout these examples\n\n\n\nThe examples below use sample data. Skills Win Coaching Organization is a real Syracuse University program, but the responses and numbers shown here are invented for teaching purposes and are not actual SWCO results.\n\n\nNote: There are three types of open-ended survey responses: categorical (single category), attitudinal (single category), and check-all-that-apply (multiple categories).\nStep 1: List open-ended actual responses.\nCopy the responses out of your spreadsheet exactly as they were written – do not fix spelling or grammar.\n\nWhat could be improved at your site sessions?\n\n\n\n\nRespondent ID\nResponse\n\n\n\n\n1\nMore hands on activities would be good.\n\n\n2\nadd more group activities\n\n\n3\nMore activities like the resume one.\n\n\n4\ni liked the practice interviews, do more of those\n\n\n5\nMore team exercises.\n\n\n6\nmore activities\n\n\n7\nDo more of the role playing exercises.\n\n\n8\nMore things to actually practice.\n\n\n9\nThe sessions felt rushed at the end.\n\n\n10\nmore time for each activity\n\n\n11\nLonger sessions.\n\n\n12\nWe needed more time to finish.\n\n\n\nStep 2: Aggregate responses into categories. The number of categories will depend on the variety of responses you have received, but aim to create the fewest number of categories possible while ensuring every response fits into one.\nStep 3: Take the number of responses for each category and then divide each raw number by the total number of responses (times 100) to get a percentage.\n\n\n\nCategory\nResponses\nPercentage\n\n\n\n\nMore activities\n8\n35%\n\n\nMore time\n6\n26%\n\n\nSmaller groups\n4\n17%\n\n\nBetter materials\n3\n13%\n\n\nNothing\n2\n9%\n\n\n\nStep 4: Graph the percentage data according to the PST 315 graphing guidelines.\n\nStep 5: Include the category name with actual responses listed below in the appendix. See the Appendices Guide.\nMore activities (n=8)\n\nMore hands on activities would be good.\nadd more group activities\nMore activities like the resume one.\ni liked the practice interviews, do more of those\n\nMore time (n=6)\n\nThe sessions felt rushed at the end.\nmore time for each activity\nLonger sessions.\nWe needed more time to finish.\n\nSmaller groups (n=4)\n\nThe groups were too big.\nsmaller groups so everyone can talk\nToo many people at my table.\nSmaller groups would help.\n\nBetter materials (n=3)\n\nThe handouts were hard to read.\nbetter worksheets\nThe packet had typos in it.\n\nNothing (n=2)\n\nNothing, it was great.\nnothing",
-    "crumbs": [
-      "🏠 Overview",
-      "Working With Your Data",
-      "Qualitative (Open-Ended) Coding Guide"
-    ]
-  },
-  {
-    "objectID": "guidelines/initial-client-meeting.html",
-    "href": "guidelines/initial-client-meeting.html",
-    "title": "Initial Client Meeting Guide",
-    "section": "",
-    "text": "After sending your client an email and setting up a meeting time, you need to send a Zoom link at the time you have set up. If you have questions on how to set up a Zoom meeting and share it with your client, please ask your UCA.\nBefore your client meeting, it is important you prepare and come ready with a plan to make the meeting efficient. Your client is likely very busy and you don’t want to waste any time. You should prepare by reading the project description you were given by your UCA and brainstorming questions to ask your client. You should also look over the Contract and Timeline document and brainstorm your thoughts on how to fill it out. These thoughts can be shared with your client to start the conversation but ultimately should be filled in with your client’s preferences.\nIn your meeting, you have a few things you should cover.",
+    "text": "Congratulations! You have completed your first client meeting and your contract and timeline. At this point, you should have a second meeting scheduled with your client to go over questions for the Organizational Assessment, as well as gain further clarity on any questions you have about your project.\nBefore your second client meeting, make sure to spend some time thinking about your project and making a list of any questions that come up. These questions might be about the scope of your project, details on the survey or data, or their expectations for the final report. It is best to ask any questions as soon as they arise – this is how you prevent issues from popping up down the line!\nAlso, before your second meeting, you should review the Organizational Assessment. This assignment’s purpose is for you to better understand your client’s organization. By having a better understanding of their organization’s goals, you can better tailor your report to their needs (and it will help you create your introduction and executive summary sections of your report!). Prepare questions ahead of time to guide the conversation surrounding the Organizational Assessment.\nIn your meeting, you have a few things you should cover.\n\nAsk your client if they have a list of research questions that your report should help answer. If they don’t already have these, you should work together to create a list.\n\nTip: Ideally you should have a minimum of seven research questions to equate to the minimum of seven findings in your report. More than seven is absolutely acceptable.\nTip: Sometimes the client will have some ideas but will need help refining their research questions – work through this with them in your meeting to ensure everyone is happy and understands what will be answered in the report!\n\nDiscuss the questions for the Organizational Assessment you prepared.\n\nTip: Questions 1, 3, and 4 on the assignment will need to be discussed with your client.\n\nAsk your client if they have any questions or changes since your last meeting.\n\nTip: Keeping an open dialogue and asking your client if they have questions or changes throughout the semester will ensure a happy client and a happy consultant on the same page!\n\n\nIf you have any questions, please do not hesitate to reach out to your UCA.",
     "crumbs": [
       "🏠 Overview",
       "Working With Your Client",
-      "Initial Client Meeting Guide"
+      "Second Client Meeting Guide"
     ]
   },
   {
-    "objectID": "guidelines/initial-client-meeting.html#zoom-etiquette",
-    "href": "guidelines/initial-client-meeting.html#zoom-etiquette",
-    "title": "Initial Client Meeting Guide",
-    "section": "Zoom etiquette",
-    "text": "Zoom etiquette\nSome of you will have your meeting over Zoom and others in person. For those who have your meeting on Zoom, here are some reminders about etiquette:\n\nBe sure to be in a quiet environment with a minimally distracting background.\nKeep in mind that while your client sees you, they are also seeing whatever is behind you, so be sure your background is minimal and appropriate.\nIf you cannot ensure a minimal/appropriate background, it is all right to use a virtual background.\nTo optimize your professional appearance, make sure you are well lit and not using low angles.\nBe on the call at least 5 minutes early.\nMost importantly – be attentive and responsive.\n\nRegardless of the setting of your meeting, you should be in business casual dress. Business casual generally means a collared shirt, blouse, or sweater with slacks, chinos, or a skirt, and closed shoes – no t-shirts, athletic wear, ripped jeans, or flip-flops.\n\n\n\nBasic business casual dress. Illustration by Nicoli Maege, CC BY-SA 3.0, via Wikimedia Commons; converted to PNG.\n\n\nIf you have any questions about business casual dress, please do not hesitate to reach out to your UCA.",
-    "crumbs": [
-      "🏠 Overview",
-      "Working With Your Client",
-      "Initial Client Meeting Guide"
-    ]
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hello and welcome to the course website for PST 315, “Methods of Policy Analysis and Presentation.” I am your instructor, Professor Jack Reilly. You can find more about me on my website, if you are so inclined.\nPlease take a minute to browse this website, where you will find the course overview, course logistics, assignments, the guidelines that show you how to do the work, and campus academic policies.\nFinally, if you would like this website and syllabus in an alternate format, please note that you can download .pdfs or .docxs of any page on the site simply by clicking the link on the page. You can also download a full copy of the main syllabus here."
   },
   {
-    "objectID": "policies.html",
-    "href": "policies.html",
-    "title": "Campus Policies",
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
     "section": "",
-    "text": "The following reflects the approved campus-wide academic policies of Syracuse University. For more information and detail, please consult the full documentation of University policies at https://policies.syr.edu.\n\n\nAs a preeminent and inclusive student-focused research institution, Syracuse University places academic integrity at the forefront of learning and considers it a core value and guiding pillar of education. The University’s Academic Integrity Policy provides guidelines for completing academic work with integrity. Students are required to meet both course-specific and University-wide academic integrity expectations, such as crediting your sources, doing your own work, communicating honestly, and supporting academic integrity.\nUpholding academic integrity includes the protection of faculty intellectual property. Students should not upload, distribute, or share an instructor’s course materials — including presentations, assignments, exams, or other evaluative materials — without permission. Using websites that charge fees or require uploading of course material (e.g., Chegg, Course Hero) to obtain exam solutions or assignments completed by others and presenting them as your own violates academic integrity expectations in this course and may be classified as a Level 3 violation. All academic integrity expectations that apply to in-person assignments, quizzes, and exams also apply online.\nStudents found in violation of the policy are subject to grade sanctions determined by the course instructor and non-grade sanctions determined by the school or college offering the course. Students may not drop or withdraw from courses in which they face a suspected violation. Any established violation in this course may result in course failure regardless of violation level.\n\n\n\nBased on the specific learning outcomes and assignments in this course, artificial intelligence is permitted on the following: spelling and grammar checking. See each assignment, quiz, or exam instructions for more information about which artificial intelligence tools are permitted and to what extent, as well as citation requirements. If no instructions are provided for a specific assignment, then no use of any artificial intelligence tool is permitted. Any AI use beyond what is detailed in course assignments is explicitly prohibited except when documented permission is granted.\nI, as the instructor, may use generative AI tools to help develop and check course materials. When I do, I take full responsibility for reviewing and verifying all AI-generated content to ensure it is accurate, appropriate, and aligned with our learning objectives. All course materials were originally written by my (or a UCA’s) hand and final materials represent my professional judgment about what will best support your learning.\n\n\n\nSyracuse University values diversity and inclusion and is committed to a climate of mutual respect and full participation. There may be aspects of the instruction or design of this course that result in barriers to your inclusion and full participation. I invite students to meet with me to discuss strategies and/or accommodations (academic adjustments) that may be essential to your success, in collaboration with the Center for Disability Resources (CDR).\nTo discuss disability accommodations or register with CDR, visit https://disabilityresources.syr.edu, or contact the center at 315.443.4498 or disabilityresources@syr.edu for more detailed information. CDR is responsible for coordinating disability-related academic accommodations and will work with you to develop an access plan. Since accommodations may require early planning and generally are not provided retroactively, please contact CDR as soon as possible.\n\n\n\nSyracuse University does not discriminate and prohibits harassment or discrimination related to any protected category including creed, ethnicity, citizenship status, reproductive health decisions, national origin, sex, gender, pregnancy, disability, marital status, age, race, color, veteran status, military status, religion, sexual orientation, domestic violence status, genetic information, gender identity and/or gender expression, shared common ancestry, or any other status protected by applicable law.\nAny complaint of discrimination or harassment related to any of these protected bases should be reported to Sheila Johnson-Willis, associate vice president and chief equal opportunity and Title IX officer in the Office of Equal Opportunity, Inclusion, and Resolution Services (621 Skytop Road, Suite 1001, Syracuse, NY 13244; equalopp@syr.edu; 315.443.4018). She is responsible for coordinating compliance efforts under various laws including Titles VI, VII, IX and Section 504 of the Rehabilitation Act.\n\n\n\nSyracuse University’s Religious Observances Policy recognizes the diversity of faiths represented in the campus community and protects the rights of students, faculty, and staff to observe religious holy days according to their traditions. Under the policy, students are given an opportunity to make up any examination, study, or work requirements that may be missed due to a religious observance, provided they notify their instructors no later than the academic drop deadline. For any observances occurring before the academic drop deadline, students must notify faculty at least two academic days in advance. Students register their observances using MySlice.\n\n\n\nAll of us need a support system, and many students benefit from the use of counseling services. Your well-being and mental health are important to me, to your academic success, and to your ability to thrive at Syracuse University.\nThe Barnes Center at the Arch, located at 150 Sims Drive on the South End of campus near the JMA Wireless Dome, works with students to identify and address issues related to personal growth, self-confidence, anxiety, depression, eating disorders, academic difficulties, and career indecision. Visit https://ese.syr.edu/bewell to see the range of available resources. Syracuse University provides counseling services to students at no cost, available 24/7, 365 days, by calling 315.443.8000.\n\n\n\nThis course uses the Blackboard Learning Management System. You can access Blackboard at https://blackboard.syr.edu. Use your NetID and password to log in. Through Blackboard, you will be able to:\n\nAccess course materials, assignments, and resources\nSubmit assignments\nView grades and feedback\nParticipate in course discussions\nCommunicate with your instructor and classmates\n\nFor technical assistance with Blackboard, contact the ITS Service Center at 315.443.2677 or help@syr.edu."
+    "text": "Hello and welcome to the course website for PST 315, “Methods of Policy Analysis and Presentation.” I am your instructor, Professor Jack Reilly. You can find more about me on my website, if you are so inclined.\nPlease take a minute to browse this website, where you will find the course overview, course logistics, assignments, the guidelines that show you how to do the work, and campus academic policies.\nFinally, if you would like this website and syllabus in an alternate format, please note that you can download .pdfs or .docxs of any page on the site simply by clicking the link on the page. You can also download a full copy of the main syllabus here."
   },
   {
-    "objectID": "policies.html#academic-integrity",
-    "href": "policies.html#academic-integrity",
-    "title": "Campus Policies",
-    "section": "",
-    "text": "As a preeminent and inclusive student-focused research institution, Syracuse University places academic integrity at the forefront of learning and considers it a core value and guiding pillar of education. The University’s Academic Integrity Policy provides guidelines for completing academic work with integrity. Students are required to meet both course-specific and University-wide academic integrity expectations, such as crediting your sources, doing your own work, communicating honestly, and supporting academic integrity.\nUpholding academic integrity includes the protection of faculty intellectual property. Students should not upload, distribute, or share an instructor’s course materials — including presentations, assignments, exams, or other evaluative materials — without permission. Using websites that charge fees or require uploading of course material (e.g., Chegg, Course Hero) to obtain exam solutions or assignments completed by others and presenting them as your own violates academic integrity expectations in this course and may be classified as a Level 3 violation. All academic integrity expectations that apply to in-person assignments, quizzes, and exams also apply online.\nStudents found in violation of the policy are subject to grade sanctions determined by the course instructor and non-grade sanctions determined by the school or college offering the course. Students may not drop or withdraw from courses in which they face a suspected violation. Any established violation in this course may result in course failure regardless of violation level."
-  },
-  {
-    "objectID": "policies.html#artificial-intelligence",
-    "href": "policies.html#artificial-intelligence",
-    "title": "Campus Policies",
-    "section": "",
-    "text": "Based on the specific learning outcomes and assignments in this course, artificial intelligence is permitted on the following: spelling and grammar checking. See each assignment, quiz, or exam instructions for more information about which artificial intelligence tools are permitted and to what extent, as well as citation requirements. If no instructions are provided for a specific assignment, then no use of any artificial intelligence tool is permitted. Any AI use beyond what is detailed in course assignments is explicitly prohibited except when documented permission is granted.\nI, as the instructor, may use generative AI tools to help develop and check course materials. When I do, I take full responsibility for reviewing and verifying all AI-generated content to ensure it is accurate, appropriate, and aligned with our learning objectives. All course materials were originally written by my (or a UCA’s) hand and final materials represent my professional judgment about what will best support your learning."
-  },
-  {
-    "objectID": "policies.html#disability-statement",
-    "href": "policies.html#disability-statement",
-    "title": "Campus Policies",
-    "section": "",
-    "text": "Syracuse University values diversity and inclusion and is committed to a climate of mutual respect and full participation. There may be aspects of the instruction or design of this course that result in barriers to your inclusion and full participation. I invite students to meet with me to discuss strategies and/or accommodations (academic adjustments) that may be essential to your success, in collaboration with the Center for Disability Resources (CDR).\nTo discuss disability accommodations or register with CDR, visit https://disabilityresources.syr.edu, or contact the center at 315.443.4498 or disabilityresources@syr.edu for more detailed information. CDR is responsible for coordinating disability-related academic accommodations and will work with you to develop an access plan. Since accommodations may require early planning and generally are not provided retroactively, please contact CDR as soon as possible."
-  },
-  {
-    "objectID": "policies.html#discrimination-or-harassment",
-    "href": "policies.html#discrimination-or-harassment",
-    "title": "Campus Policies",
-    "section": "",
-    "text": "Syracuse University does not discriminate and prohibits harassment or discrimination related to any protected category including creed, ethnicity, citizenship status, reproductive health decisions, national origin, sex, gender, pregnancy, disability, marital status, age, race, color, veteran status, military status, religion, sexual orientation, domestic violence status, genetic information, gender identity and/or gender expression, shared common ancestry, or any other status protected by applicable law.\nAny complaint of discrimination or harassment related to any of these protected bases should be reported to Sheila Johnson-Willis, associate vice president and chief equal opportunity and Title IX officer in the Office of Equal Opportunity, Inclusion, and Resolution Services (621 Skytop Road, Suite 1001, Syracuse, NY 13244; equalopp@syr.edu; 315.443.4018). She is responsible for coordinating compliance efforts under various laws including Titles VI, VII, IX and Section 504 of the Rehabilitation Act."
-  },
-  {
-    "objectID": "policies.html#faith-tradition-observances",
-    "href": "policies.html#faith-tradition-observances",
-    "title": "Campus Policies",
-    "section": "",
-    "text": "Syracuse University’s Religious Observances Policy recognizes the diversity of faiths represented in the campus community and protects the rights of students, faculty, and staff to observe religious holy days according to their traditions. Under the policy, students are given an opportunity to make up any examination, study, or work requirements that may be missed due to a religious observance, provided they notify their instructors no later than the academic drop deadline. For any observances occurring before the academic drop deadline, students must notify faculty at least two academic days in advance. Students register their observances using MySlice."
-  },
-  {
-    "objectID": "policies.html#health-wellness-considerations",
-    "href": "policies.html#health-wellness-considerations",
-    "title": "Campus Policies",
-    "section": "",
-    "text": "All of us need a support system, and many students benefit from the use of counseling services. Your well-being and mental health are important to me, to your academic success, and to your ability to thrive at Syracuse University.\nThe Barnes Center at the Arch, located at 150 Sims Drive on the South End of campus near the JMA Wireless Dome, works with students to identify and address issues related to personal growth, self-confidence, anxiety, depression, eating disorders, academic difficulties, and career indecision. Visit https://ese.syr.edu/bewell to see the range of available resources. Syracuse University provides counseling services to students at no cost, available 24/7, 365 days, by calling 315.443.8000."
-  },
-  {
-    "objectID": "policies.html#blackboard",
-    "href": "policies.html#blackboard",
-    "title": "Campus Policies",
-    "section": "",
-    "text": "This course uses the Blackboard Learning Management System. You can access Blackboard at https://blackboard.syr.edu. Use your NetID and password to log in. Through Blackboard, you will be able to:\n\nAccess course materials, assignments, and resources\nSubmit assignments\nView grades and feedback\nParticipate in course discussions\nCommunicate with your instructor and classmates\n\nFor technical assistance with Blackboard, contact the ITS Service Center at 315.443.2677 or help@syr.edu."
+    "objectID": "about.html#technical-details",
+    "href": "about.html#technical-details",
+    "title": "About",
+    "section": "Technical Details",
+    "text": "Technical Details\nThis site was built in Quarto using Positron, and is hosted on GitHub Pages."
   },
   {
     "objectID": "index.html",
